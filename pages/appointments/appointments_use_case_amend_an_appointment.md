@@ -36,12 +36,10 @@ The Consumer system:
 
 The Consumer System SHALL only use the amend appointment capability to amend future appointments where appointment start dateTime is after the current date and time. If the appointment start date is in the past the provider SHALL return an error.
 
-The appointment amend capability utilises the PATCH verb as outlined in the HL7 FHIR [RESTful API](http://hl7.org/fhir/http.html#patch) documentation.
-
-The request body type SHALL follow the FHIRPath format as this is JSON/XML agnostic.
-The request SHALL only use the FHIRPath "replace" type operation to reduce complexity. The other operations "add", "delete", "insert" and "move" SHALL NOT be used.
-
-As this is a FHIR update operation the `_format` parameter, the `Accept` header and the `Prefer` header still apply to the response.
+The appointment amend capability utilises the PATCH verb as outlined in the HL7 FHIR [RESTful API](http://hl7.org/fhir/http.html#patch) documentation. The use of the PATCH verb will be restricted as per the following rules:
+* The request body type SHALL follow the FHIRPath format as this is JSON/XML agnostic.
+* The request SHALL only use the FHIRPath "replace" type operation to reduce complexity. The other operations "add", "delete", "insert" and "move" SHALL NOT be used.
+* As PATCH is a FHIR update operation so the `_format` parameter, `Accept` header and `Prefer` header functionallity SHALL apply to the response.
 
 ### Request Operation ###
 
