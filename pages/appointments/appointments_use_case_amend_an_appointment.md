@@ -36,18 +36,25 @@ The Consumer system:
 
 The Consumer System SHALL only use the amend appointment capability to amend future appointments where appointment start dateTime is after the current date and time. If the appointment start date is in the past the provider SHALL return an error.
 
+The appointment amend capability utilises the PATCH verb as outlined in the HL7 FHIR [RESTful API](http://hl7.org/fhir/http.html#patch) documentation.
+
+The request body type SHALL follow the FHIRPath format as this is JSON/XML agnostic.
+The request SHALL only use the FHIRPath "replace" type operation to reduce complexity. The other operations "add", "delete", "insert" and "move" SHALL NOT be used.
+
+As this is a FHIR update operation the `_format` parameter, the `Accept` header and the `Prefer` header still apply to the response.
+
 ### Request Operation ###
 
 #### FHIR Relative Request ####
 
 ```http
-PUT /Appointment/[id]
+PATCH /Appointment/[id]
 ```
 
 #### FHIR Absolute Request ####
 
 ```http
-PUT https://[proxy_server]/https://[provider_server]/[fhir_base]/Appointment/[id]
+PATCH https://[proxy_server]/https://[provider_server]/[fhir_base]/Appointment/[id]
 ```
 
 #### Request Headers ####
@@ -63,11 +70,10 @@ Consumers SHALL include the following additional HTTP request headers:
 
 #### Payload Request Body ####
 
-The request payload is a profiled version of the standard FHIR [Appointment](https://www.hl7.org/fhir/STU3/appointment.html) ![STU3](images/stu3.png) resource, see [FHIR Resources](/datalibraryappointment.html) page for more detail.
+The request payload is a standard FHIR [Parameters](https://www.hl7.org/fhir/STU3/parameters.html) ![STU3](images/stu3.png) resource, see [FHIR Resources](/datalibraryappointment.html) page for more detail.
 
 Consumer systems:
-- SHALL send an `Appointment` resource that conform to the [GPConnect-Appointment-1](https://fhir.nhs.uk/STU3/StructureDefinition/GPConnect-Appointment-1) ![STU3](images/stu3.png) profile.
-- SHALL include the URI of the `GPConnect-Appointment-1` profile StructureDefinition in the `Appointment.meta.profile` element of the appointment resource.
+- SHALL send a `Parameters` resource containing a set of `Parameter` resource representing the elements to be amended within the Appointment.
 
 Only the following data-elements can be modified when performing an appointment amendment:
 - `reason`
@@ -81,56 +87,146 @@ On the wire a JSON serialised request would look something like the following:
 
 ```json
 {
-	"resourceType": "Appointment",
-	"id": "9",
-	"meta": {
-		"versionId": "636068818095315079",
-		"lastUpdated": "2016-08-15T19:16:49.971+01:00",
-		"profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/GPConnect-Appointment-1"]
-	},
-	"contained": [{
-		"resourceType": "Organization",
-		"id": "1",
-		"meta": {
-			"profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Organization-1"]
+	"resourceType": "Parameters",
+	"parameter": [{
+		"name": "operation",
+		"part": [{
+			"name": "type",
+			"valueCode": "replace"
 		},
-		"name": "Test Organization Name",
-		"telecom": [{
-			"system": "phone",
-			"value": "0300 303 5678"
+		{
+			"name": "path",
+			"valueString": "Appointment"
+		},
+		{
+			"name": "name",
+			"valueString": "description"
+		},
+		{
+			"name": "value",
+			"valueString": "Updated description text"
 		}]
-	}],
-	"extension": [{
-		"url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-GPConnect-BookingOrganisation-1",
-		"valueReference": {
-			"reference": "#1"
-		}
-	}],
-	"status": "booked",
-	"description": "Free text description updated.",
-	"start": "2016-05-30T10:00:00+01:00",
-	"end": "2016-05-30T10:25:00+01:00",
-	"slot": [{
-		"reference": "Slot/1",
-		"display": "Slot 1"
-	}],
-	"created": "2017-10-09T13:48:41+01:00",
-	"comment": "Free text comment.",
-	"participant": [{
-		"actor": {
-			"reference": "Patient/1",
-			"display": "Mr. Mike Smith"
-		},
-		"status": "accepted"
 	},
 	{
-		"actor": {
-			"reference": "Location/32",
-			"display": "Leeds GP Clinic"
+		"name": "operation",
+		"part": [{
+			"name": "type",
+			"valueCode": "replace"
 		},
-		"status": "accepted"
+		{
+			"name": "path",
+			"valueString": "Appointment"
+		},
+		{
+			"name": "name",
+			"valueString": "comment"
+		},
+		{
+			"name": "value",
+			"valueString": "Updated comment text"
+		}]
+	},
+	{
+		"name": "operation",
+		"part": [{
+			"name": "type",
+			"valueCode": "replace"
+		},
+		{
+			"name": "path",
+			"valueString": "Appointment"
+		},
+		{
+			"name": "name",
+			"valueString": "reason"
+		},
+		{
+			"name": "value",
+			"part": [{
+				"name": "reason",
+				"valueCodeableConcept": {
+					"coding": [{
+						...
+					}],
+					"text": "reason text element"
+				}
+			}]
+		}]
 	}]
 }
+```
+
+On the wire a XML serialised request would look something like the following:
+
+```xml
+<Parameters xmlns="http://hl7.org/fhir">
+  
+  <parameter>
+    <name value="operation"/>
+    <part>
+      <name value="type"/>
+      <valueCode value="replace"/>
+    </part>
+    <part>
+      <name value="path"/>
+      <valueString value="Appointment"/>
+    </part>
+    <part>
+      <name value="name"/>
+      <valueString value="description"/>
+    </part>
+    <part>
+      <name value="value"/>
+      <valueString value="Updated description text"/>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="operation"/>
+    <part>
+      <name value="type"/>
+      <valueCode value="replace"/>
+    </part>
+    <part>
+      <name value="path"/>
+      <valueString value="Appointment"/>
+    </part>
+    <part>
+      <name value="name"/>
+      <valueString value="comment"/>
+    </part>
+    <part>
+      <name value="value"/>
+      <valueString value="Updated comment text"/>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="operation"/>
+    <part>
+      <name value="type"/>
+      <valueCode value="replace"/>
+    </part>
+    <part>
+      <name value="path"/>
+      <valueString value="Appointment"/>
+    </part>
+    <part>
+      <name value="name"/>
+      <valueString value="reason"/>
+    </part>
+    <part>
+      <name value="value" />
+	  <part>
+        <name value="reason"/>
+		<valueCodeableConcept>
+			<coding>
+				<!-- coding here -->
+			</coding>
+			<text value="reason text element"/>
+		</valueCodeableConcept>
+      </part>
+    </part>
+  </parameter>
+</Parameters>
 ```
 
 #### Error Handling ####
