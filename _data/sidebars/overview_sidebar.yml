@@ -12,6 +12,9 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+    - title: Business overview
+      url: /overview_business_overview.html
+      output: web
     - title: Getting started
       url: /overview_engage.html
       output: web
