@@ -34,12 +34,12 @@ The Consumer system:
 
 ## API Usage ##
 
-The Consumer System SHALL only use the amend appointment capability to amend future appointments where appointment start dateTime is after the current date and time. If the appointment start date is in the past the provider SHALL return an error.
-
-The appointment amend capability utilises the PATCH verb as outlined in the HL7 FHIR [RESTful API](http://hl7.org/fhir/http.html#patch) documentation. The use of the PATCH verb will be restricted as per the following rules:
+The appointment amend capability utilises the `PATCH` verb as outlined in the HL7 FHIR [RESTful API](http://hl7.org/fhir/http.html#patch) documentation. The use of the PATCH verb will be restricted as per the following rules:
 * The request body type SHALL follow the FHIRPath format as this is JSON/XML agnostic.
 * The request SHALL only use the FHIRPath "replace" type operation to reduce complexity. The other operations "add", "delete", "insert" and "move" SHALL NOT be used.
 * As PATCH is a FHIR update operation so the `_format` parameter, `Accept` header and `Prefer` header functionallity SHALL apply to the response.
+
+The Consumer System SHALL only use the amend appointment capability to amend future appointments where appointment start dateTime is after the current date and time. If the appointment start date is in the past the provider SHALL return an error.
 
 ### Request Operation ###
 
@@ -232,7 +232,7 @@ On the wire a XML serialised request would look something like the following:
 The Provider system:
 
 - SHALL return an [GPConnect-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/GPConnect-OperationOutcome-1) ![STU3](images/stu3.png) resource that provides additional detail when one or more request fields are corrupt or a specific business rule/constraint is breached.
-- SHALL return an error if any appointment details other than the appointment `reason`, `comment`, `description` or `cancellation reason` are amended, the passed in appointment resource should be considered invalid and the provider system should return a `422` error with error code `INVALID_RESOURCE`.
+- SHALL return an error if any appointment details other than the appointment `reason`, `comment`, `description` or `cancellation reason` are amended.
 - SHALL return an error if the appointment being amended is in the past (the appointment start dateTime is before the current date and time).
 
 Refer to [Development - FHIR API Guidance - Error Handling](development_fhir_error_handling_guidance.html) for details of error codes.
@@ -315,13 +315,7 @@ Provider systems:
 {% include tip.html content="C# code snippets utilise Ewout Kramer's [fhir-net-api](https://github.com/ewoutkramer/fhir-net-api) library which is the official .NET API for HL7&reg; FHIR&reg;." %}
 
 ```csharp
-var client = new FhirClient("http://gpconnect.aprovider.nhs.net/GP001/STU3/1");
-client.PreferredFormat = ResourceFormat.Json;
-var appointment = client.Read<Appointment>("Appointment/9");
-// Update The Reason For The Appointment
-appointment.Reason.Text = "Free text updated reason.";
-var updatedAppointment = client.Update<Appointment>(appointment);
-FhirSerializer.SerializeResourceToJson(updatedAppointment).Dump();
+TODO
 ```
 
 ### Java ###
@@ -330,20 +324,5 @@ FhirSerializer.SerializeResourceToJson(updatedAppointment).Dump();
 ) library." %}
 
 ```java
-// Read appointment to be updated
-FhirContext ctx = FhirContext.forStu3();
-IGenericClient client = ctx.newRestfulGenericClient("http://gpconnect.aprovider.nhs.net/GP001/STU3/1");
-Appointment appointment = client.read().resource(Appointment.class).withId("9").execute();
-
-// Amend appointment comment
-appointment.setComment("Java Example Comment");
-
-// Update appointment
-MethodOutcome response = client.update()
-	.resource(appointment)
-	.prefer(PreferReturnEnum.REPRESENTATION)
-	.preferResponseType(Appointment.class)
-	.execute();
-
-System.out.println(fhirContext.newJsonParser().setPrettyPrint(true).encodeResourceToString(response.getResource()));
+TODO
 ```
