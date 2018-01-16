@@ -5,20 +5,17 @@ tags: [getting_started]
 sidebar: home_sidebar
 permalink: index.html
 toc: false
-summary: A brief introduction to getting started with the GP Connect FHIR&reg; APIs
 ---
 
 {% comment %}
 [![Semver](http://img.shields.io/badge/semver-2.0.0-yellow.svg)](http://semver.org/spec/v2.0.0.html){:target="_blank" class="no_icon"} [![License](http://img.shields.io/:license-apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html){:target="_blank" class="no_icon"} 
 {% endcomment %}
 
-GP Connect aims to support better clinical care by opening up information and data held within GP Practice IT systems for use across health and social care. The GP Connect vision will be achieved by standardising integration and simplifying the operating model.
-
-For a high-level description of GP Connect, see the business overview.
+GP Connect aims to support better clinical care by opening up information and data held within GP practice IT systems for use across health and social care. 
 
 This GitHub repository contains all the technical resources you need to develop GP Connect provider APIs or consuming applications.
 
-
+For a high-level description of GP Connect, see the business overview.
 
 {% include twitterfollow.html %}
 
