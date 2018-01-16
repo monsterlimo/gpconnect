@@ -12,64 +12,25 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Business overview
-      url: /overview_business_overview.html
-      output: web
     - title: Getting started
       url: /overview_engage.html
       output: web
-    - title: Capabilities
-      url: /overview_priority_capabilities.html
+    - title: Consumer pathway
+      url: /consumer_pathway.html
+      output: web
+    - title: Provider pathway
+      url: /provider_pathway.html
       output: web
     - title: First of type
       url: /overview_first_of_type.html
-      output: web
-    - title: Glossary
-      url: /overview_glossary.html
-      output: web
-    - title: Release notes
-      url: /overview_release_notes.html
-      output: web      
-
-  - title: Design approach
-    output: web
-    folderitems:
-
-    - title: Development principles
-      url: /designprinciples_development_principles.html
-      output: web
-      type: homepage
-    - title: Open API principles
-      url: /designprinciples_open_api_principles.html
-      output: web
-    - title: Data model principles
-      url: /designprinciples_data_model_principles.html
-      output: web
-    - title: Information governance principles
-      url: /designprinciples_ig_principles.html
-      output: web
-    - title: Clinical safety principles
-      url: /designprinciples_clinical_safety_principles.html
-      output: web
-    - title: Assurance principles
-      url: /designprinciples_assurance_principles.html
-      output: web
-    - title: Open API licence principles
-      url: /designprinciples_open_api_licence_principles.html
-      output: web
-    - title: Clinical terminologies
-      url: /design_clinical_terminologies.html
-      output: web
-    - title: Maturity model
-      url: /designprinciples_maturity_model.html
-      output: web
-    - title: Product Versioning
-      url: /design_product_versioning.html
-      output: web
+      output: web   
 
   - title: Explore
     output: web
     folderitems:
+    - title: Explore
+      url: /explore.html
+      output: web
     - title: System demonstrator
       url: /system_demonstrator.html
       output: web
@@ -77,7 +38,7 @@ entries:
       url: /system_reference_postman.html
       output: web
 
-  - title: Development guidance
+  - title: Develop
     output: web
     folderitems:
     - title: Development assets
@@ -117,24 +78,45 @@ entries:
           url: /development_api_non_functional_requirements.html
           output: web
           
-  - title: Implement a capability
-    output: web
-    folderitems:
-    - title: Foundations
-      url: /foundations.html
-      output: web
-    - title: Access Record HTML
-      url: /accessrecord.html
-      output: web
-    - title: Access Record REST
-      url: /accessrecord_rest.html
-      output: web
-    - title: Appointment Management
-      url: /appointments.html
-      output: web
-    - title: Task Management
-      url: /tasks.html
-      output: web
+      subfolders:
+      - title: Implement a capability pack
+        output: web
+        subfolderitems:
+      
+      - title: Foundations
+        url: /foundations.html
+        output: web
+      - title: Access Record HTML
+        url: /accessrecord.html
+        output: web
+      - title: Access Record REST
+        url: /accessrecord_rest.html
+        output: web
+      - title: Appointment Management
+        url: /appointments.html
+        output: web
+      - title: Task Management
+        url: /tasks.html
+        output: web
+
+  - title: Test and assure
+     output: web
+     folderitems:
+     - title: Test and assurance
+       url: /test_and_assurance.html
+       output: web
+     - title: Testing assets
+       url: /testing_deliverables.html
+       output: web
+     - title: Test environments
+       url: /testing_environments.html
+       output: web
+     - title: Provider testing
+       url: /testing_api_provider_testing.html
+       output: web
+     - title: Consumer testing
+       url: /testing_api_consumer_testing.html
+       output: web
 
   - title: Integrate with Spine
     output: web
@@ -161,23 +143,7 @@ entries:
       url: /integration_spine_security_proxy_implementation_guide.html
       output: web 
 
-  - title: Test and assure
-    output: web
-    folderitems:
-    - title: Testing assets
-      url: /testing_deliverables.html
-      output: web
-    - title: Test environments
-      url: /testing_environments.html
-      output: web
-    - title: Provider testing
-      url: /testing_api_provider_testing.html
-      output: web
-    - title: Consumer testing
-      url: /testing_api_consumer_testing.html
-      output: web
-
-  - title: Help and support
+   - title: Help and support
     output: web
     folderitems:
     - title: Frequently asked questions
