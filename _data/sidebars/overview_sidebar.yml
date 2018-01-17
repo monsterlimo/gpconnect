@@ -16,10 +16,10 @@ entries:
       url: /overview_engage.html
       output: web
     - title: Consumer pathway
-      url: /consumer_pathway.html
+      url: /overview_consumer_pathway.html
       output: web
     - title: Provider pathway
-      url: /provider_pathway.html
+      url: /overview_provider_pathway.html
       output: web
     - title: First of type
       url: /overview_first_of_type.html
