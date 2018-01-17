@@ -29,7 +29,7 @@ entries:
     output: web
     folderitems:
     - title: Explore
-      url: /explore.html
+      url: /overview_explore.html
       output: web
     - title: System demonstrator
       url: /system_demonstrator.html
