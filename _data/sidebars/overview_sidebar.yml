@@ -38,6 +38,7 @@ entries:
     - title: Explore
       url: /overview_explore.html
       output: web
+      type: homepage
     - title: System demonstrator
       url: /system_demonstrator.html
       output: web
