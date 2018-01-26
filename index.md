@@ -20,12 +20,12 @@ Our developer ecosystem takes you through each stage of a typical GP Connect API
 
 {% include developer_journey.html %}
 
-<table>
+<table border="0">
   <tr>
-    <th>[Get started](overview_engage.html)</th>
-    <th>[Consumer pathway](consumer_pathway.html)</th>
-    <th>[Provider pathway](provider_pathway.html) </th>
-    <th>[First of Type](overview_first_of_type.html)</th>
+    <td> <a href="overview_engage.html">Get started</a> </th>
+    <td> <a href="consumer_pathway.html">Consumer pathway</a> </th>
+    <td> <a href="provider_pathway.html">Provider pathway</a> </th>
+    <td> <a href="overview_first_of_type.html">First of Type</a> </th>
   </tr>
   <tr>
     <td>Getting involved with GP Connect</td>
