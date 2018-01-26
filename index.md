@@ -1,7 +1,7 @@
 ---
 title: Data sharing for direct care
 keywords: homepage
-tags: [getting_started]
+tags: [introduction]
 sidebar: home_sidebar
 permalink: index.html
 toc: false
