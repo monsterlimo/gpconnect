@@ -15,6 +15,7 @@ summary: A brief introduction to the GP Connect FHIR&reg; APIs
 GP Connect aims to support better clinical care by opening up information and data held within GP practice IT systems for use across health and social care.
 
 This GitHub repository contains all the technical resources you need to develop GP Connect provider APIs or consuming applications.
+
 Our developer ecosystem takes you through each stage of a typical GP Connect API project:
 
 {% include developer_journey.html %}
