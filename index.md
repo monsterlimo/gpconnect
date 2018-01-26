@@ -1,5 +1,5 @@
 ---
-title: Enabling data sharing for direct clinical care
+title: Data sharing for direct care
 keywords: homepage
 tags: [getting_started]
 sidebar: home_sidebar
