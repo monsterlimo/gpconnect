@@ -31,6 +31,20 @@ entries:
       url: /overview_specification_versions.html
       output: web, pdf
       type: homepage
+      
+    - title: Explore
+    output: web
+    folderitems:
+    - title: Explore
+      url: /overview_explore.html
+      output: web
+    - title: System demonstrator
+      url: /system_demonstrator.html
+      output: web
+    - title: Postman API documentation
+      url: /system_reference_postman.html
+      output: web
+
 
   - title: Design approach
     output: web
@@ -68,17 +82,7 @@ entries:
       url: /design_product_versioning.html
       output: web
 
-  - title: Explore
-    output: web
-    folderitems:
-    - title: System demonstrator
-      url: /system_demonstrator.html
-      output: web
-    - title: Postman API documentation
-      url: /system_reference_postman.html
-      output: web
-
-  - title: Development guidance
+   - title: Development guidance
     output: web
     folderitems:
     - title: Development assets
