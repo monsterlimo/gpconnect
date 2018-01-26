@@ -16,8 +16,6 @@ GP Connect aims to support better clinical care by opening up information and da
 
 This GitHub repository contains all the technical resources you need to develop GP Connect provider APIs or consuming applications.
 
-Our developer ecosystem takes you through each stage of a typical GP Connect API project:
-
 <table width="100%" border="0">
   <tr>
     <td> <a href="overview_engage.html">Get started</a> </td>
@@ -27,9 +25,9 @@ Our developer ecosystem takes you through each stage of a typical GP Connect API
   </tr>
   <tr>
     <td>Getting involved with GP Connect</td>
-    <td>For developers of systems that CONSUME data using the GP Connect API</td>
-    <td>For developers of systems that PROVIDE data by exposing the GP Connect API</td>
-    <td>Testing cycle for consumers of the GP Connect API</td>
+    <td>For developers of systems that consume data using the GP Connect API</td>
+    <td>For developers of systems that provide data by exposing the GP Connect API</td>
+    <td>Testing cycle for consumers</td>
   </tr>
 </table>
 
