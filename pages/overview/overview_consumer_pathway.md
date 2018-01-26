@@ -6,4 +6,7 @@ sidebar: overview_sidebar
 permalink: overview_consumer_pathway.html
 summary: Step-by-step guide to developing consumer applications
 ---
-<Add text here......>
+
+<Add text here...>
+  
+{% include developer_journey.html %}
