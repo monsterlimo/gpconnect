@@ -16,7 +16,7 @@ entries:
       url: /overview_engage.html
       output: web
     - title: Commissioner pathway
-      url: /overview_consumer_pathway.html
+      url: /overview_commissioner_pathway.html
       output: web
     - title: Consumer pathway
       url: /overview_consumer_pathway.html
@@ -24,7 +24,7 @@ entries:
     - title: Provider pathway
       url: /overview_provider_pathway.html
       output: web
-    - title: First of type
+    - title: First of Type
       url: /overview_first_of_type.html
       output: web
     - title: Specification versions
