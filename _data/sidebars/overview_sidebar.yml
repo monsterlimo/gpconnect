@@ -15,21 +15,9 @@ entries:
     - title: Getting started
       url: /overview_engage.html
       output: web
-    - title: Capabilities
-      url: /overview_priority_capabilities.html
-      output: web
     - title: First of type
       url: /overview_first_of_type.html
       output: web
-    - title: Glossary
-      url: /overview_glossary.html
-      output: web
-    - title: Release notes
-      url: /overview_release_notes.html
-      output: web
-    - title: Specification versions
-      url: /overview_specification_versions.html
-      output: web, pdf
       type: homepage
 
   - title: Design approach
