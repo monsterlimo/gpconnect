@@ -27,7 +27,7 @@ entries:
     - title: Release notes
       url: /overview_release_notes.html
       output: web
-    - title: Specification Versions
+    - title: Specification versions
       url: /overview_specification_versions.html
       output: web, pdf
       type: homepage
