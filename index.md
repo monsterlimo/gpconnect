@@ -25,8 +25,8 @@ This GitHub repository contains all the technical resources you need to develop 
   </tr>
   <tr>
     <td>Getting involved with GP Connect</td>
-    <td>For developers of systems that consume data using the GP Connect API</td>
-    <td>For developers of systems that provide data by exposing the GP Connect API</td>
+    <td>For developers of systems that consume GP data</td>
+    <td>For developers of systems that provide GP data</td>
     <td>Testing cycle for consumers</td>
   </tr>
 </table>
