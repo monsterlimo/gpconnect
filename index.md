@@ -22,6 +22,21 @@ Our developer ecosystem takes you through each stage of a typical GP Connect API
 
 <table>
   <tr>
+    <td> <a href="overview_engage.html">Get started</a> </td>
+    <td> <a href="consumer_pathway.html">Consumer pathway</a> </td>
+    <td> <a href="provider_pathway.html">Provider pathway</a> </td>
+    <td> <a href="overview_first_of_type.html">First of Type</a> </td>
+  </tr>
+  <tr>
+    <td>Getting involved with GP Connect</td>
+    <td>For developers of systems that CONSUME data using the GP Connect API</td>
+    <td>For developers of systems that PROVIDE data by exposing the GP Connect API</td>
+    <td>Testing cycle for consumers of the GP Connect API</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
     <td> <a href="overview_engage.html">Get started</a> </th>
     <td> <a href="consumer_pathway.html">Consumer pathway</a> </th>
     <td> <a href="provider_pathway.html">Provider pathway</a> </th>
