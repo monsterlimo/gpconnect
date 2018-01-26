@@ -1,5 +1,5 @@
 ---
-title: Build with GP Connect APIs
+title: Build and share with GP Connect APIs
 keywords: homepage
 tags: [introduction]
 sidebar: home_sidebar
@@ -17,8 +17,6 @@ GP Connect aims to support better clinical care by opening up information and da
 This GitHub repository contains all the technical resources you need to develop GP Connect provider APIs or consuming applications.
 
 Our developer ecosystem takes you through each stage of a typical GP Connect API project:
-
-{% include developer_journey.html %}
 
 <table width="100%" border="0">
   <tr>
