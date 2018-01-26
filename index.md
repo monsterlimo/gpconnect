@@ -1,11 +1,11 @@
 ---
-title: Data sharing for direct care
+title: Build with GP Connect APIs
 keywords: homepage
 tags: [introduction]
 sidebar: home_sidebar
 permalink: index.html
 toc: false
-summary: A brief introduction to the GP Connect FHIR&reg; APIs
+summary: Use the GP Connect FHIR&reg; APIs to share data across direct care
 ---
 
 {% comment %}
