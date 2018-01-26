@@ -20,17 +20,20 @@ Our developer ecosystem takes you through each stage of a typical GP Connect API
 
 {% include developer_journey.html %}
 
-
-| [Get started](overview_engage.html)                      | [Consumer pathway](consumer_pathway.html)                                                     | [Provider pathway](provider_pathway.html)                                                           | [First of Type](overview_first_of_type.html)                                     |
-|----------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------|
-| Getting involved with GP Connect | For developers of systems that CONSUME data using the GP Connect API | For developers of systems that PROVIDE data by exposing the GP Connect API | Testing cycle for consumers of the GP Connect API |
-
-
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-|----|----|----|----|
-| [Get started](overview_engage.html)  | [Consumer pathway](consumer_pathway.html) | [Provider pathway](provider_pathway.html)  | [First of Type](overview_first_of_type.html) |
-| Getting involved with GP Connect  | For developers of systems that CONSUME data using the GP Connect API  | For developers of systems that PROVIDE data by exposing the GP Connect API | Testing cycle for consumers of the GP Connect API |
-
+<table>
+  <tr>
+    <th>[Get started](overview_engage.html)</th>
+    <th>[Consumer pathway](consumer_pathway.html)</th>
+    <th>[Provider pathway](provider_pathway.html) </th>
+    <th>[First of Type](overview_first_of_type.html)</th>
+  </tr>
+  <tr>
+    <td>Getting involved with GP Connect</td>
+    <td>For developers of systems that CONSUME data using the GP Connect API</td>
+    <td>For developers of systems that PROVIDE data by exposing the GP Connect API</td>
+    <td>Testing cycle for consumers of the GP Connect API</td>
+  </tr>
+</table>
 
 {% include important.html content="This site is under active development by the GP Connect team and is intended to provide all the technical resources you need to successfully develop GP Connect provider APIs or consuming applications. Some areas are being formulated and iterative updates to content will be added on a regular basis. See our GitHub [releases page](https://github.com/nhsconnect/gpconnect/releases) for more information." %}
 
