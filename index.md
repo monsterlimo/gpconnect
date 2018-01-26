@@ -20,7 +20,7 @@ Our developer ecosystem takes you through each stage of a typical GP Connect API
 
 {% include developer_journey.html %}
 
-<table border="0">
+<table>
   <tr>
     <td> <a href="overview_engage.html">Get started</a> </th>
     <td> <a href="consumer_pathway.html">Consumer pathway</a> </th>
