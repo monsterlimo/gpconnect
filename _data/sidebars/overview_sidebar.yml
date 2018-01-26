@@ -18,6 +18,18 @@ entries:
     - title: First of type
       url: /overview_first_of_type.html
       output: web
+    - title: Commissioner pathway
+      url: /overview_consumer_pathway.html
+      output: web
+    - title: Consumer pathway
+      url: /overview_consumer_pathway.html
+      output: web
+    - title: Provider pathway
+      url: /overview_provider_pathway.html
+      output: web    
+    - title: Specification Versions
+      url: /overview_specification_versions.html
+      output: web, pdf
       type: homepage
 
   - title: Design approach
