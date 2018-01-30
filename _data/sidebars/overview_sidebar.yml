@@ -62,7 +62,7 @@ entries:
         output: web
         subfolderitems:
 
-      - title: FHIR library
+        - title: FHIR library
           url: /development_fhir_open_source_guidance.html
           output: web
         - title: FHIR implementation
