@@ -42,10 +42,7 @@ This GitHub repository contains all the technical resources you need to develop 
 
 Here's the sample knowledge-base style layout:
 
-<div class="row">
-         <div class="col-lg-12">
-             <h2 class="page-header">Knowledge Base Categories</h2>
-         </div>
+
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
