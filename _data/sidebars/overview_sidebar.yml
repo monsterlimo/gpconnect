@@ -68,7 +68,7 @@ entries:
       url: /design_product_versioning.html
       output: web
 
-   - title: Development guidance
+  - title: Development guidance
     output: web
     folderitems:
     - title: Development assets
