@@ -36,7 +36,7 @@ entries:
     output: web
     folderitems:
 
-    - title: Development principles
+    - title: Development principless
       url: /designprinciples_development_principles.html
       output: web
       type: homepage
