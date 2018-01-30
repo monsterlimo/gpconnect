@@ -8,7 +8,7 @@ entries:
   - title: Overview
     output: web
     folderitems:
-    - title: Introductionn
+    - title: Introduction
       url: /index.html
       output: web, pdf
       type: homepage
@@ -36,7 +36,7 @@ entries:
     output: web
     folderitems:
 
-    - title: Development principless
+    - title: Development principles
       url: /designprinciples_development_principles.html
       output: web
       type: homepage
