@@ -46,7 +46,7 @@ entries:
       url: /system_reference_postman.html
       output: web
 
-  - title: Development
+  - title: Develop
     output: web
     folderitems:
     - title: Develop
@@ -109,7 +109,37 @@ entries:
         - title: Task Management
           url: /tasks.html
           output: web
- 
+
+  - title: Develop
+    output: web
+    folderitems:
+    - title: Develop
+      url: /overview_development.html
+      output: web
+      type: homepage 
+    - title: Development assets
+      url: /development_deliverables.html
+      output: web
+
+  - title: Test and assure
+    output: web
+    folderitems:
+    - title: Test and assure
+      url: /overview_test_and_assurance.html
+      output: web
+    - title: Testing assets
+      url: /testing_deliverables.html
+      output: web
+    - title: Test environments
+      url: /testing_environments.html
+      output: web
+    - title: Provider testing
+      url: /testing_api_provider_testing.html
+      output: web
+    - title: Consumer testing
+      url: /testing_api_consumer_testing.html
+      output: web
+
   - title: Design approach
     output: web
     folderitems:
@@ -170,22 +200,6 @@ entries:
     - title: Spine Security Proxy implementation guide
       url: /integration_spine_security_proxy_implementation_guide.html
       output: web 
-
-  - title: Test and assure
-    output: web
-    folderitems:
-    - title: Testing assets
-      url: /testing_deliverables.html
-      output: web
-    - title: Test environments
-      url: /testing_environments.html
-      output: web
-    - title: Provider testing
-      url: /testing_api_provider_testing.html
-      output: web
-    - title: Consumer testing
-      url: /testing_api_consumer_testing.html
-      output: web
 
   - title: Help and support
     output: web
