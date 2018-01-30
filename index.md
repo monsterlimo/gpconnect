@@ -55,7 +55,7 @@ Here's the sample knowledge-base style layout:
                  </div>
                  <div class="panel-body">
                      <h4>Getting started</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                     <p>Getting started with GP Connect</p>
                      <a href="tag_getting_started.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
@@ -69,8 +69,8 @@ Here's the sample knowledge-base style layout:
                      </span>
                  </div>
                  <div class="panel-body">
-                     <h4>Navigation</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                     <h4>Commissioner pathway</h4>
+                     <p>For commissioners of systems that consume GP data</p>
                      <a href="tag_navigation.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
@@ -80,12 +80,12 @@ Here's the sample knowledge-base style layout:
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-user-circle-o fa-stack-1x fa-inverse"></i>
+                           <i class="fa fa-user-o fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
                  <div class="panel-body">
-                     <h4>Single sourcing</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                     <h4>Consumer pathway</h4>
+                     <p>For developers of systems that consume GP data</p>
                      <a href="tag_single_sourcing.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
@@ -99,8 +99,8 @@ Here's the sample knowledge-base style layout:
                      </span>
                  </div>
                  <div class="panel-body">
-                     <h4>Formatting</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                     <h4>Provider pathway</h4>
+                     <p>For developers of systems that provide GP data</p>
                      <a href="tag_formatting.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
