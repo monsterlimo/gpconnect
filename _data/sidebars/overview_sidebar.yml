@@ -89,27 +89,6 @@ entries:
         - title: Non-functional requirements
           url: /development_api_non_functional_requirements.html
           output: web
-
-      subfolders:
-      - title: Implement a capability pack
-        output: web
-        subfolderitems:
-
-        - title: Foundations
-          url: /foundations.html
-          output: web
-        - title: Access Record HTML
-          url: /accessrecord.html
-          output: web
-        - title: Access Record REST
-          url: /accessrecord_rest.html
-          output: web
-        - title: Appointment Management
-          url: /appointments.html
-          output: web
-        - title: Task Management
-          url: /tasks.html
-          output: web
  
   - title: Design approach
     output: web
