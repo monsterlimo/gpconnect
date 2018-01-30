@@ -32,7 +32,7 @@ entries:
       output: web, pdf
       type: homepage
 
-  - title: Explore (test)
+  - title: Explore
     output: web
     folderitems:
     - title: Explore
@@ -46,46 +46,13 @@ entries:
       url: /system_reference_postman.html
       output: web
 
-
-  - title: Design approach
+  - title: Development
     output: web
     folderitems:
-
-    - title: Development principles
-      url: /designprinciples_development_principles.html
+    - title: Develop
+      url: /overview_development.html
       output: web
-      type: homepage
-    - title: Open API principles
-      url: /designprinciples_open_api_principles.html
-      output: web
-    - title: Data model principles
-      url: /designprinciples_data_model_principles.html
-      output: web
-    - title: Information governance principles
-      url: /designprinciples_ig_principles.html
-      output: web
-    - title: Clinical safety principles
-      url: /designprinciples_clinical_safety_principles.html
-      output: web
-    - title: Assurance principles
-      url: /designprinciples_assurance_principles.html
-      output: web
-    - title: Open API licence principles
-      url: /designprinciples_open_api_licence_principles.html
-      output: web
-    - title: Clinical terminologies
-      url: /design_clinical_terminologies.html
-      output: web
-    - title: Maturity model
-      url: /designprinciples_maturity_model.html
-      output: web
-    - title: Product Versioning
-      url: /design_product_versioning.html
-      output: web
-
-  - title: Development guidance
-    output: web
-    folderitems:
+      type: homepage 
     - title: Development assets
       url: /development_deliverables.html
       output: web
@@ -122,7 +89,43 @@ entries:
         - title: NFR guidance
           url: /development_api_non_functional_requirements.html
           output: web
-          
+
+  - title: Design approach
+    output: web
+    folderitems:
+
+    - title: Development principles
+      url: /designprinciples_development_principles.html
+      output: web
+      type: homepage
+    - title: Open API principles
+      url: /designprinciples_open_api_principles.html
+      output: web
+    - title: Data model principles
+      url: /designprinciples_data_model_principles.html
+      output: web
+    - title: Information governance principles
+      url: /designprinciples_ig_principles.html
+      output: web
+    - title: Clinical safety principles
+      url: /designprinciples_clinical_safety_principles.html
+      output: web
+    - title: Assurance principles
+      url: /designprinciples_assurance_principles.html
+      output: web
+    - title: Open API licence principles
+      url: /designprinciples_open_api_licence_principles.html
+      output: web
+    - title: Clinical terminologies
+      url: /design_clinical_terminologies.html
+      output: web
+    - title: Maturity model
+      url: /designprinciples_maturity_model.html
+      output: web
+    - title: Product Versioning
+      url: /design_product_versioning.html
+      output: web
+         
   - title: Implement a capability
     output: web
     folderitems:
