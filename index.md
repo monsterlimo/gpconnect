@@ -64,7 +64,7 @@ Here's the sample knowledge-base style layout:
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:blue></i>
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:blue"></i>
                            <i class="fa fa-medkit fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -79,7 +79,7 @@ Here's the sample knowledge-base style layout:
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:blue></i>
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
                            <i class="fa fa-user fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
