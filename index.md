@@ -49,13 +49,13 @@ Here's the sample knowledge-base style layout:
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:blue"></i>
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
                            <i class="fa fa-reply fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
-                 <div class="panel-body">
+                 <div class="panel-body" align="left">
                      <h4>Getting started</h4>
-                     <p>Getting started with GP Connect</p>
+                     <p align="left">Getting started with GP Connect</p>
                      <a href="tag_getting_started.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
@@ -64,13 +64,13 @@ Here's the sample knowledge-base style layout:
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:blue"></i>
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
                            <i class="fa fa-medkit fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
-                 <div class="panel-body">
+                 <div class="panel-body" align="left">
                      <h4>Commissioner pathway</h4>
-                     <p>For commissioners of systems that consume GP data</p>
+                     <p align="left">For commissioners of systems that consume GP data</p>
                      <a href="tag_navigation.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
@@ -83,9 +83,9 @@ Here's the sample knowledge-base style layout:
                            <i class="fa fa-user fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
-                 <div class="panel-body">
+                 <div class="panel-body" align="left">
                      <h4>Consumer pathway</h4>
-                     <p>For developers of systems that consume GP data</p>
+                     <p align="left">For developers of systems that consume GP data</p>
                      <a href="tag_single_sourcing.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
@@ -94,13 +94,13 @@ Here's the sample knowledge-base style layout:
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:blue></i>
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
                            <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
-                 <div class="panel-body">
+                 <div class="panel-body" align="left">
                      <h4>Provider pathway</h4>
-                     <p>For developers of systems that provide GP data</p>
+                     <p align="left">For developers of systems that provide GP data</p>
                      <a href="tag_formatting.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
