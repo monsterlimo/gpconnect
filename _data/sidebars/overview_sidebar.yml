@@ -111,26 +111,6 @@ entries:
           url: /tasks.html
           output: web
  
-  - title: Implement a capability
-    output: web
-    folderitems:
-    - title: Foundations
-      url: /foundations.html
-      output: web
-    - title: Access Record HTML
-      url: /accessrecord.html
-      output: web
-    - title: Access Record REST
-      url: /accessrecord_rest.html
-      output: web
-    - title: Appointment Management
-      url: /appointments.html
-      output: web
-    - title: Task Management
-      url: /tasks.html
-      output: web
-          
-
   - title: Design approach
     output: web
     folderitems:
