@@ -35,7 +35,7 @@ entries:
   - title: Explore
     output: web
     folderitems:
-    - title: Explore
+    - title: Exploring GP Connect
       url: /overview_explore.html
       output: web
       type: homepage
@@ -49,7 +49,7 @@ entries:
   - title: Develop
     output: web
     folderitems:
-    - title: Develop
+    - title: Development
       url: /overview_development.html
       output: web
       type: homepage 
@@ -110,21 +110,10 @@ entries:
           url: /tasks.html
           output: web
 
-  - title: Develop
-    output: web
-    folderitems:
-    - title: Develop
-      url: /overview_development.html
-      output: web
-      type: homepage 
-    - title: Development assets
-      url: /development_deliverables.html
-      output: web
-
   - title: Test and assure
     output: web
     folderitems:
-    - title: Test and assure
+    - title: Test and assurance
       url: /overview_test_and_assurance.html
       output: web
     - title: Testing assets
@@ -139,6 +128,43 @@ entries:
     - title: Consumer testing
       url: /testing_api_consumer_testing.html
       output: web
+
+  - title: Deploy
+    output: web
+    folderitems:
+    - title: Deployment
+      url: /overview_deployment.html
+      output: web
+      
+      subfolders:
+      - title: Integrate with Spine
+        output: web
+        subfolderitems:
+
+        - title: System topologies
+          url: /dntegration_system_topologies.html
+          output: web      
+        - title: System topologies
+          url: /integration_system_topologies.html
+          output: web     
+        - title: Spine integration illustrated
+          url: /integration_illustrated.html
+          output: web           
+        - title: Cross organisation audit & provenance
+          url: /integration_cross_organisation_audit_and_provenance.html
+          output: web
+        - title: Personal Demographic Service
+          url: /integration_personal_demographic_service.html
+          output: web	
+        - title: Spine Directory Services
+          url: /integration_spine_directory_service.html
+          output: web
+        - title: Spine Security Proxy introduction
+          url: /integration_spine_security_proxy.html
+          output: web
+        - title: Spine Security Proxy implementation guide
+          url: /integration_spine_security_proxy_implementation_guide.html
+          output: web 
 
   - title: Design approach
     output: web
@@ -175,32 +201,7 @@ entries:
     - title: Product Versioning
       url: /design_product_versioning.html
       output: web
-         
-  - title: Integrate with Spine
-    output: web
-    folderitems:
-    - title: System topologies
-      url: /integration_system_topologies.html
-      output: web     
-    - title: Spine integration illustrated
-      url: /integration_illustrated.html
-      output: web           
-    - title: Cross organisation audit & provenance
-      url: /integration_cross_organisation_audit_and_provenance.html
-      output: web
-    - title: Personal Demographic Service
-      url: /integration_personal_demographic_service.html
-      output: web	
-    - title: Spine Directory Services
-      url: /integration_spine_directory_service.html
-      output: web
-    - title: Spine Security Proxy introduction
-      url: /integration_spine_security_proxy.html
-      output: web
-    - title: Spine Security Proxy implementation guide
-      url: /integration_spine_security_proxy_implementation_guide.html
-      output: web 
-
+    
   - title: Help and support
     output: web
     folderitems:
