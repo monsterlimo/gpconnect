@@ -16,31 +16,6 @@ GP Connect aims to support better clinical care by opening up information and da
 
 This GitHub repository contains all the technical resources you need to develop GP Connect provider APIs or consuming applications.
 
-<table width="100%" border="0">
-  <tr>
-    <td> <a href="overview_engage.html">Get started</a> </td>
-    <td> <a href="consumer_pathway.html">Consumer pathway</a> </td>
-    <td> <a href="provider_pathway.html">Provider pathway</a> </td>
-    <td> <a href="overview_first_of_type.html">First of Type</a> </td>
-  </tr>
-  <tr>
-    <td>Getting involved with GP Connect</td>
-    <td>For developers of systems that consume GP data</td>
-    <td>For developers of systems that provide GP data</td>
-    <td>Testing cycle for consumers</td>
-  </tr>
-</table>
-
-{% include important.html content="This site is under active development by the GP Connect team and is intended to provide all the technical resources you need to successfully develop GP Connect provider APIs or consuming applications. Some areas are being formulated and iterative updates to content will be added on a regular basis. See our GitHub [releases page](https://github.com/nhsconnect/gpconnect/releases) for more information." %}
-
-{% include warning.html content="This site is provided for information only and is intended for those engaged with NHS Digital in First of Type activities. Other parties are advised not to develop against these specifications until a formal announcement has been made." %}
-
-{% include twitterfollow.html %}
-
-{% include gitterbadge.html %}
-
-
-Here's the sample knowledge-base style layout:
 <div class="row">
          <div class="col-lg-12">
              <h2 class="page-header"></h2>
@@ -56,7 +31,7 @@ Here's the sample knowledge-base style layout:
                  <div class="panel-body" align="left">
                      <h4>Getting started</h4>
                      <p align="left">Getting started with GP Connect</p>
-                     <a href="tag_getting_started.html" class="btn btn-primary">Learn More</a>
+                     <a href="overview_engage.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
          </div>
@@ -71,7 +46,7 @@ Here's the sample knowledge-base style layout:
                  <div class="panel-body" align="left">
                      <h4>Commissioner pathway</h4>
                      <p align="left">For commissioners of systems that consume GP data</p>
-                     <a href="tag_navigation.html" class="btn btn-primary">Learn More</a>
+                     <a href="commissioner_pathway.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
          </div>
@@ -86,7 +61,7 @@ Here's the sample knowledge-base style layout:
                  <div class="panel-body" align="left">
                      <h4>Consumer pathway</h4>
                      <p align="left">For developers of systems that consume GP data</p>
-                     <a href="tag_single_sourcing.html" class="btn btn-primary">Learn More</a>
+                     <a href="consumer_pathway.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
          </div>
@@ -100,10 +75,20 @@ Here's the sample knowledge-base style layout:
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Provider pathway</h4>
-                     <p align="left">For developers of systems that provide GP data</p>
-                     <a href="tag_formatting.html" class="btn btn-primary">Learn More</a>
+                     <p align="left">For provider suppliers of GP data</p>
+                     <a href="provider_pathway.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
          </div>
 </div>
+
+{% include important.html content="This site is under active development by the GP Connect team and is intended to provide all the technical resources you need to successfully develop GP Connect provider APIs or consuming applications. Some areas are being formulated and iterative updates to content will be added on a regular basis. See our GitHub [releases page](https://github.com/nhsconnect/gpconnect/releases) for more information." %}
+
+{% include warning.html content="This site is provided for information only and is intended for those engaged with NHS Digital in First of Type activities. Other parties are advised not to develop against these specifications until a formal announcement has been made." %}
+
+{% include twitterfollow.html %}
+
+{% include gitterbadge.html %}
+
+
 
