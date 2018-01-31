@@ -250,7 +250,7 @@ entries:
 
         - title: Tags
           output: web
-          folderitems:
+          subfolderitems:
         - title: Getting started
           url: /tag_getting_started.html
           output: web
