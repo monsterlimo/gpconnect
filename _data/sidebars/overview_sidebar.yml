@@ -5,14 +5,14 @@ entries:
   levels: one
   folders:
 
-  - title: Overview
+  - title: Getting started
     output: web
     folderitems:
     - title: Introduction
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Getting started
+    - title: Get started
       url: /overview_engage.html
       output: web
     - title: Commissioner pathway
@@ -110,6 +110,42 @@ entries:
           url: /tasks.html
           output: web
 
+      - title: Design approach
+        output: web
+        subfolderitems:
+
+        - title: Development principles
+          url: /designprinciples_development_principles.html
+          output: web
+          type: homepage
+        - title: Open API principles
+          url: /designprinciples_open_api_principles.html
+          output: web
+        - title: Data model principles
+          url: /designprinciples_data_model_principles.html
+          output: web
+        - title: Information governance principles
+          url: /designprinciples_ig_principles.html
+          output: web
+        - title: Clinical safety principles
+          url: /designprinciples_clinical_safety_principles.html
+          output: web
+        - title: Assurance principles
+          url: /designprinciples_assurance_principles.html
+          output: web
+        - title: Open API licence principles
+          url: /designprinciples_open_api_licence_principles.html
+          output: web
+        - title: Clinical terminologies
+          url: /design_clinical_terminologies.html
+          output: web
+        - title: Maturity model
+          url: /designprinciples_maturity_model.html
+          output: web
+        - title: Product Versioning
+          url: /design_product_versioning.html
+          output: web 
+
   - title: Test and assure
     output: web
     folderitems:
@@ -165,43 +201,7 @@ entries:
         - title: Spine Security Proxy implementation guide
           url: /integration_spine_security_proxy_implementation_guide.html
           output: web 
-
-  - title: Design approach
-    output: web
-    folderitems:
-
-    - title: Development principles
-      url: /designprinciples_development_principles.html
-      output: web
-      type: homepage
-    - title: Open API principles
-      url: /designprinciples_open_api_principles.html
-      output: web
-    - title: Data model principles
-      url: /designprinciples_data_model_principles.html
-      output: web
-    - title: Information governance principles
-      url: /designprinciples_ig_principles.html
-      output: web
-    - title: Clinical safety principles
-      url: /designprinciples_clinical_safety_principles.html
-      output: web
-    - title: Assurance principles
-      url: /designprinciples_assurance_principles.html
-      output: web
-    - title: Open API licence principles
-      url: /designprinciples_open_api_licence_principles.html
-      output: web
-    - title: Clinical terminologies
-      url: /design_clinical_terminologies.html
-      output: web
-    - title: Maturity model
-      url: /designprinciples_maturity_model.html
-      output: web
-    - title: Product Versioning
-      url: /design_product_versioning.html
-      output: web
-    
+ 
   - title: Help and support
     output: web
     folderitems:
