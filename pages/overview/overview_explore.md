@@ -2,6 +2,7 @@
 title: Explore GP Connect
 keywords: explore
 tags: [explore]
+toc: false
 sidebar: overview_sidebar
 permalink: overview_explore.html
 summary: Use our demos to find out more...
