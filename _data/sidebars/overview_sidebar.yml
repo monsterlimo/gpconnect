@@ -5,14 +5,14 @@ entries:
   levels: one
   folders:
 
-  - title: Getting started
+  - title: Get started
     output: web
     folderitems:
     - title: Introduction
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Get started
+    - title: Getting started
       url: /overview_engage.html
       output: web
     - title: Commissioner pathway
