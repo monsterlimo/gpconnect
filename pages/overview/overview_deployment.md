@@ -7,4 +7,4 @@ permalink: overview_deployment.html
 summary: "Deployment information for consumers of GP Connect APIs"
 ---
 
-<insert text here...>
+- Become a [First of Type](overview_first_of_type.html) deployment!
