@@ -8,4 +8,7 @@ toc: false
 summary: What is GP Connect?
 ---
 
-<Enter text...>
+## Benefits ##
+
+## Role of NHS Digital ##
+
