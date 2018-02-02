@@ -18,8 +18,7 @@ This GitHub repository contains all the technical resources you need to develop 
 
 <div class="row">
          <div class="col-lg-12">
-               <p>This GitHub repository contains all the technical resources you need to develop consuming applications or expose data using GP Connect provider APIs:</p>
-                     </div>
+                                    </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
