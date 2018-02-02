@@ -1,5 +1,5 @@
 ---
-title: Build and share with GP Connect APIs
+title: Build and share with GP Connect
 keywords: homepage
 tags: [introduction]
 sidebar: home_sidebar
@@ -15,11 +15,9 @@ summary: Use the GP Connect FHIR&reg; APIs to share data across direct care
 GP Connect aims to support better clinical care by opening up information and data held within GP practice IT systems for use across health and social care.
 
 This GitHub repository contains all the technical resources you need to develop GP Connect provider APIs or consuming applications.
-
 <div class="row">
          <div class="col-lg-12">
-             <h2 class="page-header"></h2>
-         </div>
+                     </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
