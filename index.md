@@ -5,7 +5,7 @@ tags: [introduction]
 sidebar: home_sidebar
 permalink: index.html
 toc: false
-summary: Use the GP Connect FHIR&reg; APIs to share data across direct care
+summary: An introduction to the GP Connect FHIR® APIs
 ---
 
 {% comment %}
@@ -14,10 +14,11 @@ summary: Use the GP Connect FHIR&reg; APIs to share data across direct care
 
 GP Connect aims to support better clinical care by opening up information and data held within GP practice IT systems for use across health and social care.
 
-This GitHub repository contains all the technical resources you need to develop GP Connect provider APIs or consuming applications.
+This GitHub repository contains all the technical resources you need to develop consuming applications or expose data using GP Connect provider APIs.
+
 <div class="row">
          <div class="col-lg-12">
-            <h2 class="page-header"></h2>
+            <h2 class="page-header">Knowledgebase catagories</h2>
                      </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
@@ -29,8 +30,8 @@ This GitHub repository contains all the technical resources you need to develop 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Getting started</h4>
-                     <p align="left">Getting started with GP Connect</p>
-                     <a href="overview_engage.html" class="btn btn-primary">Learn More</a>
+                     <p align="left">Business overview</p>
+                     <a href="overview_business.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
          </div>
@@ -43,9 +44,9 @@ This GitHub repository contains all the technical resources you need to develop 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Commissioner pathway</h4>
-                     <p align="left">For commissioners of systems that consume GP data</p>
-                     <a href="commissioner_pathway.html" class="btn btn-primary">Learn More</a>
+                     <h4>Commissioning authority</h4>
+                     <p align="left">Commissions supplier to build consuming app that uses the GP Connect APIs</p>
+                     <a href="overview_commissioner_pathway.html" class="btn btn-primary">Commissioning pathway</a>
                  </div>
              </div>
          </div>
