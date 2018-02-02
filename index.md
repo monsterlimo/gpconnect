@@ -24,7 +24,7 @@ This GitHub repository contains all the technical resources you need to develop 
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-reply fa-stack-1x fa-inverse"></i>
+                           <i class="fa fa-book fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
                  <div class="panel-body" align="left">
