@@ -17,6 +17,7 @@ GP Connect aims to support better clinical care by opening up information and da
 This GitHub repository contains all the technical resources you need to develop GP Connect provider APIs or consuming applications.
 <div class="row">
          <div class="col-lg-12">
+            <h2 class="page-header"></h2>
                      </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
