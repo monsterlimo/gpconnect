@@ -5,7 +5,7 @@ entries:
   levels: one
   folders:
 
-  - title: Get started
+  - title: Overview
     output: web
     folderitems:
     - title: Introduction
