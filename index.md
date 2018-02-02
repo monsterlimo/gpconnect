@@ -45,7 +45,7 @@ This GitHub repository contains all the technical resources you need to develop 
                  <div class="panel-body" align="left">
                      <h4>Commissioning pathway</h4>
                      <p align="left">Commissioning authority commissions supplier to build consuming app that uses the GP Connect APIs</p>
-                     <a href="overview_commissioner_pathway.html" class="btn btn-primary">Learn more</a>
+                     <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
          </div>
