@@ -12,8 +12,8 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Getting started
-      url: /overview_engage.html
+    - title: Business overview
+      url: /overview_business.html
       output: web
     - title: Commissioner pathway
       url: /overview_commissioner_pathway.html
@@ -23,7 +23,7 @@ entries:
       output: web
     - title: Provider pathway
       url: /overview_provider_pathway.html
-      output: web
+      output: web      
     - title: First of Type
       url: /overview_first_of_type.html
       output: web
@@ -31,7 +31,15 @@ entries:
       url: /overview_specification_versions.html
       output: web, pdf
       type: homepage
-
+      
+  - title: Get started
+    output: web
+    folderitems:
+    - title: Getting started
+      url: /overview_engage.html
+      output: web
+      type: homepage      
+ 
   - title: Explore
     output: web
     folderitems:
