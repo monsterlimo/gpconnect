@@ -15,8 +15,8 @@ entries:
     - title: Business overview
       url: /overview_business.html
       output: web
-    - title: Commissioner pathway
-      url: /overview_commissioner_pathway.html
+    - title: Commissioning pathway
+      url: /overview_commissioning_pathway.html
       output: web
     - title: Consumer pathway
       url: /overview_consumer_pathway.html
