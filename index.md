@@ -18,7 +18,8 @@ This GitHub repository contains all the technical resources you need to develop 
 
 <div class="row">
          <div class="col-lg-12">
-            <h2 class="page-header">Knowledgebase catagories</h2>
+            <h2 class="page-header">Knowledgebase categories</h2>
+                  <p>This GitHub repository contains all the technical resources you need to develop consuming applications or expose data using GP Connect provider APIs:</p>
                      </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
@@ -29,8 +30,8 @@ This GitHub repository contains all the technical resources you need to develop 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Getting started</h4>
-                     <p align="left">Business overview</p>
+                     <h4>Business overview</h4>
+                     <p align="left">What is GP Connect?</p>
                      <a href="overview_business.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
@@ -59,9 +60,9 @@ This GitHub repository contains all the technical resources you need to develop 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Consumer pathway</h4>
-                     <p align="left">For developers of systems that consume GP data</p>
-                     <a href="consumer_pathway.html" class="btn btn-primary">Learn More</a>
+                     <h4>Consumer supplier</h4>
+                     <p align="left">Develops consuming applications that make use of GP Connect APIs</p>
+                     <a href="overview_consumer_pathway.html" class="btn btn-primary">Consumer pathway</a>
                  </div>
              </div>
          </div>
@@ -74,9 +75,9 @@ This GitHub repository contains all the technical resources you need to develop 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Provider pathway</h4>
-                     <p align="left">For provider suppliers of GP data</p>
-                     <a href="provider_pathway.html" class="btn btn-primary">Learn More</a>
+                     <h4>Provider supplier</h4>
+                     <p align="left">Develops open APIs for GP systems in accordance with NHS Digital specifications</p>
+                     <a href="overview_provider_pathway.html" class="btn btn-primary">Provider pathway</a>
                  </div>
              </div>
          </div>
