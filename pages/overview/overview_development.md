@@ -1,7 +1,7 @@
 ---
 title: Develop with GP Connect
 keywords: develop
-tags: [develop]
+tags: [development]
 sidebar: overview_sidebar
 permalink: overview_development.html
 summary: Start building applications that use GP Connect to consume or expose data
