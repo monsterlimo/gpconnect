@@ -12,19 +12,26 @@ summary: What is GP Connect?
 
 ## Introduction ##
 
-### Capabilities
+## Timescales ## 
+
+## Role of NHS Digital ##
+
+## Business benefits ##
+
+## Case studies ##
+
+### Capabilities ###
 
 A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
 
-### Become an API consumer
+### Become an API consumer ###
 
 If you're planning on consuming data using GP Connect APIs then you're a consumer system.
 
-### Become an API provider
+### Become an API provider ###
 
 If you're planning on providing data using GP Connect APIs then you're a provider system. 
 
-## Benefits ##
 
-## Role of NHS Digital ##
+
 
