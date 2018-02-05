@@ -1,5 +1,6 @@
 allowed-tags:
   - getting_started
+  - introduction
   - first_of_type
   - usecase
   - fhir
