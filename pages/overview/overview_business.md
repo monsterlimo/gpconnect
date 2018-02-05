@@ -37,10 +37,6 @@ Supporting improved access to general practice by:
 
 A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
 
-## GP Connect model ##
-
-{% include GP_Connect_model.html %}
-
 ## Benefits ##
 
 - Clinical
