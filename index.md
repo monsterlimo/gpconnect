@@ -30,8 +30,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>1. Build and deploy</h4>
-                          <p align="left"><strong>Commissioning authority and supplier</strong></p>
-                     <p align="left">Commissioning authority commissions supplier to build consuming app that uses the GP Connect APIs</p>
+                         <p align="left">Commissioning authority commissions supplier to build consuming app that uses the GP Connect APIs</p>
                      <a href="overview_business.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
