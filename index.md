@@ -45,7 +45,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Deploy only</h4>
-                     <p align="left">Organisation, such as a GP federation, deploys an existing app</p>
+                     <p align="left">Organisation, such as a GP federation, deploys an existing app that uses GP Connect APIs</p>
                      <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
