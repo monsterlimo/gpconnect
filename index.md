@@ -14,7 +14,7 @@ summary: An introduction to the GP Connect FHIR® APIs
 
 GP Connect aims to support better clinical care by opening up information and data held within GP practice IT systems for use across health and social care.
 
-This GitHub repository contains all the technical resources you need to develop consuming applications or expose data using GP Connect provider APIs. 
+This GitHub repository contains all the technical resources you need to connect using our FHIR&reg; APIs. For a high-level introduction, see the [Business overview](overview_business.html). For help on your development/deployment journey, follow the relevant pathway:
 
 <div class="row">
          <div class="col-lg-12">
@@ -28,8 +28,8 @@ This GitHub repository contains all the technical resources you need to develop 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Business overview</h4>
-                     <p align="left">A plain English overview of GP Connect</p>
+                     <h4>Pathway 1: Build and deploy</h4>
+                     <p align="left">Commissioning authority commissions supplier to build consuming app that uses the GP Connect APIs</p>
                      <a href="overview_business.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
@@ -43,8 +43,8 @@ This GitHub repository contains all the technical resources you need to develop 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Commissioning pathway</h4>
-                     <p align="left">Commissioning authority commissions supplier to build consuming app that uses the GP Connect APIs</p>
+                     <h4>Pathway 2: Deploy only</h4>
+                     <p align="left">Organisation, such as a GP federation, deploys an existing app</p>
                      <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -58,8 +58,8 @@ This GitHub repository contains all the technical resources you need to develop 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Consumer pathway</h4>
-                     <p align="left">Supplier develops consuming app that make use of GP Connect APIs</p>
+                     <h4>Pathway 3: Consumer supplier - build</h4>
+                     <p align="left">Supplier develops consuming app that uses GP Connect APIs</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -73,7 +73,7 @@ This GitHub repository contains all the technical resources you need to develop 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Provider pathway</h4>
+                     <h4>Pathway 4: Provider supplier - build</h4>
                      <p align="left">Supplier develops open APIs for GP systems in accordance with NHS Digital specifications</p>
                      <a href="overview_provider_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
