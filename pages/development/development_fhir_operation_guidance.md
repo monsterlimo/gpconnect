@@ -11,6 +11,7 @@ summary: "Details of which operations a FHIR&reg; server should expose to be a f
 
 *Aim(s)*
 
+- Access Record HTML
 - Appointment Management
 
 *Mechanism*
@@ -32,6 +33,13 @@ All `InteractionIDs` are expected to follow the following format `urn:nhs:names:
 - Subject = [ `resourceType`, `operationName` ]
 	- Resource Type is the name of a FHIR resource, such as `Patient`, `Appointment`, `Organization`
 	- Operation Name is the name of a custom FHIR operation, such as `gpc.getcarerecord`
+
+	
+### Access Record HTML capability interactions ###
+
+| Operation                 | InteractionID             | HTTP verb | Example URL pattern |
+|---------------------------|---------------------------| ----------|---------------------|
+| [Get care record](accessrecord_use_case_retrieve_a_care_record_section.html) | `urn:nhs:names:services:gpconnect:fhir:operation:gpc.getcarerecord-1` | `POST` | `[base]/Patient/$gpc.getcarerecord` |
 
 ### Foundations capability interactions ###
 
@@ -59,8 +67,6 @@ All `InteractionIDs` are expected to follow the following format `urn:nhs:names:
 | [Cancel appointment](appointments_use_case_cancel_an_appointment.html)        | `urn:nhs:names:services:gpconnect:fhir:rest:cancel:appointment-1` | `PUT`  | `[base]/Appointment/[id]` |
 | [Get patient appointments](appointments_use_case_retrieve_a_patients_appointments.html)  | `urn:nhs:names:services:gpconnect:fhir:rest:search:patient_appointments-1` | `GET`  | `[base]/Patient/[id]/Appointment` |
 
-### Access Record HTML capability interactions ###
-Access Record HTML interactions are not available at this specification version.
 
 ### Access Record Structured capability interactions ###
 Access Record Structured interactions are not available at this specification version.
