@@ -18,15 +18,15 @@ entries:
     - title: Commissioning pathway
       url: /overview_commissioning_pathway.html
       output: web
+    - title: Deploy-only pathway
+      url: /overview_deploy_only_pathway.html
+      output: web
     - title: Consumer pathway
       url: /overview_consumer_pathway.html
       output: web
     - title: Provider pathway
       url: /overview_provider_pathway.html
-      output: web      
-    - title: First of Type
-      url: /overview_first_of_type.html
-      output: web
+      output: web         
     - title: Specification versions
       url: /overview_specification_versions.html
       output: web, pdf
@@ -96,6 +96,9 @@ entries:
           output: web          
         - title: Non-functional requirements
           url: /development_api_non_functional_requirements.html
+          output: web
+        - title: First of Type
+          url: /overview_first_of_type.html
           output: web
  
       - title: Implement a capability pack
