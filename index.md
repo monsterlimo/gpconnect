@@ -30,7 +30,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Consumer</h4>
-                         <p align="left">Develop app that consumes GP data using GP Connect FHIR&reg; APIs</p>
+                         <p align="left">Develop an app that consumes GP data using GP Connect APIs</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -60,7 +60,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Commissioning</h4>
-                     <p align="left">Commission supplier to build app that consumes GP data using GP Connect FHIR&reg; APIs</p>
+                     <p align="left">Commission supplier to build an app that consumes GP data using GP Connect APIs</p>
                      <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -75,7 +75,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Deploy-only</h4>
-                     <p align="left">Deploy existing app (for a GP federation or similar) that consumes GP data using GP Connect FHIR&reg; APIs</p>
+                     <p align="left">Deploy existing app (for a GP federation or similar) that consumes GP data using GP Connect APIs</p>
                      <a href="overview_deploy_only_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
