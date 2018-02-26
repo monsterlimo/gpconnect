@@ -25,12 +25,12 @@ This GitHub repository contains all the technical resources you need to connect 
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-book fa-stack-1x fa-inverse"></i>
+                           <i class="fa fa-comment fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Commissioning pathway</h4>
-                         <p align="left">Commissioning authority commissions supplier to build consuming app that uses the GP Connect APIs</p>
+                         <p align="left">Commissioning authority commissions supplier to build consuming app using GP Connect APIs</p>
                      <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -40,7 +40,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-medkit fa-stack-1x fa-inverse"></i>
+                           <i class="fa fa-share fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
                  <div class="panel-body" align="left">
@@ -55,7 +55,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                           <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
                  <div class="panel-body" align="left">
@@ -70,7 +70,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                           <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
                  <div class="panel-body" align="left">
