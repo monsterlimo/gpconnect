@@ -30,7 +30,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Commissioning pathway</h4>
-                         <p align="left">Organisation commissions supplier to build consuming app using GP Connect APIs</p>
+                         <p align="left">Commission a supplier to build an app that consumes GP data using GP Connect FHIR&reg; APIs</p>
                      <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -45,7 +45,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Deploy-only pathway</h4>
-                     <p align="left">Organisation such as a GP federation deploys an existing app that uses GP Connect APIs</p>
+                     <p align="left">Deploy an existing app that consumes GP data using GP Connect FHIR&reg; APIs for a GP federation or similar</p>
                      <a href="overview_deploy_only_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -60,7 +60,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Consumer pathway</h4>
-                     <p align="left">Supplier develops consuming app that uses GP Connect APIs</p>
+                     <p align="left">Develop an app that consumes GP data using GP Connect FHIR&reg; APIs</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -75,7 +75,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Provider pathway</h4>
-                     <p align="left">Supplier develops open APIs for GP systems in accordance with NHS Digital specifications</p>
+                     <p align="left">Develop open APIs for GP systems in accordance with NHS Digital specifications</p>
                      <a href="overview_provider_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
