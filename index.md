@@ -25,42 +25,12 @@ This GitHub repository contains all the technical resources you need to connect 
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-comment fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body" align="left">
-                     <h4>Commissioning pathway</h4>
-                         <p align="left">Commission a supplier to build an app that consumes GP data using GP Connect FHIR&reg; APIs</p>
-                     <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
-                 </div>
-             </div>
-         </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-share fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body" align="left">
-                     <h4>Deploy-only pathway</h4>
-                     <p align="left">Deploy an existing app that consumes GP data using GP Connect FHIR&reg; APIs for a GP federation or similar</p>
-                     <a href="overview_deploy_only_pathway.html" class="btn btn-primary">Learn more</a>
-                 </div>
-             </div>
-         </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Consumer pathway</h4>
-                     <p align="left">Develop an app that consumes GP data using GP Connect FHIR&reg; APIs</p>
+                         <p align="left">Develop app that consumes GP data using GP Connect FHIR&reg; APIs</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -75,8 +45,38 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Provider pathway</h4>
-                     <p align="left">Develop open APIs for GP systems in accordance with NHS Digital specifications</p>
+                     <p align="left">Develop open APIs for GP system in accordance with NHS Digital specifications</p>
                      <a href="overview_provider_pathway.html" class="btn btn-primary">Learn more</a>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
+                           <i class="fa fa-hand-o-right fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body" align="left">
+                     <h4>Commissioning pathway</h4>
+                     <p align="left">Commission supplier to build app that consumes GP data using GP Connect FHIR&reg; APIs</p>
+                     <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
+                           <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body" align="left">
+                     <h4>Deploy-only pathway</h4>
+                     <p align="left">Deploy existing app (for a GP federation or similar) that consumes GP data using GP Connect FHIR&reg; APIs</p>
+                     <a href="overview_deploy_only_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
          </div>
