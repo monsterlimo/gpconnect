@@ -31,7 +31,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  <div class="panel-body" align="left">
                      <h4>Commissioning pathway</h4>
                          <p align="left">Commissioning authority commissions supplier to build consuming app that uses the GP Connect APIs</p>
-                     <a href="overview_business.html" class="btn btn-primary">Learn more</a>
+                     <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
          </div>
@@ -46,7 +46,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  <div class="panel-body" align="left">
                      <h4>Deploy-only pathway</h4>
                      <p align="left">Organisation such as a GP federation deploys an existing app that uses GP Connect APIs</p>
-                     <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
+                     <a href="overview_deploy_only_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
          </div>
