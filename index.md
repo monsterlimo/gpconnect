@@ -30,7 +30,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Commissioning pathway</h4>
-                         <p align="left">Commissioning authority commissions supplier to build consuming app using GP Connect APIs</p>
+                         <p align="left">Organisation commissions supplier to build consuming app using GP Connect APIs</p>
                      <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
