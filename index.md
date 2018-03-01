@@ -18,7 +18,7 @@ This GitHub repository contains all the technical resources you need to connect 
 
 <div class="row">
          <div class="col-lg-12">
-                  
+             <h2 class="page-header">Pathways</h2>     
                                     </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
@@ -29,7 +29,7 @@ This GitHub repository contains all the technical resources you need to connect 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <strong><i>Consumer pathway</i></strong>
+                      <h4>Consumer pathway</h4>
                          <p align="left">Develop an app that consumes GP data using GP Connect APIs</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
@@ -44,7 +44,7 @@ This GitHub repository contains all the technical resources you need to connect 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Provider</h4>
+                     <h4>Provider pathway</h4>
                      <p align="left">Develop open APIs for GP system in accordance with NHS Digital specifications</p>
                      <a href="overview_provider_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
@@ -59,7 +59,7 @@ This GitHub repository contains all the technical resources you need to connect 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Commissioning</h4>
+                     <h4>Commissioning pathway</h4>
                      <p align="left">Commission supplier to build an app that consumes GP data using GP Connect APIs</p>
                      <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
@@ -74,7 +74,7 @@ This GitHub repository contains all the technical resources you need to connect 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Deploy-only</h4>
+                     <h4>Deploy-only pathway</h4>
                      <p align="left">Deploy existing app (for a GP federation or similar) that consumes GP data using GP Connect APIs</p>
                      <a href="overview_deploy_only_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
