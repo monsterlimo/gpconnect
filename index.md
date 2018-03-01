@@ -29,7 +29,7 @@ This GitHub repository contains all the technical resources you need to connect 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h5>Consumer pathway</h5>
+                     <strong><i>Consumer pathway</i></strong>
                          <p align="left">Develop an app that consumes GP data using GP Connect APIs</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
