@@ -18,7 +18,7 @@ This GitHub repository contains all the technical resources you need to connect 
 
 <div class="row">
          <div class="col-lg-12">
-                  <h2 class="page-header">Pathways</h2>
+                  
                                     </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
@@ -29,7 +29,7 @@ This GitHub repository contains all the technical resources you need to connect 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Consumer</h4>
+                     <h5>Consumer pathway</h5>
                          <p align="left">Develop an app that consumes GP data using GP Connect APIs</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
