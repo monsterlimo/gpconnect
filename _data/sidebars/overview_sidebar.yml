@@ -211,6 +211,9 @@ entries:
     - title: Communication channels
       url: /support_communications.html
       output: web
+    - title: Run website locally
+      url: /support_run_website_locally.html
+      output: web    
     - title: Glossary
       url: /overview_glossary.html
       output: web
@@ -232,11 +235,6 @@ entries:
           url: /overview_release_notes_0_5_0.html
           output: web
 
-    - title: Run website locally
-      url: /support_run_website_locally.html
-      output: web    
-
-      subfolders:    
       - title: Useful links
         output: web
         subfolderitems:
