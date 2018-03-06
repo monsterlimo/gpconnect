@@ -89,11 +89,11 @@ The FHIR endpoint URL of the message handling system can then be extracted from 
 
 SDS requires Transport Layer Security (TLS) Mutual Authentication. It is therefore necessary to configure ldapsearch in the examples above with the certificates necessary to verify the authenticity of the SDS LDAP server, and to enable SDS to verify the Spine endpoint making the LDAP request:
 
-1. Root and sub CA Spine development certificates available from Assurance Support.
+1. RootCA and SubCA Spine development certificates available from Assurance Support.
 2. Obtain a client certificate by submitting a certificate signing request for your development endpoint to Assurance Support.
 
 ##### Server certificate setup #####
-For the examples above, ldapsearch should be configured to find the root CA and sub CA certificates using the TLS_CACERT option in the ldap.conf file. This should point to a file, in Privacy Enhanced Mail (PEM) format, which contains both root CA and sub CA certificates ensuring that the root certificate is placed after the sub CA certificate. The LDAPCONF environment variable can be used to define the location of the ldap.conf 
+For the examples above, ldapsearch should be configured to find the RootCA and SubCA certificates using the TLS_CACERT option in the ldap.conf file. This should point to a file, in Privacy Enhanced Mail (PEM) format, which contains both RootCA and SubCA certificates ensuring that the root certificate is placed after the SubCA certificate. The LDAPCONF environment variable can be used to define the location of the ldap.conf 
 
 ##### Client certificate setup #####
 The client certificate and encrypted private key should be defined in the .ldaprc file using the following directives.
@@ -134,7 +134,7 @@ The ASID and party key is now looked up on SDS. The example below uses ldapsearc
 
 	
 	ldapsearch -x -H ldaps://ldap.vn03.national.ncrs.nhs.uk –b "ou=services, o=nhs" 
-	"(&(nhsIDCode=T99999) (objectClass=nhsAS)(nhsAsSvcIA=urn:nhs:names:services:gpconnect:fhir:operation:gpc.getcarerecord))" 
+	"(&(nhsIDCode=T99999) (objectClass=nhsAS)(nhsAsSvcIA=urn:nhs:names:services:gpconnect:fhir:operation:gpc.getcarerecord-1))" 
 	uniqueIdentifier nhsMhsPartyKey
 	
 This query should return a single matching accredited system object from SDS, the ASID being found in the uniqueIdentifier attribute. In the case, ldapsearch returns the following results:
@@ -155,7 +155,7 @@ This query should return a single matching accredited system object from SDS, th
 Using the party key retrieved from Step 1, and the same interaction ID, the following ldapsearch query is executed:
 
 	ldapsearch -x -H ldaps://ldap.vn03.national.ncrs.nhs.uk -b "ou=services, o=nhs" 
-	"(&(nhsMhsPartyKey=T99999-9999999) (objectClass=nhsMhs) (nhsMhsSvcIA=urn:nhs:names:services:gpconnect:fhir:operation:gpc.getcarerecord))" 
+	"(&(nhsMhsPartyKey=T99999-9999999) (objectClass=nhsMhs) (nhsMhsSvcIA=urn:nhs:names:services:gpconnect:fhir:operation:gpc.getcarerecord-1))" 
 	nhsMhsEndPoint nhsMHSFQDN
 	
 

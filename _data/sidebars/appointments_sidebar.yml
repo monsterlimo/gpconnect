@@ -1,7 +1,6 @@
 entries:
 - title: Appointment Management
-  product: Appointment Management<br/>
-  version: 1.0.0-rc.3
+  product: Appointment Management
   folders:
 
   - title:
@@ -27,7 +26,7 @@ entries:
     - title: Clinical scenarios
       url: /appointments_clinical_scenarios.html
       output: web, pdf
-    - title: Information Governance
+    - title: Information governance
       url: /appointments_ig.html
       output: web, pdf
     - title: Design decisions
@@ -36,9 +35,6 @@ entries:
     - title: Wireframes
       url: /appointments_wireframes.html
       output: web
-    - title: Release notes
-      url: /appointments_release_notes.html
-      output: web
     - title: Known issues
       url: /appointments_known_issues.html
       output: web, pdf
@@ -46,7 +42,7 @@ entries:
   - title: Development
     output: web, pdf
     folderitems:
-    - title: FHIR resources
+    - title: FHIR&reg; resources 
       url: /datalibraryappointment.html
       output: web, pdf
     - title: Consumer sessions illustrated
@@ -58,7 +54,7 @@ entries:
         output: web, pdf
         subfolderitems:
 
-        - title: Retrieve a patients appointments
+        - title: Retrieve a patient's appointments
           url: /appointments_use_case_retrieve_a_patients_appointments.html
           output: web, pdf
         - title: Search for free slots
@@ -75,4 +71,12 @@ entries:
           output: web, pdf
         - title: Cancel an appointment
           url: /appointments_use_case_cancel_an_appointment.html
+          output: web, pdf
+          
+      - title: Additional provider requirements
+        output: web, pdf
+        subfolderitems:
+
+        - title: Slot availability management
+          url: /appointments_slotavailabilitymanagement.html
           output: web, pdf

@@ -17,7 +17,7 @@ To make use of the ecosystem and GP Connect APIs we're asking all involved to si
 ## Get started ##
 
 - Read about the GP Connect [Priority capabilities](overview_priority_capabilities.html).
-- Look through the design decisions made so far in relation to each capability packs ([Foundations](foundations_design.html), [Access Record HTML](accessrecord_design.html), [Access Record REST](accessrecord_rest.html), [Appointment Management](appointments_design.html) and [Task Management](tasks_design.html)) and get involved:
+- Look through the design decisions made so far in relation to each capability packs ([Foundations](foundations_design.html), [Access Record HTML](accessrecord.html), [Access Record Structured](accessrecord_rest.html), [Appointment Management](appointments_design.html) and [Task Management](tasks.html)) and get involved:
 	- <span class="label label-success">SELECTED</span> / <span class="label label-info">DECISION</span> A decision has been made for first release.
 	- <span class="label label-warning">ASSUMPTION</span> An assumption has been made which is under review/needs validated.
 
@@ -31,6 +31,6 @@ Some early feedback on the May 2016 release of the GP Connect draft specificatio
 
 GP Connect is working closely with a number of interoperability communities:
 
-- [Code4Health interoperability community](http://interoperability.code4health.org/){:target="_blank"}
+- [Code4Health interoperability community](https://code4health.org/communities/interoperability){:target="_blank"}
 - [INTEROPen supplier-led healthcare IT interoperability community](http://www.interopen.org/){:target="_blank"}
 
