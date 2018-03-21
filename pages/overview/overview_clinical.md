@@ -41,7 +41,7 @@ Supporting improved access to general practice by:
 
 ## Capabilities ##
 
-<rewrite this bit> A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
+rewrite this bit A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
 
 ## Development pathways ##
 
