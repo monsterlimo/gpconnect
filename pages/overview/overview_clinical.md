@@ -1,9 +1,9 @@
 ---
-title: Business overview
+title: Clinical overview
 keywords: homepage
-tags: [business; overview]
+tags: [clinical; overview]
 sidebar: overview_sidebar
-permalink: overview_business.html
+permalink: overview_clinical.html
 toc: false
 summary: What is GP Connect?
 ---
