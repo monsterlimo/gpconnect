@@ -10,8 +10,8 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Business overview
-      url: /overview_business.html
+    - title: Clinical overview
+      url: /overview_clinical.html
       output: web
     - title: Consumer pathway
       url: /overview_consumer_pathway.html
