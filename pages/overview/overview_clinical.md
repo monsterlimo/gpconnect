@@ -10,7 +10,7 @@ summary: What is GP Connect?
 
 GP Connect aims to open up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are.
 
-We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS, Vision, Microtest and TPP), allowing these systems to effortlessly exchange data and information. The development of applications that then consume the data (use or view the information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how they can best use this data to support their patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
+We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS, Vision, Microtest and TPP), allowing them to effortlessly exchange data and information. The development of applications that then consume the data (use or view the information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how they can best use this data to support their patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
 
 ## Business drivers ##
 
