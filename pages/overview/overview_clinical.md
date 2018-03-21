@@ -41,7 +41,18 @@ Supporting improved access to general practice by:
 
 ## Capabilities ##
 
-A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
+<rewrite this bit> A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
+
+## Development pathways ##
+
+This GitHub repository contains everything you need to know to share data using GP Connect APIs. To make it easier to naviagate your way through the site, we've devised four pathways:
+
+| Pathway  | Follow if...  |   
+|---|---|
+| Consumer pathway  | You're developing an app that's going to consume data from GP clinical systems.  |   
+| Provider pathway  | You're making data available to share from a GP clinical system.  |   
+| Commissioning pathway  | You're commissioning a supplier to build a consuming app.  |   
+| Deploy-only pathway  | You're deploying an app to consume GP data on behlaf of a GP federation/hub or similar.  |   
 
 ## Strategic drivers ##
 
