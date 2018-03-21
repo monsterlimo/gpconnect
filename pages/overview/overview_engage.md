@@ -5,7 +5,7 @@ tags: [getting_started]
 sidebar: overview_sidebar
 toc: false
 permalink: overview_engage.html
-summary: "Getting started with GP Connect"
+summary: "Business processes, non-technical and high-level technical documentation"
 ---
 
 ## The Open API ecosystem
