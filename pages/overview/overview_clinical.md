@@ -52,7 +52,7 @@ This GitHub repository contains everything you need to know to develop using GP 
 | [Consumer pathway](http://gpconnect-specrestructure.netlify.com/overview_consumer_pathway.html)  | You're developing an app that's going to consume data from GP clinical systems.  |   
 | [Provider pathway](http://gpconnect-specrestructure.netlify.com/overview_provider_pathway.html)  | You're making data available to share from a GP clinical system.  |   
 | [Commissioning pathway](http://gpconnect-specrestructure.netlify.com/overview_commissioning_pathway.html)  | You're commissioning a supplier to build a consuming app.  |   
-| [Deploy-only pathway](http://gpconnect-specrestructure.netlify.com/overview_deploy_only_pathway.html)  | You're deploying an app to consume GP data on behlaf of a GP federation/hub or similar.  |   
+| [Deploy-only pathway](http://gpconnect-specrestructure.netlify.com/overview_deploy_only_pathway.html)  | You're deploying an app to consume GP data on behalf of a GP federation/hub or similar.  |   
 
 ## Strategic drivers ##
 
