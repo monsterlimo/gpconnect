@@ -8,11 +8,40 @@ toc: false
 summary: What is GP Connect?
 ---
 
------------WORK IN PROGRESS---------------
+GP Connect aims to open up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are.
 
-## Vision ##
+We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS, Vision, Microtest and TPP), allowing these systems to effortlessly exchange data and information. The development of applications that then consume the data (use or view the information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how they can best use this data to support their patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
 
-To link information held within the different GP information systems, allowing it to flow safely and seamlessly between care settings, empowering health providers to make the best care decisions, placing patients firmly at the heart.
+## Business drivers ##
+
+Supporting improved access to general practice by:
+
+- providing access to the detailed care record to every practice at the point of care
+- allowing appointment management (booking and cancelling) between practices in a federation or hub or other affiliation
+- allowing tasks to be sent between practices in a federation
+- enabling clinicans at other care settings (such as hospitals, 111 and urgent care providers) to access information to suit their local needs
+
+## Benefits ##
+
+- Clinical
+  - real-time access to patients' records to allow clinicians access to the right information, at the right time to help make the right decisions
+
+- Patient/carer
+  - increase access opportunities (such as ability to access an appointment anywhere within the federation/hub)
+  - improved patient experience and satisfaction
+
+- Administrative
+  - ability to book or cancel appointments and send tasks or notifications within a local geography across federations/hubs
+ 
+- Management
+  - ability to understand appointment capacity across federated practices, providing single points of access for patients to book -  meaning more efficient access to services, better resource planning, and improved reporting data
+
+- Technical
+  - first nationally defined, standards-based step on the interoperability journey for GP systems
+
+## Capabilities ##
+
+A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
 
 ## Strategic drivers ##
 
@@ -21,51 +50,6 @@ To link information held within the different GP information systems, allowing i
 
 - [NHS England General Practice Five Year Forward View](https://www.england.nhs.uk/gp/gpfv/)
   - Greater collaboration and sharing of information through IT system interoperability across the health and care system
-
-## Business drivers ##
-
-Supporting improved access to general practice by:
-
-- providing access to the detailed care record to every practice at the point of care
-- appointment management across federated/other estate
-- ability to send tasks between practices in a federation
-- supporting other care settings for direct care purposes
-
-## Role of NHS Digital ##
-
-### Capabilities ###
-
-A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
-
-## Benefits ##
-
-- Clinical
-  - real-time access to patients' records to allow clinicians access to the right information, at the right time to help make the right decisions
-
-- Patient/carer
-  - increase access opportunities (such as ability to access an appointment anywhere within the federation/hub/other)
-  - improved patient experience/satisfaction
-
-- Administrative
-  - ability to book or cancel appointments and send tasks or notifications within a local geography across federations/hubs/other
- 
-- Management
-  - ability to understand appointment capacity across federated practices, providing single points of access for patients to book -  meaning more efficient access to services, better resource planning, and improved reporting data
-
-- Technical
-  - first 'nationally defined, standards-based' step on the interoperability journey for GP systems
-
-## Case studies ##
-
-## Timescales ## 
-
-### Become an API consumer ###
-
-If you're planning on consuming data using GP Connect APIs then you're a consumer system.
-
-### Become an API provider ###
-
-If you're planning on providing data using GP Connect APIs then you're a provider system. 
 
 
 
