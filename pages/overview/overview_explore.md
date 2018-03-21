@@ -5,7 +5,7 @@ tags: [explore]
 toc: false
 sidebar: overview_sidebar
 permalink: overview_explore.html
-summary: Use our demos to find out more...
+summary: Interactive online console with full API reference and FHIR&reg; resource definitions
 ---
 
 - try out the [GP Connect Demonstrator](system_demonstrator.html) system
