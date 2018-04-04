@@ -45,16 +45,16 @@ Supporting improved access to general practice by:
 
 ## Capabilities ##
 
-A capability uses GP Connect APIs to focus on a particular area of general practice. Capabilities are organised within 'capability packs', which include:
+The GP Connect APIs are managed within capability focuses on a particular area of general practice. Capabilities are organised within 'capability packs', which include:
 
  - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
  - Appointment Management - enable end users to book and manage GP practice appointments held in any of the four GP principal practice systems
  - Access Record HTML - provides health professionals with access to a patient’s primary care record by requesting sections or headings
  - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
- - Task Management
+ - Task Management - allows care professionals to send task requests to other teams  
  - Unstructured Writeback
 
-HTML re are several [initial capabilities defined](overview_priority_capabilities.html).
+See [Priority capabilities for GP Connect](overview_priority_capabilities.html) for the currently available capabilities.
 
 ## Pathways ##
 
