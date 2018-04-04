@@ -12,6 +12,10 @@ GP Connect aims to open up information and data held within the different GP cli
 
 We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS, Vision, Microtest and TPP), allowing them to exchange data effortlessly. The development of applications that then consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how it can best use the data to support its patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
 
+## GP Connect Model ##
+
+[Img](images/overview/GP Connect Model.png)
+
 ## Business drivers ##
 
 Supporting improved access to general practice by:
@@ -51,10 +55,6 @@ A capability uses GP Connect APIs to focus on a particular area of general pract
  - Unstructured Writeback
 
 HTML re are several [initial capabilities defined](overview_priority_capabilities.html).
-
-## GP Connect Model ##
-
-[![Img](images/overview/GP Connect Model.png)]
 
 ## Pathways ##
 
