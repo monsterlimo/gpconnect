@@ -14,7 +14,7 @@ We’re developing a set of application programming interfaces (APIs) that conne
 
 ## GP Connect Model ##
 
-[[Img](images/overview/GP Connect Model.png)]
+[![Img](images/overview/GP Connect Model.png)]
 
 ## Business drivers ##
 
