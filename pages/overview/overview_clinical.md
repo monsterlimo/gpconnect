@@ -10,7 +10,7 @@ summary: What is GP Connect?
 
 GP Connect aims to open up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are.
 
-We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS, Vision, Microtest and TPP), allowing them to effortlessly exchange data and information. The development of applications that then consume the data (use or view the information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how they can best use this data to support their patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
+We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS, Vision, Microtest and TPP), allowing them to exchange data effortlessly. The development of applications that then consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how it can best use the data to support its patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
 
 ## Business drivers ##
 
@@ -41,7 +41,20 @@ Supporting improved access to general practice by:
 
 ## Capabilities ##
 
-rewrite this bit A capability is an area of focus for the GP Connect APIs. There are several [initial capabilities defined](overview_priority_capabilities.html).
+A capability uses GP Connect APIs to focus on a particular area of general practice. Capabilities are organised within 'capability packs', which include:
+
+ - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
+ - Appointment Management - enable end users to book and manage GP practice appointments held in any of the four GP principal practice systems
+ - Access Record HTML
+ - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
+ - Task Management
+ - Unstructured Writeback
+
+HTML re are several [initial capabilities defined](overview_priority_capabilities.html).
+
+## GP Connect Model ##
+
+space for image
 
 ## Pathways ##
 
