@@ -54,7 +54,7 @@ HTML re are several [initial capabilities defined](overview_priority_capabilitie
 
 ## GP Connect Model ##
 
-{% include GP Connect Model.html %}
+[![Img](images/overview/GP Connect Model.png)]
 
 ## Pathways ##
 
