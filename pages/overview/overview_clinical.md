@@ -29,7 +29,7 @@ This GitHub repository contains everything you need to know to develop using GP 
 
 ## Capabilities ##
 
-The GP Connect APIs are managed within 'capabilities' that focus on a particular area of general practice. Capabilities are organised within 'capability packs', which include:
+The GP Connect APIs are managed within 'capabilities' that focus on a particular area of general practice interoperability. Capabilities are organised within 'capability packs', which include:
 
  - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
  - Appointment Management - enable end users to book and manage GP practice appointments held in any of the four GP principal practice systems
