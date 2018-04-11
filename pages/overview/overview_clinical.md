@@ -8,9 +8,16 @@ toc: false
 summary: What is GP Connect?
 ---
 
-GP Connect is a national interoperabilty programme that aims to open up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are. 
+GP Connect is a national interoperabilty programme that's opening up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are. 
 
-We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS Web, INPS Vision, Microtest Open Evolution and TPP SystmOne), allowing them to exchange data seamlessly. The development of applications that then consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations, which means they can choose the system that best meets their own needs, without having to worry about issues related to interoperability. This will allow the local organisation to decide how it can best use the data to support its patients, clinicians and other staff, while ensuring the appropriate safety and governance measures are in place.
+We’re developing a set of application programming interfaces (APIs) that will seamlessly connect the four main provider systems:
+
+-   EMIS Web
+-   INPS Vision
+-   Microtest Open Evolution
+-   TPP SystmOne
+
+The development of applications that then consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations, which means they can choose the systems that best meets their own needs, without having to worry about issues related to interoperability. They decide the best way to use the data to support its patients, clinicians and other staff (while ensuring the appropriate safety and governance measures are in place).
 
 ## GP Connect model ##
 
@@ -27,7 +34,7 @@ The GP Connect APIs are managed within 'capabilities' that focus on a particular
  - Task Management - allows care professionals to send task requests to other teams  
  - Unstructured Writeback - 
  
- ## Development pathways ##
+## Development pathways ##
 
 This GitHub repository contains everything you need to know to develop using GP Connect APIs. To make it easier to naviagate your way through the site, we've devised four pathways:
 
