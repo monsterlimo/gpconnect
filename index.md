@@ -59,26 +59,13 @@ This GitHub repository contains all the technical resources you need to connect 
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Commissioning pathway</h4>
+                     <h4>End-user pathway</h4>
                      <p align="left">Commission supplier to build an app that consumes GP data using GP Connect APIs</p>
-                     <a href="overview_commissioning_pathway.html" class="btn btn-primary">Learn more</a>
+                     <a href="end-user_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
          </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body" align="left">
-                     <h4>Deploy-only pathway</h4>
-                     <p align="left">Deploy existing app (for a GP federation or similar) that consumes GP data using GP Connect APIs</p>
-                     <a href="overview_deploy_only_pathway.html" class="btn btn-primary">Learn more</a>
-                 </div>
-             </div>
+         </div>
          </div>
 </div>
 
