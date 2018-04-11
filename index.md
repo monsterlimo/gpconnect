@@ -17,7 +17,7 @@ GP Connect aims to support better clinical care by opening up information and da
 This GitHub repository contains all the technical resources you need to connect between clinical systems and GP data using our FHIR&reg; APIs. For a high-level introduction, see the [Clinical overview](overview_clinical.html). To continue on your development journey, follow the relevant pathway.
 
 <div class="row">
-         <div class="col-lg-12">
+         <div class="col-lg-60">
              <h2 class="page-header">Development pathways:</h2>     
                                     </div>
          <div class="col-md-3 col-sm-6">
