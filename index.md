@@ -18,7 +18,7 @@ This GitHub repository contains all the technical resources you need to connect 
 
 <div class="row">
          <div class="col-lg-12">
-             <h2 class="page-header">Pathways:</h2>     
+             <h2 class="page-header">Development pathways:</h2>     
                                     </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
