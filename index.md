@@ -60,12 +60,15 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>End-user pathway</h4>
-                     <p align="left">Commission supplier to build an app that consumes GP data using GP Connect APIs</p>
+                     <p align="left">You are a CCG with GP practices organised in a federation, club or hub; you are a hospital or provider of emergency care.</p>
+                              <p align="left">You would like to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider.</p>
                      <a href="end-user_pathway.html" class="btn btn-primary">Learn more</a>
                                      </div>
          </div>
          </div>
 </div>
+     
+    
      
 {% include important.html content="This site is under active development by the GP Connect team and is intended to provide all the technical resources you need to successfully develop GP Connect provider APIs or consuming applications. Some areas are being formulated and iterative updates to content will be added on a regular basis. See our GitHub [releases page](https://github.com/nhsconnect/gpconnect/releases) for more information." %}
 
