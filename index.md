@@ -62,8 +62,7 @@ This GitHub repository contains all the technical resources you need to connect 
                      <h4>End-user pathway</h4>
                      <p align="left">Commission supplier to build an app that consumes GP data using GP Connect APIs</p>
                      <a href="end-user_pathway.html" class="btn btn-primary">Learn more</a>
-                              </div>
-         </div>
+                                     </div>
          </div>
          </div>
 </div>
