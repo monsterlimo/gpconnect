@@ -18,12 +18,30 @@ The development of applications that then consume the data (allowing people to u
 
 ![Img](images/overview/GP Connect Model.png)
 
+## Benefits of GP Connect ##
+
+**Clinical**
+-   real-time access to patients' records to allow clinicians access to the right information, at the right time to help make the right decisions
+
+**Patient/carer**
+-   increased access opportunities (such as ability to access an appointment anywhere within a federation/hub)
+-   improved patient experience and satisfaction
+
+**Administrative**
+-   ability to book or cancel appointments and send tasks or notifications within a local geography across federations/hubs
+ 
+**Management**
+-   ability to understand appointment capacity across federated practices, providing single points of access for patients to book -  meaning more efficient access to services, better resource planning, and improved reporting data
+
+**Technical**
+-   first nationally-defined, standards-based step on the interoperability journey for GP systems
+
 ## Capabilities ##
 
 The GP Connect APIs are managed within 'capabilities' that focus on a particular area of general practice interoperability. Capabilities are organised within 'capability packs', which include:
 
  - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
- - Appointment Management - enable end users to book and manage GP practice appointments held in any of the four GP principal practice systems
+ - Appointment Management - enables end users to book and manage GP practice appointments held in any of the four GP principal practice systems
  - Access Record HTML - provides health professionals with access to a patient’s primary care record by requesting sections or headings
  - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
  - Task Management - allows care professionals to send task requests to other teams  
@@ -41,24 +59,6 @@ This GitHub repository contains everything you need to know to develop using GP 
 | [Deploy-only pathway](http://gpconnect-specrestructure.netlify.com/overview_deploy_only_pathway.html)  | You're deploying an app to consume GP data on behalf of a GP federation/hub or similar.  |   
 
 See [Priority capabilities for GP Connect](overview_priority_capabilities.html) for the currently available capabilities.
-
-## Benefits ##
-
-- Clinical
-  - real-time access to patients' records to allow clinicians access to the right information, at the right time to help make the right decisions
-
-- Patient/carer
-  - increase access opportunities (such as ability to access an appointment anywhere within the federation/hub)
-  - improved patient experience and satisfaction
-
-- Administrative
-  - ability to book or cancel appointments and send tasks or notifications within a local geography across federations/hubs
- 
-- Management
-  - ability to understand appointment capacity across federated practices, providing single points of access for patients to book -  meaning more efficient access to services, better resource planning, and improved reporting data
-
-- Technical
-  - first nationally defined, standards-based step on the interoperability journey for GP systems
 
 ## Business drivers ##
 
