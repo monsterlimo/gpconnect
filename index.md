@@ -23,7 +23,7 @@ This GitHub repository contains all the technical resources you need to connect 
          <div class="col-6 col-md-4">
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
+                     <span class="fa-stack fa-7x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
                            <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
                      </span>
@@ -38,7 +38,7 @@ This GitHub repository contains all the technical resources you need to connect 
             <div class="col-6 col-md-4">
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
+                     <span class="fa-stack fa-7x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
                            <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                      </span>
@@ -53,9 +53,9 @@ This GitHub repository contains all the technical resources you need to connect 
             <div class="col-6 col-md-4">
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
+                     <span class="fa-stack fa-7x">
                            <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-hand-o-right fa-stack-1x fa-inverse"></i>
+                           <i class="fa fa-user-md fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
                  <div class="panel-body" align="left">
