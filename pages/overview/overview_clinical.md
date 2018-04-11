@@ -1,7 +1,7 @@
 ---
 title: Clinical overview
-keywords: homepage
-tags: [clinical; overview]
+keywords: clinical, overview
+tags: [clinical, overview]
 sidebar: overview_sidebar
 permalink: overview_clinical.html
 toc: false
