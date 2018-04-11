@@ -10,22 +10,11 @@ summary: What is GP Connect?
 
 GP Connect aims to open up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are.
 
-We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS, Vision, Microtest and TPP), allowing them to exchange data effortlessly. The development of applications that then consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how it can best use the data to support its patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
+We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS Web, INPS Vision, Microtest Open Evolution and TPP SystmOne), allowing them to exchange data effortlessly. The development of applications that then consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how it can best use the data to support its patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
 
 ## GP Connect model ##
 
 ![Img](images/overview/GP Connect Model.png)
-
-## Development pathways ##
-
-This GitHub repository contains everything you need to know to develop using GP Connect APIs. To make it easier to naviagate your way through the site, we've devised four pathways:
-
-| Pathway  | Follow if...  |   
-|---|---|
-| [Consumer pathway](http://gpconnect-specrestructure.netlify.com/overview_consumer_pathway.html)  | You're developing an app that's going to consume data from GP clinical systems.  |   
-| [Provider pathway](http://gpconnect-specrestructure.netlify.com/overview_provider_pathway.html)  | You're making data available to share from a GP clinical system.  |   
-| [Commissioning pathway](http://gpconnect-specrestructure.netlify.com/overview_commissioning_pathway.html)  | You're commissioning a supplier to build a consuming app.  |   
-| [Deploy-only pathway](http://gpconnect-specrestructure.netlify.com/overview_deploy_only_pathway.html)  | You're deploying an app to consume GP data on behalf of a GP federation/hub or similar.  |   
 
 ## Capabilities ##
 
@@ -37,6 +26,17 @@ The GP Connect APIs are managed within 'capabilities' that focus on a particular
  - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
  - Task Management - allows care professionals to send task requests to other teams  
  - Unstructured Writeback - 
+ 
+ ## Development pathways ##
+
+This GitHub repository contains everything you need to know to develop using GP Connect APIs. To make it easier to naviagate your way through the site, we've devised four pathways:
+
+| Pathway  | Follow if...  |   
+|---|---|
+| [Consumer pathway](http://gpconnect-specrestructure.netlify.com/overview_consumer_pathway.html)  | You're developing an app that's going to consume data from GP clinical systems.  |   
+| [Provider pathway](http://gpconnect-specrestructure.netlify.com/overview_provider_pathway.html)  | You're making data available to share from a GP clinical system.  |   
+| [Commissioning pathway](http://gpconnect-specrestructure.netlify.com/overview_commissioning_pathway.html)  | You're commissioning a supplier to build a consuming app.  |   
+| [Deploy-only pathway](http://gpconnect-specrestructure.netlify.com/overview_deploy_only_pathway.html)  | You're deploying an app to consume GP data on behalf of a GP federation/hub or similar.  |   
 
 See [Priority capabilities for GP Connect](overview_priority_capabilities.html) for the currently available capabilities.
 
