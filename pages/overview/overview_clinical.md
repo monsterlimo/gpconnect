@@ -8,9 +8,9 @@ toc: false
 summary: What is GP Connect?
 ---
 
-GP Connect aims to open up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are.
+GP Connect is a national interoperabilty programme that aims to open up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are. 
 
-We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS Web, INPS Vision, Microtest Open Evolution and TPP SystmOne), allowing them to exchange data effortlessly. The development of applications that then consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations. This will allow the local organisation to decide how it can best use the data to support its patients, clinicians and other staff, ensuring the appropriate safety and governance measures are in place.
+We’re developing a set of application programming interfaces (APIs) that connect the four main provider systems (EMIS Web, INPS Vision, Microtest Open Evolution and TPP SystmOne), allowing them to exchange data seamlessly. The development of applications that then consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations, which means they can choose the system that best meets their own needs, without having to worry about issues related to interoperability. This will allow the local organisation to decide how it can best use the data to support its patients, clinicians and other staff, while ensuring the appropriate safety and governance measures are in place.
 
 ## GP Connect model ##
 
