@@ -20,6 +20,22 @@ This GitHub repository contains all the technical resources you need to connect 
          <div class="col-lg-12">
              <h2 class="page-header">Development pathways:</h2>     
                                     </div>
+                <div class="col-6 col-md-4">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
+                           <i class="fa fa-user-md fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body" align="left">
+                     <h4>End-user pathway</h4>
+                     <p align="left">You're a CCG with GP practices organised in a federation, club or hub; you're a hospital or provider of emergency care.</p>
+                              <p align="left">You want to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider to improve direct patient care.</p>
+                     <a href="end_user_pathway.html" class="btn btn-primary">Learn more</a>
+                                     </div>
+         </div>
+         </div>
          <div class="col-6 col-md-4">
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
@@ -52,22 +68,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
              </div>
          </div>
-            <div class="col-6 col-md-4">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-user-md fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body" align="left">
-                     <h4>End-user pathway</h4>
-                     <p align="left">You're a CCG with GP practices organised in a federation, club or hub; you're a hospital or provider of emergency care.</p>
-                              <p align="left">You want to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider to improve direct patient care.</p>
-                     <a href="end_user_pathway.html" class="btn btn-primary">Learn more</a>
-                                     </div>
-         </div>
-         </div>
+            
 </div>
      
 {% include important.html content="This site is under active development by the GP Connect team and is intended to provide all the technical resources you need to successfully develop GP Connect provider APIs or consuming applications. Some areas are being formulated and iterative updates to content will be added on a regular basis. See our GitHub [releases page](https://github.com/nhsconnect/gpconnect/releases) for more information." %}
