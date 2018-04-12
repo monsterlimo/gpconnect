@@ -32,7 +32,7 @@ This GitHub repository contains all the technical resources you need to connect 
                      <h4>End-user pathway</h4>
                      <p align="left">You're a CCG with GP practices organised in a federation, club or hub; you're a hospital or provider of emergency care.</p>
                               <p align="left">You want to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider to improve direct patient care.</p>
-                     <a href="end_user_pathway.html" class="btn btn-primary">Learn more</a>
+                     <a href="overview_end_user_pathway.html" class="btn btn-primary">Learn more</a>
                                      </div>
          </div>
          </div>
