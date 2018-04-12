@@ -30,8 +30,8 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                       <h4>Consumer pathway</h4>
-                         <p align="left">You are a software development company already working with the NHS or would like to work with the NHS. You have checked that you comply with IG requirements.</p>
-                         <p align="left">You want to develop an app that consumes GP data using GP Connect APIs.</p>
+                         <p align="left">You're a software development company already working with the NHS or would like to work with the NHS. You have checked that you comply with IG requirements.</p>
+                         <p align="left">You want to use GP Connect to develop a service (API) to consume GP data.  You have identified a suitable end user organisation.</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -46,8 +46,8 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Provider pathway</h4>
-                         <p align="left">You are a GP Clinical Data Provider.</p>
-                     <p align="left">You want to develop open APIs for GP system in accordance with NHS Digital specifications.</p>
+                         <p align="left">You're a GP clinical data provider.</p>
+                     <p align="left">You want to use GP Connect to develop a way of allowing other systems to access GP data on your system for direct patient care.</p>
                      <a href="overview_provider_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -62,8 +62,8 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>End-user pathway</h4>
-                     <p align="left">You are a CCG with GP practices organised in a federation, club or hub; you are a hospital or provider of emergency care.</p>
-                              <p align="left">You would like to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider.</p>
+                     <p align="left">You're a CCG with GP practices organised in a federation, club or hub; you're a hospital or provider of emergency care.</p>
+                              <p align="left">You want to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider to improve direct patient care.</p>
                      <a href="end_user_pathway.html" class="btn btn-primary">Learn more</a>
                                      </div>
          </div>
