@@ -47,7 +47,7 @@ This GitHub repository contains all the technical resources you need to connect 
                  <div class="panel-body" align="left">
                       <h4>Consumer pathway</h4>
                          <p align="left">You're a software development company already working with the NHS or would like to work with the NHS. You have checked that you comply with IG requirements.</p>
-                         <p align="left">You want to use GP Connect to develop a service (API) to consume GP data.  You have identified a suitable end user organisation.</p>
+                         <p align="left">You want to use GP Connect to develop a service (API) to consume GP data.  You intend to work with a suitable end-user organisation, which you may or not have already identified.</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
