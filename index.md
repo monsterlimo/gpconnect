@@ -30,7 +30,8 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                       <h4>Consumer pathway</h4>
-                         <p align="left">Develop an app that consumes GP data using GP Connect APIs</p>
+                         <p align="left">You are a software development company already working with the NHS or would like to work with the NHS. You have checked that you comply with IG requirements.</p>
+                         <p align="left">You want to develop an app that consumes GP data using GP Connect APIs.</p>
                      <a href="overview_consumer_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
@@ -45,7 +46,8 @@ This GitHub repository contains all the technical resources you need to connect 
                  </div>
                  <div class="panel-body" align="left">
                      <h4>Provider pathway</h4>
-                     <p align="left">Develop open APIs for GP system in accordance with NHS Digital specifications</p>
+                         <p align="left">You are a GP Clinical Data Provider.</p>
+                     <p align="left">You want to develop open APIs for GP system in accordance with NHS Digital specifications.</p>
                      <a href="overview_provider_pathway.html" class="btn btn-primary">Learn more</a>
                  </div>
              </div>
