@@ -13,18 +13,15 @@ entries:
     - title: Clinical overview
       url: /overview_clinical.html
       output: web
+    - title: End-user pathway
+      url: /overview_end_user_pathway.html
+      output: web  
     - title: Consumer pathway
       url: /overview_consumer_pathway.html
       output: web
     - title: Provider pathway
       url: /overview_provider_pathway.html
-      output: web       
-    - title: Commissioning pathway
-      url: /overview_commissioning_pathway.html
-      output: web
-    - title: Deploy-only pathway
-      url: /overview_deploy_only_pathway.html
-      output: web
+      output: web         
     - title: Specification versions
       url: /overview_specification_versions.html
       output: web, pdf
