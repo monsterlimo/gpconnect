@@ -53,10 +53,12 @@ This GitHub repository contains everything you need to know to develop using GP 
 
 | Pathway  | Follow if...  |   
 |---|---|
-| [Consumer pathway](http://gpconnect-specrestructure.netlify.com/overview_consumer_pathway.html)  | You're developing an app that's going to consume data from GP clinical systems.  |   
-| [Provider pathway](http://gpconnect-specrestructure.netlify.com/overview_provider_pathway.html)  | You're making data available to share from a GP clinical system.  |   
-| [Commissioning pathway](http://gpconnect-specrestructure.netlify.com/overview_commissioning_pathway.html)  | You're commissioning a supplier to build a consuming app.  |   
-| [Deploy-only pathway](http://gpconnect-specrestructure.netlify.com/overview_deploy_only_pathway.html)  | You're deploying an app to consume GP data on behalf of a GP federation/hub or similar.  |   
+| [End-user pathway](http://gpconnect-specrestructure.netlify.com/overview_end_user_pathway.html)  | <p>You're a CCG with GP practices organised in a federation, club or hub; you're a hospital or provider of emergency care.</p>
+<p>You want to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider to improve direct patient care.</p>  | 
+| [Consumer pathway](http://gpconnect-specrestructure.netlify.com/overview_consumer_pathway.html)  | <p>You're a software development company already working with the NHS or would like to work with the NHS. You have checked that you comply with IG requirements.</p>
+<p>You want to use GP Connect to develop a service (API) to consume GP data. You intend to work with a suitable end-user organisation, which you may or not have already identified.</p>  |   
+| [Provider pathway](http://gpconnect-specrestructure.netlify.com/overview_provider_pathway.html)  | <p>You're a GP clinical data provider.</p>
+<p>You want to use GP Connect to develop a way of allowing other systems to access GP data on your system for direct patient care.</p>  |  
 
 See [Priority capabilities for GP Connect](overview_priority_capabilities.html) for the currently available capabilities.
 
