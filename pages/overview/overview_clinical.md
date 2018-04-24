@@ -36,17 +36,6 @@ The development of applications that consume the data (allowing people to use or
 **Technical**
 -   first nationally-defined, standards-based step on the interoperability journey for GP systems
 
-## Capabilities ##
-
-The GP Connect APIs are managed within 'capabilities' that focus on a particular area of general practice interoperability. Capabilities are organised within 'capability packs', which include:
-
- - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
- - Appointment Management - enables end users to book and manage GP practice appointments held in any of the four GP principal practice systems
- - Access Record HTML - provides health professionals with access to a patient’s primary care record by requesting sections or headings
- - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
- - Task Management - allows care professionals to send task requests to other teams  
- - Unstructured Writeback - 
- 
 ## Development pathways ##
 
 This GitHub repository contains everything you need to know to develop using GP Connect APIs. To make it easier to naviagate your way through the site, we've devised four pathways:
@@ -76,6 +65,14 @@ Supporting improved access to general practice by:
 - [NHS England General Practice Five Year Forward View](https://www.england.nhs.uk/gp/gpfv/)
   - Greater collaboration and sharing of information through IT system interoperability across the health and care system
 
+## Capabilities ##
 
+The GP Connect APIs are managed within 'capabilities' that focus on a particular area of general practice interoperability. Capabilities are organised within 'capability packs', which include:
 
+ - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
+ - Appointment Management - enables end users to book and manage GP practice appointments held in any of the four GP principal practice systems
+ - Access Record HTML - provides health professionals with access to a patient’s primary care record by requesting sections or headings
+ - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
+ - Task Management - allows care professionals to send task requests to other teams  
+ - Unstructured Writeback - 
 
