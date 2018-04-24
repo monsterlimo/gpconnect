@@ -36,17 +36,16 @@ The development of applications that consume the data (allowing people to use or
 **Technical**
 -   first nationally-defined, standards-based step on the interoperability journey for GP systems
 
-## Development pathways ##
+## Capabilities ##
 
-This GitHub repository contains everything you need to know to develop using GP Connect APIs. To make it easier to naviagate your way through the site, we've devised four pathways:
+The GP Connect APIs are managed within 'capabilities' that focus on a particular area of general practice interoperability. Capabilities are organised within 'capability packs', which include:
 
-| Pathway  | Follow if...  |   
-|---|---|
-| [End-user pathway](http://gpconnect-specrestructure.netlify.com/overview_end_user_pathway.html)  | You're a CCG with GP practices organised in a federation, club or hub; you're a hospital or provider of emergency care. You want to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider to improve direct patient care.  | 
-| [Consumer pathway](http://gpconnect-specrestructure.netlify.com/overview_consumer_pathway.html)  | You're a software development company already working with the NHS or would like to work with the NHS. You have checked that you comply with IG requirements. You want to use GP Connect to develop a service (API) to consume GP data. You intend to work with a suitable end-user organisation, which you may or not have already identified.  |   
-| [Provider pathway](http://gpconnect-specrestructure.netlify.com/overview_provider_pathway.html)  | You're a GP clinical data provider. You want to use GP Connect to develop a way of allowing other systems to access GP data on your system for direct patient care.  |  
-
-See [Priority capabilities for GP Connect](overview_priority_capabilities.html) for the currently available capabilities.
+ - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
+ - Appointment Management - enables end users to book and manage GP practice appointments held in any of the four GP principal practice systems
+ - Access Record HTML - provides health professionals with access to a patient’s primary care record by requesting sections or headings
+ - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
+ - Task Management - allows care professionals to send task requests to other teams  
+ - Unstructured Writeback - 
 
 ## Business drivers ##
 
@@ -65,14 +64,15 @@ Supporting improved access to general practice by:
 - [NHS England General Practice Five Year Forward View](https://www.england.nhs.uk/gp/gpfv/)
   - Greater collaboration and sharing of information through IT system interoperability across the health and care system
 
-## Capabilities ##
+## Development pathways ##
 
-The GP Connect APIs are managed within 'capabilities' that focus on a particular area of general practice interoperability. Capabilities are organised within 'capability packs', which include:
+This GitHub repository contains everything you need to know to develop using GP Connect APIs. To make it easier to naviagate your way through the site, we've devised four pathways:
 
- - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
- - Appointment Management - enables end users to book and manage GP practice appointments held in any of the four GP principal practice systems
- - Access Record HTML - provides health professionals with access to a patient’s primary care record by requesting sections or headings
- - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
- - Task Management - allows care professionals to send task requests to other teams  
- - Unstructured Writeback - 
+| Pathway  | Follow if...  |   
+|---|---|
+| [End-user pathway](http://gpconnect-specrestructure.netlify.com/overview_end_user_pathway.html)  | You're a CCG with GP practices organised in a federation, club or hub; you're a hospital or provider of emergency care. You want to use an existing GP Connect service (API) - or commission someone to create a new one - to access GP data from more than one GP clinical data provider to improve direct patient care.  | 
+| [Consumer pathway](http://gpconnect-specrestructure.netlify.com/overview_consumer_pathway.html)  | You're a software development company already working with the NHS or would like to work with the NHS. You have checked that you comply with IG requirements. You want to use GP Connect to develop a service (API) to consume GP data. You intend to work with a suitable end-user organisation, which you may or not have already identified.  |   
+| [Provider pathway](http://gpconnect-specrestructure.netlify.com/overview_provider_pathway.html)  | You're a GP clinical data provider. You want to use GP Connect to develop a way of allowing other systems to access GP data on your system for direct patient care.  |  
+
+See [Priority capabilities for GP Connect](overview_priority_capabilities.html) for the currently available capabilities.
 
