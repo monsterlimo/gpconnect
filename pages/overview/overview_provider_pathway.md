@@ -6,7 +6,8 @@ sidebar: overview_sidebar
 permalink: overview_provider_pathway.html
 ---
 
-Follow this pathway if you're a GP clinical data provider (such as EMIS Health, INPS Vision,  Microtest Health, TPP) and you want to use GP Connect to develop a way of allowing other systems to access GP data on your system for direct patient care.
+Follow this pathway if you're a GP clinical data provider (such as EMIS Health, INPS Vision,  Microtest Health, TPP) and you want to use GP Connect to develop a way of allowing other systems to access GP data on your system for direct patient care:
+</br>
 
 -   Prerequisites
 -   TOM
@@ -38,6 +39,7 @@ Follow this pathway if you're a GP clinical data provider (such as EMIS Health, 
 -   [Test and assure](overview_test_and_assurance.html)     
     - read about [provider testing](testing_api_provider_testing.html)
 
+</br>
 Our provider ecosystem shows you each stage of a typical GP Connect API project:
 
 ![Img](images/overview/API_Ecosystem_Diagram_Provider.png)
