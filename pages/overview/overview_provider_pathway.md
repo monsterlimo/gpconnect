@@ -37,7 +37,7 @@ AND
       - configure HTTPS and TLS/MA - [security guidance](development_api_security_guidance.html) allows you to secure and mutually authenticate your service with the Spine (which refers to two parties authenticating each other at the same time)
     - use the [development cheat sheet](development_deliverables.html)
 -   [Test and assure](overview_test_and_assurance.html)     
-    - read about [provider testing]testing_api_provider_testing.html
+    - read about [provider testing](testing_api_provider_testing.html)
 
 Our provider ecosystem shows you each stage of a typical GP Connect API project:
 
