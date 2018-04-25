@@ -16,20 +16,20 @@ Follow this pathway if you're:
 
 **AND**
 
--   If you want to use an *existing GP Connect service* to access GP data from more than one GP clinical data provider to improve direct patient care, start at Step 1.
+-   you want to use an *existing GP Connect service* to access GP data from more than one GP clinical data provider to improve direct patient care
 
--   If you want to commission a supplier to *build an new service* to access GP data (through GP Connect) from more than one GP clinical data provider to improve direct patient care, start at Step 2.
+**OR**
+
+-   you want to commission a supplier to *build an new service* to access GP data (through GP Connect) from more than one GP clinical data provider to improve direct patient care
 <br/> 
 <br/> 
 
-**Step 1** See the [prerequisites]() for using an existing GP Connect service. 
-**Step 2** [Target operating model (TOM)]()
-**Step 3** [Solutions assurance]()
-**Step 4** [Clinical safety]()
-**Step 5** [Information governance]()
-**Step 6** [Agreements]()
-
-Now 
+-   see the [prerequisites]() for using an existing GP Connect service. 
+-   [Target operating model (TOM)]()
+-   [Solutions assurance]()
+-   [Clinical safety]()
+-   [Information governance]()
+-   [Agreements]()
 -   [Get started](overview_provider_pathway.html)
     - read about the [GP Connect priority capabilities](overview_priority_capabilities.html)
     - look through the design decisions made so far in relation to each capability pack:[Foundations](foundations_design.html), [Access Record Structured](accessrecord_structured_design.html), [Appointment Management](appointments_design.html)
