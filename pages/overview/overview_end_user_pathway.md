@@ -22,7 +22,6 @@ OR
 
 > you want to commission a supplier to *build an new service* to access GP data (through GP Connect) from more than one GP clinical data provider to improve direct patient care
 <br/> 
-<br/> 
 
 -   meet the [prerequisites]() for using an existing GP Connect service 
 -   create a [target operating model (TOM)]()
