@@ -6,9 +6,14 @@ sidebar: overview_sidebar
 permalink: overview_end_user_pathway.html
 ---
 
-<div style="font-size:3em; color:Tomato">
-  <i class="fas fa-camera-retro"></i>
-</div> Follow this pathway if you're:
+                 <div class="panel-heading">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
+                           <i class="fa fa-user-md fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 
+Follow this pathway if you're:
 
 > a CCG with GP practices organised in a federation, club or hub
 
