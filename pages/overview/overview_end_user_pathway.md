@@ -10,21 +10,21 @@ Follow this pathway if you're:
 
 -   a CCG with GP practices organised in a federation, club or hub
 
-**OR**
+OR
 
 -   a hospital or provider of emergency care
 
-**AND**
+AND
 
 -   you want to use an *existing GP Connect service* to access GP data from more than one GP clinical data provider to improve direct patient care
 
-**OR**
+OR
 
 -   you want to commission a supplier to *build an new service* to access GP data (through GP Connect) from more than one GP clinical data provider to improve direct patient care
 <br/> 
 <br/> 
 
--   see the [prerequisites]() for using an existing GP Connect service. 
+-   See the [prerequisites]() for using an existing GP Connect service. 
 -   [Target operating model (TOM)]()
 -   [Solutions assurance]()
 -   [Clinical safety]()
