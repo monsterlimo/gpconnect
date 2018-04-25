@@ -8,19 +8,19 @@ permalink: overview_end_user_pathway.html
 
 Follow this pathway if you're:
 
--   a CCG with GP practices organised in a federation, club or hub
+> a CCG with GP practices organised in a federation, club or hub
 
 OR
 
--   a hospital or provider of emergency care
+> a hospital or provider of emergency care
 
 AND
 
--   you want to use an *existing GP Connect service* to access GP data from more than one GP clinical data provider to improve direct patient care
+> you want to use an *existing GP Connect service* to access GP data from more than one GP clinical data provider to improve direct patient care
 
 OR
 
--   you want to commission a supplier to *build an new service* to access GP data (through GP Connect) from more than one GP clinical data provider to improve direct patient care
+> you want to commission a supplier to *build an new service* to access GP data (through GP Connect) from more than one GP clinical data provider to improve direct patient care
 <br/> 
 <br/> 
 
