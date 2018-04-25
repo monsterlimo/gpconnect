@@ -6,12 +6,7 @@ sidebar: overview_sidebar
 permalink: overview_end_user_pathway.html
 ---
 
-                 <div class="panel-heading">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary" style="color:#005EB8"></i>
-                           <i class="fa fa-user-md fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
+<i class="fas fa-camera-retro">         
                  
 Follow this pathway if you're:
 
