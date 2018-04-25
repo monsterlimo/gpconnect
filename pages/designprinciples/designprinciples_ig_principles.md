@@ -10,7 +10,7 @@ summary: "High-level principles related to information governance (IG) of data w
 
 {% include important.html content="The principles below have been discussed and agreed in workshops with the GP principal providers and NHS Digital IG stakeholders.<br/><br/>
 The detailed requirements supporting these will be available as part of the provider development, consumer development and assurance documentation published within this specification.<br/><br/>
-Review and agreement as to IG model changes (to accommodate additional capabilities and use cases) is ongoing and will take into account any potential changes arising from the General Data Protection Regulation (GDPR) and other strategic projects in this arena. The programme privacy impact assessment is currently under review and will be updated accordingly.
+Review and agreement as to IG model changes (to accommodate additional capabilities and use cases) is ongoing and will take into account any potential changes arising from the General Data Protection Regulation (GDPR) and other strategic projects in this arena. The programme privacy impact assessment is currently under review and will be updated accordingly.  Specifications may evolve to meet changing health and care standards, legal frameworks and patient reasonable and informed expectation.
 " %}
 
 
@@ -32,7 +32,7 @@ Review and agreement as to IG model changes (to accommodate additional capabilit
   - user authentication 
   - user authorisation
 
-- Consuming Organisations must seek explicit consent from the Patient for use of any GP Connect service; in scenarios where the patient is not present, for example a referral to an outpatient clinic where it would be reasonable to review the GP record prior to the appointment, access to the record can be made based on a Legitimate Relationship with the patient, subject to Data-Sharing agreement and absence of Provider System Patient Dissent to share indicator
+- Consuming Organisations must seek permission to view from the Patient for any information supplied via a GP Connect service; in scenarios where the patient is not present, for example a referral to an outpatient clinic where it would be reasonable to review the GP record prior to the appointment, access to the record can be made based on a Legitimate Relationship with the patient, subject to Data-Sharing agreement and absence of Provider System Patient Dissent to share indicator
 
 - the presence of any local patient dissent to share flag within a GP Practice system must be implemented when accessing the patient medical record and cannot be overridden by consent given at the point of care; this flag does not necessarily apply for other capabilities
 
