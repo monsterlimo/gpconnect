@@ -6,7 +6,9 @@ sidebar: overview_sidebar
 permalink: overview_end_user_pathway.html
 ---
 
-Follow this pathway if you're:
+<div style="font-size:3em; color:Tomato">
+  <i class="fas fa-camera-retro"></i>
+</div> Follow this pathway if you're:
 
 > a CCG with GP practices organised in a federation, club or hub
 
