@@ -5,11 +5,7 @@ tags: [commissioning, end-user]
 sidebar: overview_sidebar
 permalink: overview_end_user_pathway.html
 ---
-<div><i class="fas fa-home fa-fw" style="background:MistyRose"></i> Home</div>
-<div><i class="fas fa-info fa-fw" style="background:MistyRose"></i> Info</div>
-<div><i class="fas fa-book fa-fw" style="background:MistyRose"></i> Library</div>
-<div><i class="fas fa-pencil-alt fa-fw" style="background:MistyRose"></i> Applications</div>
-<div><i class="fas fa-cog fa-fw" style="background:MistyRose"></i> Settings</div>         
+
 Follow this pathway if you're:
 
 > a CCG with GP practices organised in a federation, club or hub
