@@ -23,12 +23,17 @@ OR
 > you want to commission a supplier to *build an new service* to access GP data (through GP Connect) from more than one GP clinical data provider to improve direct patient care
 <br/> 
 
+{Couple of lines here about enablement activities)
+
 -   meet the [prerequisites]() for using an existing GP Connect service 
 -   create a [target operating model (TOM)]()
 -   conduct [solutions assurance]() to check the intended usage for the clinical setting
 -   review [clinical safety]() issues
 -   ensure adherence to [information governance]() guidelines
 -   make [agreements]()
+
+(Line here about reading through and using the content on GitHub)
+
 -   [Get started](overview_provider_pathway.html)
     - read about the [GP Connect priority capabilities](overview_priority_capabilities.html)
     - look through the design decisions made so far in relation to each capability pack:[Foundations](foundations_design.html), [Access Record Structured](accessrecord_structured_design.html), [Appointment Management](appointments_design.html)
