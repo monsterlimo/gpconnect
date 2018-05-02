@@ -17,7 +17,6 @@ entries:
     - title: Getting involved with GP Connect
       url: /overview_first_of_type.html
       output: web, pdf
-      type: homepage
 
   - title: GP Connect capabilities
     output: web
@@ -25,52 +24,48 @@ entries:
     - title: GP Connect capabilities
       url: /overview_priority_capabilities.html
       output: web, pdf
-      type: homepage
     - title: Foundations
       url: /foundations.html
       output: web, pdf
-      type: homepage
     - title: Access Record HTML
       url: /accessrecord.html
       output: web, pdf
-      type: homepage
     - title: Appointment Management
       url: /appointments.html
       output: web, pdf
-      type: homepage
     - title: Access Record Structured
       url: /accessrecord_structured.html
       output: web, pdf
-      type: homepage
     - title: Write Back
       url: /accessrecord_structured.html
       output: web, pdf
-      type: homepage
     - title: Task Management
       url: /tasks.html
       output: web, pdf
-      type: homepage
 
   - title: Consumer supplier pathway
     output: web
     folderitems:
     - title: Getting started
       url: /overview_engage.html
-      output: web
-      type: homepage      
+      output: web  
     - title: Exploring GP Connect
       url: /overview_explore.html
-      output: web
-      type: homepage
-    - title: Developing with GP Connect
-      url: /overview_development.html
-      output: web
-    - title: Testing and assurance
-      url: /overview_test_and_assurance.html
-      output: web      
-    - title: Deployment
-      url: /overview_deployment.html
-      output: web         
+
+      subfolders:
+      - title: Exploring GP Connect
+        output: web
+        subfolderitems:
+
+        - title: Exploring GP Connect
+          url: /overview_explore.html
+          output: web  
+        - title: System demonstrator
+          url: /system_demonstrator.html
+          output: web
+        - title: Interactive API documentation
+          url: /system_swagger.html
+          output: web
 
   - title: Clinical system provider pathway
     output: web
@@ -78,11 +73,9 @@ entries:
     - title: Getting started
       url: /overview_engage.html
       output: web
-      type: homepage      
     - title: Exploring GP Connect
       url: /overview_explore.html
       output: web
-      type: homepage
     - title: Developing with GP Connect
       url: /overview_development.html
       output: web
@@ -98,14 +91,12 @@ entries:
     folderitems:
     - title: Target operating model
       url: /foundations_ig.html
-      output: web
-      type: homepage      
+      output: web   
     - title: Information governance
       url: /foundations_ig.html
       output: web
-      type: homepage
     - title: Implementation
       url: /development_fhir_api_guidance.html
       output: web
  
-  
+
