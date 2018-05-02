@@ -48,9 +48,10 @@ entries:
     folderitems:
     - title: Getting started
       url: /overview_engage.html
-      output: web  
+      output: web
     - title: Exploring GP Connect
-      url: /overview_engage.html
+      url: /overview_explore.html
+      output: web
     - title: Developing with GP Connect
       url: /overview_development.html
       output: web
@@ -59,7 +60,7 @@ entries:
       output: web      
     - title: Deployment
       url: /overview_deployment.html
-      output: web    
+      output: web      
 
   - title: Clinical system provider pathway
     output: web
