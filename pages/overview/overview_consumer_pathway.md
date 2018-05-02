@@ -1,5 +1,5 @@
 ---
-title: Consumer pathway
+title: Consumer supplier pathway
 keywords: consumer, pathway
 tags: [consumer]
 sidebar: overview_sidebar
