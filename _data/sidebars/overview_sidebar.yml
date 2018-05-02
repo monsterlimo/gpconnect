@@ -72,7 +72,7 @@ entries:
       url: /overview_deployment.html
       output: web         
 
-  - title: Clinical system supplier pathway
+  - title: Clinical system provider pathway
     output: web
     folderitems:
     - title: Getting started
