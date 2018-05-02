@@ -10,9 +10,6 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Clinical overview
-      url: /overview_clinical.html
-      output: web
     - title: End-user pathway
       url: /overview_end_user_pathway.html
       output: web  
