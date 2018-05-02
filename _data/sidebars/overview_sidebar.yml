@@ -111,7 +111,7 @@ entries:
           url: /overview_test_and_assurance.html
           output: web
         - Testing assets
-          url: /testing_deliverables.html
+          url: /overview_test_and_assurance.html
           output: web
         - Test environments
           url: /testing_environments.html
