@@ -20,7 +20,7 @@ The development of applications that consume the data (allowing people to use or
 
 ## GP Connect data model ##
 
-![Img](images/overview/GP Connect Model.png)
+![Img class="center"](images/overview/GP Connect Model.png)
 
 ## Benefits of GP Connect ##
 
