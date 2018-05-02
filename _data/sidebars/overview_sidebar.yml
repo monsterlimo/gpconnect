@@ -47,7 +47,7 @@ entries:
     output: web
     folderitems:
     - title: Pathway overview
-      url:/ overview_consumer_pathway.html
+      url: /overview_consumer_pathway.html
     - title: Getting started
       url: /overview_engage.html
       output: web
