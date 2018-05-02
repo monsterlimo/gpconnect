@@ -1,6 +1,6 @@
 ---
-title: Provider pathway
-keywords: provider, pathway
+title: Clinical system pathway
+keywords: clinical, provider, pathway
 tags: [provider]
 sidebar: overview_sidebar
 permalink: overview_provider_pathway.html
