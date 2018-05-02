@@ -111,7 +111,7 @@ To continue on your development journey, follow the relevant pathway:</p>
                      </span>
                  </div>
                  <div class="panel-body" align="left">
-                     <h4>Clinical system supplier</h4>
+                     <h4>Clinical system provider</h4>
                          <p align="left">You're a GP clinical data provider.</p>
                      <p align="left">You want to use GP Connect to develop a way of allowing other systems to access GP data on your system for direct patient care.</p>
                      <a href="overview_provider_pathway.html" class="btn btn-primary">Learn more</a>
