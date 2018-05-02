@@ -51,21 +51,15 @@ entries:
       output: web  
     - title: Exploring GP Connect
       url: /overview_explore.html
-
-      subfolders:
-      - title: Exploring GP Connect
-        output: web
-        subfolderitems:
-
-        - title: Exploring GP Connect
-          url: /overview_explore.html
-          output: web  
-        - title: System demonstrator
-          url: /system_demonstrator.html
-          output: web
-        - title: Interactive API documentation
-          url: /system_swagger.html
-          output: web
+    - title: Developing with GP Connect
+      url: /overview_development.html
+      output: web
+    - title: Testing and assurance
+      url: /overview_test_and_assurance.html
+      output: web      
+    - title: Deployment
+      url: /overview_deployment.html
+      output: web    
 
   - title: Clinical system provider pathway
     output: web
