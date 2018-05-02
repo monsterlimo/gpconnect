@@ -10,17 +10,44 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: End-user organisation pathway
-      url: /overview_end_user_pathway.html
-      output: web  
-    - title: Consumer supplier pathway
-      url: /overview_consumer_pathway.html
-      output: web
-    - title: Clinical system supplier pathway
-      url: /overview_provider_pathway.html
-      output: web         
-    - title: Specification versions
-      url: /overview_specification_versions.html
+
+  - title: Getting involved with GP Connect
+    output: web
+    folderitems:
+    - title: Getting involved with GP Connect
+      url: /overview_first_of_type.html
+      output: web, pdf
+      type: homepage
+
+  - title: GP Connect capabilities
+    output: web
+    folderitems:
+    - title: GP Connect capabilities
+      url: /overview_priority_capabilities.html
+      output: web, pdf
+      type: homepage
+    - title: Foundations
+      url: /foundations.html
+      output: web, pdf
+      type: homepage
+    - title: Access Record HTML
+      url: /accessrecord.html
+      output: web, pdf
+      type: homepage
+    - title: Appointment Management
+      url: /appointments.html
+      output: web, pdf
+      type: homepage
+    - title: Access Record Structured
+      url: /accessrecord_structured.html
+      output: web, pdf
+      type: homepage
+    - title: Write Back
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: Task Management
+      url: /tasks.html
       output: web, pdf
       type: homepage
       
