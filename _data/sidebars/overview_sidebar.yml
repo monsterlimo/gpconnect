@@ -10,13 +10,13 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: End-user pathway
+    - title: End-user organisation pathway
       url: /overview_end_user_pathway.html
       output: web  
-    - title: Consumer pathway
+    - title: Consumer supplier pathway
       url: /overview_consumer_pathway.html
       output: web
-    - title: Provider pathway
+    - title: Clinical system supplier pathway
       url: /overview_provider_pathway.html
       output: web         
     - title: Specification versions
