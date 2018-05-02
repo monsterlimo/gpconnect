@@ -12,37 +12,28 @@ summary: An introduction to the GP Connect FHIR® APIs
 [![Semver](http://img.shields.io/badge/semver-2.0.0-yellow.svg)](http://semver.org/spec/v2.0.0.html){:target="_blank" class="no_icon"} [![License](http://img.shields.io/:license-apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html){:target="_blank" class="no_icon"} 
 {% endcomment %}
 
-GP Connect aims to support better clinical care by opening up information and data held within GP practice IT systems for use across health and social care.
-
-This GitHub repository contains all the technical resources you need to connect between clinical systems and GP data using our FHIR&reg; APIs. 
-
 GP Connect is a national interoperabilty programme that's opening up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are. 
 
-We are developing a set of application programming interfaces (APIs) that will seamlessly connect the four main provider systems (EMIS Web, INPS Vision, Microtest Open Evolution and TPP SystmOne) and allow them to exchange data with ease.
+We're developing a set of application programming interfaces (APIs) that will seamlessly connect the four main provider systems (EMIS Web, INPS Vision, Microtest Open Evolution and TPP SystmOne) and allow them to exchange data with ease.
 
 The development of applications that consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations, which means they choose the system that best meets their needs and those of their patients (while, of course, ensuring that appropriate safety and governance measures are in place).
 
-## GP Connect model ##
+## GP Connect data model ##
 
 ![Img](images/overview/GP Connect Model.png)
 
 ## Benefits of GP Connect ##
 
-**Clinical**
--   real-time access to patients' records to allow clinicians access to the right information, at the right time to help make the right decisions
+-   **Clinical:** real-time access to patients' records to allow clinicians access to the right information, at the right time to help make the right decisions
 
-**Patient/carer**
--   increased access opportunities (such as ability to access an appointment anywhere within a federation/hub)
+-   **Patient/carer:** increased access opportunities (such as ability to access an appointment anywhere within a federation/hub)
 -   improved patient experience and satisfaction
 
-**Administrative**
--   ability to book or cancel appointments and send tasks or notifications within a local geography across federations/hubs
+-   **Administrative:** ability to book or cancel appointments and send tasks or notifications within a local geography across federations/hubs
  
-**Management**
--   ability to understand appointment capacity across federated practices, providing single points of access for patients to book -  meaning more efficient access to services, better resource planning, and improved reporting data
+-   **Management:** ability to understand appointment capacity across federated practices, providing single points of access for patients to book -  meaning more efficient access to services, better resource planning, and improved reporting data
 
-**Technical**
--   first nationally-defined, standards-based step on the interoperability journey for GP systems
+-   **Technical:** first nationally-defined, standards-based step on the interoperability journey for GP systems
 
 ## Capabilities ##
 
@@ -74,11 +65,10 @@ Supporting improved access to general practice by:
 
 ## Development pathways ##
 
-This GitHub repository contains everything you need to know to develop using GP Connect APIs. To make it easier to naviagate your way through the site, we've devised four pathways:
-
 <div class="row">
          <div class="col-lg-12">
-             <h2 class="page-header">Development pathways:</h2>     
+             <h2 class="page-header">Development pathways:</h2>  
+          <p align="left">This GitHub repository contains all the technical resources you need to connect between clinical systems and GP data using our FHIR&reg; APIs. To continue on your development journey, follow the relevant pathway:</p>
                                     </div>
                 <div class="col-6 col-md-4">
              <div class="panel panel-default text-center">
