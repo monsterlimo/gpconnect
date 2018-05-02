@@ -97,7 +97,7 @@ entries:
     output: web
     folderitems:
     - title: Target operating model
-      url: /index.html
+      url: /foundations_ig.html
       output: web
       type: homepage      
     - title: Information governance
