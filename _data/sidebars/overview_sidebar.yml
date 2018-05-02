@@ -50,7 +50,7 @@ entries:
       url: /overview_engage.html
       output: web  
     - title: Exploring GP Connect
-      url: /overview_explore.html
+      url: /overview_engage.html
     - title: Developing with GP Connect
       url: /overview_development.html
       output: web
