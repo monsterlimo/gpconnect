@@ -8,7 +8,9 @@ permalink: overview_engage.html
 summary: "Getting involved with GP Connect"
 ---
 
-GP Connect aims to support better clinical care by opening up information and data held within GP practice IT systems for use across health and social care. To get started:
+GP Connect aims to support better clinical care by opening up information and data held within GP practice IT systems for use across health and social care.
+
+To get started:
 
 - read about the GP Connect [capabilities](overview_priority_capabilities.html)
 - join our [First of Type pilot](overview_first_of_type.html)
