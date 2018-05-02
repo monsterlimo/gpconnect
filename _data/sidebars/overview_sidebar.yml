@@ -72,16 +72,13 @@ entries:
     - title: Pathway overview
       url: /overview_provider_pathway.html
       output: web
-    - title: Getting started
-      url: /overview_engage.html
-      output: web
-
+      
       subfolders:
-      - title: Release notes
+      - title: Getting started
         output: web
         subfolderitems:
-        - title: 1.2.0-beta
-          url: /overview_release_notes_1_2_0.html
+        - title: Getting started
+          url: /overview_engage.html
           output: web
       
     - title: Exploring GP Connect
