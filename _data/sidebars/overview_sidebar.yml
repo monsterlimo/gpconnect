@@ -112,7 +112,22 @@ entries:
           output: web               
         - title: Testing assets
           url: /testing_deliverables.html
-          output: web    
+          output: web        
+        - title: Test environments
+          url: /testing_environments.html
+          output: web
+        - title: Clinical system provider testing
+          url: /testing_api_provider_testing.html
+          output: web
+      - title: Deployment
+        output: web
+        subfolderitems:
+        - title: Deployment
+          url: /overview_deployment.html
+          output: web
+        - title: Integration with Spine
+          url: /integration_spine_security_proxy_implementation_guide.html
+          output: web          
                 
   - title: End-user organisation pathway
     output: web
