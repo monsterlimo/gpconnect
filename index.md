@@ -26,8 +26,7 @@ The development of applications that consume the data (allowing people to use or
 
 -   **Clinical:** real-time access to patients' records to allow clinicians access to the right information, at the right time to help make the right decisions
 
--   **Patient/carer:** increased access opportunities (such as ability to access an appointment anywhere within a federation/hub)
--   improved patient experience and satisfaction
+-   **Patient/carer:** increased access opportunities (such as ability to access an appointment anywhere within a federation/hub) -   plus improved patient experience and satisfaction
 
 -   **Administrative:** ability to book or cancel appointments and send tasks or notifications within a local geography across federations/hubs
  
@@ -39,12 +38,12 @@ The development of applications that consume the data (allowing people to use or
 
 The GP Connect APIs are managed within 'capabilities' that focus on a particular area of general practice interoperability. Capabilities are organised within 'capability packs', which include:
 
- - Foundations - covers the basic API requirements and prerequisites needed to use the GP Connect APIs
- - Appointment Management - enables end users to book and manage GP practice appointments held in any of the four GP principal practice systems
- - Access Record HTML - provides health professionals with access to a patient’s primary care record by requesting sections or headings
- - Access Record Structured - enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
- - Task Management - allows care professionals to send task requests to other teams  
- - Unstructured Writeback - 
+ -   **Foundations:** covers the basic API requirements and prerequisites needed to use the GP Connect APIs
+ -   **Appointment Management:** enables end users to book and manage GP practice appointments held in any of the four GP principal practice systems
+ -   **Access Record HTML:** provides health professionals with access to a patient’s primary care record by requesting sections or headings
+ -   **Access Record Structured:** enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
+ -   **Task Management:** allows care professionals to send task requests to other teams  
+ -   **Unstructured Writeback:** 
 
 ## Business drivers ##
 
@@ -64,12 +63,10 @@ Supporting improved access to general practice by:
   - Greater collaboration and sharing of information through IT system interoperability across the health and care system
 
 ## Development pathways ##
-
+<p align="left">This GitHub repository contains all the technical resources you need to connect between clinical systems and GP data using our FHIR&reg; APIs. To continue on your development journey, follow the relevant pathway:</p>
 <div class="row">
          <div class="col-lg-12">
-             <h2 class="page-header">Development pathways:</h2>  
-          <p align="left">This GitHub repository contains all the technical resources you need to connect between clinical systems and GP data using our FHIR&reg; APIs. To continue on your development journey, follow the relevant pathway:</p>
-                                    </div>
+                                                           </div>
                 <div class="col-6 col-md-4">
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
