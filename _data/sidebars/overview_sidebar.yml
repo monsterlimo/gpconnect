@@ -111,18 +111,12 @@ entries:
   - title: Help and support
     output: web
     folderitems:
-    - title: Communication channels
-      url: /support_communications.html
-      output: web
-    - title: Run website locally
-      url: /support_run_website_locally.html
-      output: web    
-    - title: Glossary
-      url: /overview_glossary.html
-      output: web
     - title: Frequently asked questions
       url: /support_faq.html
       output: web
+    - title: Glossary
+      url: /overview_glossary.html
+      output: web     
       
       subfolders:
       - title: Release notes
@@ -142,7 +136,13 @@ entries:
           output: web
         - title: 0.5.0
           url: /overview_release_notes_0_5_0.html
-          output: web
+          output: web      
+    - title: Communication channels
+      url: /support_communications.html
+      output: web
+    - title: Run website locally
+      url: /support_run_website_locally.html
+      output: web    
 
       - title: Useful links
         output: web
