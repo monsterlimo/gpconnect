@@ -109,8 +109,11 @@ entries:
         subfolderitems:          
         - title: Testing and assurance
           url: /overview_test_and_assurance.html
-          output: web
-      
+          output: web               
+        - title: Testing assets
+          url: /testing_deliverables.html
+          output: web    
+                
   - title: End-user organisation pathway
     output: web
     folderitems:
