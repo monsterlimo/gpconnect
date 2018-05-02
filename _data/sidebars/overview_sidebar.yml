@@ -110,23 +110,6 @@ entries:
         - title: Testing and assurance
           url: /overview_test_and_assurance.html
           output: web
-        - Testing assets
-          url: /overview_test_and_assurance.html
-          output: web
-        - Test environments
-          url: /testing_environments.html
-        - Clinical system provider testing
-          url: /testing_api_provider_testing.html
-          output: web
-      - title: Deployment
-        output: web
-        subfolderitems:
-        - title: Deployment
-          url: /overview_deployment.html
-          output: web
-        - title: Integration with Spine
-          url: /integration_spine_security_proxy_implementation_guide.html
-          output: web
       
   - title: End-user organisation pathway
     output: web
