@@ -1,5 +1,5 @@
 ---
-title: Clinical system pathway
+title: Clinical system provider pathway
 keywords: clinical, provider, pathway
 tags: [provider,clinical]
 sidebar: overview_sidebar
