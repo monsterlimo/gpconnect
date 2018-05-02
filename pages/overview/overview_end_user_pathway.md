@@ -1,5 +1,5 @@
 ---
-title: End-user pathway
+title: End-user organisation pathway
 keywords: end-user, commissioning, pathway
 tags: [commissioning, end-user]
 sidebar: overview_sidebar
