@@ -46,6 +46,8 @@ entries:
   - title: Consumer supplier pathway
     output: web
     folderitems:
+    - title: Pathway overview
+      url:/ overview_consumer_pathway.html
     - title: Getting started
       url: /overview_engage.html
       output: web
@@ -65,6 +67,8 @@ entries:
   - title: Clinical system provider pathway
     output: web
     folderitems:
+    - title: Pathway overview
+      url: /overview_provider_pathway.html
     - title: Getting started
       url: /overview_engage.html
       output: web
@@ -84,6 +88,8 @@ entries:
   - title: End-user organisation pathway
     output: web
     folderitems:
+    - title: Pathway overview
+      url: /overview_end_user_pathway.html
     - title: Target operating model
       url: /foundations_ig.html
       output: web   
