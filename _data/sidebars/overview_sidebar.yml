@@ -49,6 +49,7 @@ entries:
     - title: Pathway overview
       url: /overview_consumer_pathway.html
     - title: Getting started
+      output: web
       url: /overview_engage.html
       output: web
     - title: Exploring GP Connect
@@ -69,6 +70,7 @@ entries:
     folderitems:
     - title: Pathway overview
       url: /overview_provider_pathway.html
+      output: web
     - title: Getting started
       url: /overview_engage.html
       output: web
@@ -90,6 +92,7 @@ entries:
     folderitems:
     - title: Pathway overview
       url: /overview_end_user_pathway.html
+      output: web
     - title: Target operating model
       url: /foundations_ig.html
       output: web   
