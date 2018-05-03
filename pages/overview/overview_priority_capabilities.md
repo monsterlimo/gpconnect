@@ -1,11 +1,11 @@
 ---
-title: Priority capabilities for GP Connect
+title: About GP Connect capabilities
 keywords: usecases
 tags: [use_case,htmlgetcarerecord,getcarerecord,appointments,tasks]
 sidebar: overview_sidebar
 toc: false
 permalink: overview_priority_capabilities.html
-summary: A brief introduction to the priority GP Connect capabilities
+summary: A brief introduction to the GP Connect capabilities
 ---
 
 
