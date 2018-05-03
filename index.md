@@ -1,5 +1,5 @@
 ---
-title: Build and share with GP Connect
+title: Introduction - what is GP Connect?
 keywords: homepage
 tags: [introduction]
 sidebar: home_sidebar
