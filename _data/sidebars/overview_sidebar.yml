@@ -102,11 +102,8 @@ entries:
           url: /development_deliverables.html
           output: web
         - title: FHIR development guidance
+          url: /development_fhir_api_guidance.html
           output: web
-          subfolderitems:
-          - title: FHIR Library
-            url: /development_fhir_api_guidance.html 
-            output: web
       - title: Testing and assurance
         output: web
         subfolderitems:          
