@@ -21,7 +21,7 @@ entries:
   - title: GP Connect capabilities
     output: web
     folderitems:
-    - title: GP Connect capabilities
+    - title: About GP Connect capabilities
       url: /overview_priority_capabilities.html
       output: web, pdf
     - title: Foundations
