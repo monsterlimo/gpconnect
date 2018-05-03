@@ -9,14 +9,14 @@ permalink: overview_provider_pathway.html
 Follow this pathway if you're a GP clinical data provider (such as EMIS Health, INPS Vision,  Microtest Health, TPP) and you want to use GP Connect to develop a way of allowing other systems to access GP data on your system for direct patient care:
 <br/> 
 
-# [Get started](overview_provider_pathway.html) #
+# Get started #
     - read about the [GP Connect priority capabilities](overview_priority_capabilities.html)
     - look through the design decisions made so far in relation to each capability pack:[Foundations](foundations_design.html), [Access Record Structured](accessrecord_structured_design.html), [Appointment Management](appointments_design.html)
-# [Explore GP Connect](overview_explore.html) #
+# Explore GP Connect #
     - try out the [GP Connect Demonstrator system](system_demonstrator.html)
     - download the [GP Connect Demonstrator Codebase](gpconnect-demonstrator) to see how it works
     - download our [PostMan Collection](system_reference_postman.html) and explore the GP Connect interactions
-# [Develop with GP Connect](overview_development.html) #
+# Develop with GP Connect #
     - familiarise yourself with HL7® FHIR® ([developer introduction](http://www.hl7.org/implement/standards/fhir/overview-dev.html), [executive summary](http://www.hl7.org/implement/standards/fhir/summary.html), or [clinical intro](http://www.hl7.org/implement/standards/fhir/overview-clinical.html))
     - choose an open source [FHIR development library](development_fhir_open_source_guidance.html) for your favourite programming language
     - familiarise yourself with our [GP Connect FHIR API guidance](development_fhir_api_guidance.html) common to all APIs
@@ -30,7 +30,7 @@ Follow this pathway if you're a GP clinical data provider (such as EMIS Health, 
       - [additional HTTP headers and proxy URL]() - this gives you access to the [Spine Security Proxy](integration_spine_security_proxy.html), the secure ‘front door’ of GP Connect APIs
       - configure HTTPS and TLS/MA - [security guidance](development_api_security_guidance.html) allows you to secure and mutually authenticate your service with the Spine (which refers to two parties authenticating each other at the same time)
     - use the [development cheat sheet](development_deliverables.html)
-# [Test and assure](overview_test_and_assurance.html) #     
+# Test and assure #     
     - read about [provider testing](testing_api_provider_testing.html)
 
 <br/> 
