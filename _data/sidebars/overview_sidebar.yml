@@ -145,4 +145,16 @@ entries:
       url: /development_fhir_api_guidance.html
       output: web
  
+  - title: Help and support
+    output: web
+    folderitems:
+    - title: Frequently asked questions
+      url: /support_faq.html
+      output: web
+    - title: Communication channels
+      url: /support_communications.html
+      output: web
+    - title: Run website locally
+      url: /support_run_website_locally.html
+      output: web
 
