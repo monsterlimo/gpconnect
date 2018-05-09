@@ -9,10 +9,24 @@ entries:
     - title: Introduction
       url: /index.html
       output: web, pdf
-      type: homepage      
-    - title: Pathways
-      url: /overview_pathways.html
-      output: web, pdf     
+      type: homepage
+      
+      subfolders:
+      - title: Pathways
+        output: web
+        subfolderitems:
+        - title: About GP Connect pathways
+          url: /overview_pathways.html
+          output: web        
+        - title: Consumer supplier pathway
+          url: /overview_consumer_pathway.html
+          output: web
+        - title: Clinical system provider pathway
+          url: /overview_providerr_pathway.html
+          output: web   
+        - title: End-user organisation pathway
+          url: /overview_end_user_pathway.html
+          output: web   
                 
   - title: Get started
     output: web
