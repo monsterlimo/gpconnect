@@ -10,7 +10,7 @@ summary: Your GP Connect development pathway
 
 This GitHub repository contains all the technical resources you need to connect between clinical systems and GP data using the GP Connect FHIR® APIs. 
 
-To continue on your development journey, follow the relevant pathway.
+To continue on your development journey, follow the relevant pathway:
 
 <div class="row">
          <div class="col-lg-12">
