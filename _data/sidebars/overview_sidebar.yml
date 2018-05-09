@@ -9,124 +9,10 @@ entries:
     - title: Introduction
       url: /index.html
       output: web, pdf
-      type: homepage
-
-  - title: Getting involved with GP Connect
-    output: web
-    folderitems:
-    - title: Getting involved with GP Connect
-      url: /overview_first_of_type.html
-      output: web, pdf
-
-  - title: Consumer supplier pathway
-    output: web
-    folderitems:
-    - title: Pathway overview
-      url: /overview_consumer_pathway.html
-      output: web
-    - title: Getting started
-      output: web
-      url: /overview_engage.html
-      output: web
-    - title: Exploring GP Connect
-      url: /overview_explore.html
-      output: web
-    - title: Developing with GP Connect
-      url: /overview_development.html
-      output: web
-    - title: Testing and assurance
-      url: /overview_test_and_assurance.html
-      output: web      
-    - title: Deployment
-      url: /overview_deployment.html
-      output: web      
-
-  - title: Clinical system provider pathway
-    output: web
-    folderitems:
-    - title: Pathway overview
-      url: /overview_provider_pathway.html
-      output: web
-      
-      subfolders:
-      - title: Getting started
-        output: web
-        subfolderitems:
-        - title: Getting started
-          url: /overview_engage.html
-          output: web
-      - title: Exploring GP Connect
-        output: web
-        subfolderitems:
-        - title: Exploring GP Connect
-          url: /overview_explore.html
-          output: web
-        - title: GP Connect system demonstrator
-          url: /system_demonstrator.html
-          output: web
-        - title: Interactive API documentation 
-          url: /system_swagger.html
-          output: web   
-      - title: Developing with GP Connect
-        output: web
-        subfolderitems:
-        - title: Developing with GP Connect
-          url: /overview_development.html
-          output: web        
-        - title: Development assets
-          url: /development_deliverables.html
-          output: web
-        - title: FHIR development guidance
-          url: /development_fhir_api_guidance.html
-          output: web
-      - title: Testing and assurance
-        output: web
-        subfolderitems:          
-        - title: Testing and assurance
-          url: /overview_test_and_assurance.html
-          output: web               
-        - title: Testing assets
-          url: /testing_deliverables.html
-          output: web        
-        - title: Test environments
-          url: /testing_environments.html
-          output: web
-        - title: Clinical system provider testing
-          url: /testing_api_provider_testing.html
-          output: web
-      - title: Deployment
-        output: web
-        subfolderitems:
-        - title: Deployment
-          url: /overview_deployment.html
-          output: web
-        - title: Integration with Spine
-          url: /integration_spine_security_proxy_implementation_guide.html
-          output: web          
-                
-  - title: End-user organisation pathway
-    output: web
-    folderitems:
-    - title: Pathway overview
-      url: /overview_end_user_pathway.html
-      output: web
-    - title: Target operating model
-      url: /foundations_ig.html
-      output: web   
-    - title: Information governance
-      url: /foundations_ig.html
-      output: web
-    - title: Implementation
-      url: /development_fhir_api_guidance.html
-      output: web
-
-  - title: Overview
-    output: web
-    folderitems:
-    - title: Introduction
-      url: /index.html
-      output: web, pdf
-      type: homepage
+      type: homepage      
+    - title: Pathways
+      url: /overview_pathways.html
+      output: web, pdf    
       
       subfolders:
       - title: GP Connect capabilities
@@ -134,9 +20,6 @@ entries:
         subfolderitems:
         - title: About GP Connect capabilities
           url: /overview_priority_capabilities.html
-          output: web
-        - title: 1.1.1
-          url: /overview_release_notes_1_1_1.html
           output: web
         - title: Foundations
           url: /foundations.html
@@ -156,11 +39,7 @@ entries:
         - title: Task Management
           url: /tasks.html
           output: web, pdf
-          
-    - title: Your development pathway
-      url: /overview_pathways.html
-      output: web, pdf
-      
+                
   - title: Get started
     output: web
     folderitems:
