@@ -125,27 +125,7 @@ entries:
         - title: First of type
           url: /overview_first_of_type.html
           output: web
- 
-      - title: Implement a capability pack
-        output: web
-        subfolderitems:
-
-        - title: Foundations
-          url: /foundations.html
-          output: web
-        - title: Appointment Management
-          url: /appointments.html
-          output: web
-        - title: Access Record Structured
-          url: /accessrecord_structured.html
-          output: web
-        - title: <b class="capability-not-available">Access Record HTML</b>
-          url: /accessrecord.html
-          output: web
-        - title: <b class="capability-not-available">Task Management</b>
-          url: /tasks.html
-          output: web
-
+          
       - title: Design approach
         output: web
         subfolderitems:
