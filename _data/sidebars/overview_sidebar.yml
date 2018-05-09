@@ -274,4 +274,338 @@ entries:
           output: web
         - title: Code snippet
           url: /tag_code_snippet.html
+          output: web          
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: End-user organisation pathway
+      url: /overview_end_user_pathway.html
+      output: web  
+    - title: Consumer supplier pathway
+      url: /overview_consumer_pathway.html
+      output: web
+    - title: Clinical system supplier pathway
+      url: /overview_provider_pathway.html
+      output: web         
+    - title: Specification versions
+      url: /overview_specification_versions.html
+      output: web, pdf
+      type: homepage
+      
+  - title: Get started
+    output: web
+    folderitems:
+    - title: Getting started
+      url: /overview_engage.html
+      output: web
+      type: homepage      
+ 
+  - title: Explore
+    output: web
+    folderitems:
+    - title: Exploring GP Connect
+      url: /overview_explore.html
+      output: web
+      type: homepage
+    - title: System demonstrator
+      url: /system_demonstrator.html
+      output: web
+    - title: Interactive API documentation
+      url: /system_swagger.html
+      output: web
+    - title: Postman examples
+      url: /system_reference_postman.html
+      output: web
+
+  - title: Develop
+    output: web
+    folderitems:
+    - title: Development
+      url: /overview_development.html
+      output: web
+      type: homepage 
+    - title: Development assets
+      url: /development_deliverables.html
+      output: web
+
+      subfolders:
+      - title: FHIR&reg; API guidance
+        output: web
+        subfolderitems:
+
+        - title: FHIR library
+          url: /development_fhir_open_source_guidance.html
           output: web
+        - title: FHIR implementation
+          url: /development_fhir_api_guidance.html
+          output: web
+        - title: General API guidance
+          url: /development_general_api_guidance.html
+          output: web          
+        - title: Operations
+          url: /development_fhir_operation_guidance.html
+          output: web
+        - title: Resources
+          url: /development_fhir_resource_guidance.html
+          output: web
+        - title: Security guidance
+          url: /development_api_security_guidance.html
+          output: web
+        - title: Error handling
+          url: /development_fhir_error_handling_guidance.html
+          output: web
+        - title: Volume and performance
+          url: /development_api_volume_and_performance.html
+          output: web          
+        - title: Non-functional requirements
+          url: /development_api_non_functional_requirements.html
+          output: web
+        - title: First of type
+          url: /overview_first_of_type.html
+          output: web
+ 
+      - title: Implement a capability pack
+        output: web
+        subfolderitems:
+
+        - title: Foundations
+          url: /foundations.html
+          output: web
+        - title: Appointment Management
+          url: /appointments.html
+          output: web
+        - title: Access Record Structured
+          url: /accessrecord_structured.html
+          output: web
+        - title: <b class="capability-not-available">Access Record HTML</b>
+          url: /accessrecord.html
+          output: web
+        - title: <b class="capability-not-available">Task Management</b>
+          url: /tasks.html
+          output: web
+
+      - title: Design approach
+        output: web
+        subfolderitems:
+
+        - title: Development principles
+          url: /designprinciples_development_principles.html
+          output: web
+          type: homepage
+        - title: Open API principles
+          url: /designprinciples_open_api_principles.html
+          output: web
+        - title: Data model principles
+          url: /designprinciples_data_model_principles.html
+          output: web
+        - title: Information governance principles
+          url: /designprinciples_ig_principles.html
+          output: web
+        - title: Clinical safety principles
+          url: /designprinciples_clinical_safety_principles.html
+          output: web
+        - title: Assurance principles
+          url: /designprinciples_assurance_principles.html
+          output: web
+        - title: Clinical terminologies
+          url: /design_clinical_terminologies.html
+          output: web
+        - title: Specification versioning
+          url: /design_product_versioning.html
+          output: web 
+
+  - title: Test and assure
+    output: web
+    folderitems:
+    - title: Test and assurance
+      url: /overview_test_and_assurance.html
+      output: web
+    - title: Testing assets
+      url: /testing_deliverables.html
+      output: web
+    - title: Test environments
+      url: /testing_environments.html
+      output: web
+    - title: Provider testing
+      url: /testing_api_provider_testing.html
+      output: web
+    - title: Consumer testing
+      url: /testing_api_consumer_testing.html
+      output: web
+
+  - title: Deploy
+    output: web
+    folderitems:
+    - title: Deployment
+      url: /overview_deployment.html
+      output: web
+      
+      subfolders:
+      - title: Integrate with Spine
+        output: web
+        subfolderitems:
+
+        - title: System topologies
+          url: /dntegration_system_topologies.html
+          output: web      
+        - title: System topologies
+          url: /integration_system_topologies.html
+          output: web     
+        - title: Spine integration illustrated
+          url: /integration_illustrated.html
+          output: web           
+        - title: Cross organisation audit and provenance
+          url: /integration_cross_organisation_audit_and_provenance.html
+          output: web
+        - title: Personal Demographic Service
+          url: /integration_personal_demographic_service.html
+          output: web	
+        - title: Spine Directory Services
+          url: /integration_spine_directory_service.html
+          output: web
+        - title: Spine Security Proxy introduction
+          url: /integration_spine_security_proxy.html
+          output: web
+        - title: Spine Security Proxy implementation guide
+          url: /integration_spine_security_proxy_implementation_guide.html
+          output: web 
+ 
+  - title: Help and support
+    output: web
+    folderitems:
+    - title: Communication channels
+      url: /support_communications.html
+      output: web
+    - title: Run website locally
+      url: /support_run_website_locally.html
+      output: web    
+    - title: Glossary
+      url: /overview_glossary.html
+      output: web
+    - title: Frequently asked questions
+      url: /support_faq.html
+      output: web
+      
+      subfolders:
+      - title: Release notes
+        output: web
+        subfolderitems:
+        - title: 1.2.0-beta
+          url: /overview_release_notes_1_2_0.html
+          output: web
+        - title: 1.1.1
+          url: /overview_release_notes_1_1_1.html
+          output: web
+        - title: 1.1.0
+          url: /overview_release_notes_1_1_0.html
+          output: web
+        - title: 1.0.0
+          url: /overview_release_notes_1_0_0.html
+          output: web
+        - title: 0.5.0
+          url: /overview_release_notes_0_5_0.html
+          output: web
+
+      - title: Useful links
+        output: web
+        subfolderitems:
+              
+        - title: GP Connect corporate site
+          external_url: https://digital.nhs.uk/article/1275/GP-Connect
+          output: web
+        - title: Developer Network
+          external_url: http://developer.nhs.uk/library/interoperability/gp-connect/
+          output: web
+        - title: GitHub FHIR data library
+          external_url: https://github.com/nhsconnect/gpconnect-fhir/
+          output: web
+        - title: GitHub C# examples
+          external_url: https://github.com/nhsconnect/gpconnect-dotnet-examples/
+          output: web
+        - title: GitHub Java examples
+          external_url: https://github.com/nhsconnect/gpconnect-java-examples/
+          output: web
+        - title: GitHub provider test harness
+          external_url: https://github.com/nhsconnect/gpconnect-provider-testing/
+          output: web
+
+      - title: Tags
+        output: web
+        subfolderitems:
+
+        - title: Foundations
+          url: /foundations.html       
+        - title: Getting started
+          url: /tag_getting_started.html
+          output: web
+        - title: First of type
+          url: /tag_first_of_type.html
+          output: web
+        - title: FHIR&reg;
+          url: /tag_fhir.html
+          output: web
+        - title: Structured
+          url: /tag_structured.html
+          output: web
+        - title: Use case
+          url: /tag_use_case.html
+          output: web
+        - title: Foundations
+          url: /tag_foundations.html
+          output: web
+        - title: HTML Get Care Record
+          url: /tag_htmlgetcarerecord.html
+          output: web
+        - title: Get Care Record
+          url: /tag_getcarerecord.html
+          output: web
+        - title: Appointments
+          url: /tag_appointments.html
+          output: web
+        - title: Tasks
+          url: /tag_tasks.html
+          output: web
+        - title: Engagement
+          url: /tag_engagement.html
+          output: web
+        - title: Design
+          url: /tag_design.html
+          output: web	  
+        - title: Development
+          url: /tag_development.html
+          output: web
+        - title: Integration
+          url: /tag_integration.html
+          output: web
+        - title: Testing
+          url: /tag_testing.html
+          output: web
+        - title: Assurance
+          url: /tag_assurance.html
+          output: web
+        - title: Deployment
+          url: /tag_deployment.html
+          output: web
+        - title: Support
+          url: /tag_support.html
+          output: web	  
+        - title: Clinical safety
+          url: /tag_clinical_safety.html
+          output: web
+        - title: Information governance
+          url: /tag_information_governance.html
+          output: web
+        - title: Commissioning
+          url: /tag_commissioning.html
+          output: web
+        - title: Code snippet
+          url: /tag_code_snippet.html
+          output: web
+  
+          
+          
