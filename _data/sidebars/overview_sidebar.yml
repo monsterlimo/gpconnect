@@ -82,7 +82,7 @@ entries:
   - title: Develop
     output: web
     folderitems:
-    - title: Development
+    - title: Developing with GP Connect
       url: /overview_development.html
       output: web
       type: homepage 
