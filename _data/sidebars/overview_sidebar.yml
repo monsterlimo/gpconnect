@@ -22,7 +22,7 @@ entries:
           url: /overview_consumer_pathway.html
           output: web
         - title: Clinical system provider pathway
-          url: /overview_providerr_pathway.html
+          url: /overview_provider_pathway.html
           output: web   
         - title: End-user organisation pathway
           url: /overview_end_user_pathway.html
