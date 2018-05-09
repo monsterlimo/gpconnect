@@ -18,31 +18,6 @@ entries:
       url: /overview_first_of_type.html
       output: web, pdf
 
-  - title: GP Connect capabilities
-    output: web
-    folderitems:
-    - title: About GP Connect capabilities
-      url: /overview_priority_capabilities.html
-      output: web, pdf
-    - title: Foundations
-      url: /foundations.html
-      output: web, pdf
-    - title: Access Record HTML
-      url: /accessrecord.html
-      output: web, pdf
-    - title: Appointment Management
-      url: /appointments.html
-      output: web, pdf
-    - title: Access Record Structured
-      url: /accessrecord_structured.html
-      output: web, pdf
-    - title: Write Back
-      url: /accessrecord_structured.html
-      output: web, pdf
-    - title: Task Management
-      url: /tasks.html
-      output: web, pdf
-
   - title: Consumer supplier pathway
     output: web
     folderitems:
@@ -152,12 +127,39 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: GP Connect capabilities
-      url: /overview_priority_capabilities.html
-      output: web, pdf
+      
+      subfolders:
+      - title: GP Connect capabilities
+        output: web
+        subfolderitems:
+        - title: About GP Connect capabilities
+          url: /overview_priority_capabilities.html
+          output: web
+        - title: 1.1.1
+          url: /overview_release_notes_1_1_1.html
+          output: web
+        - title: Foundations
+          url: /foundations.html
+          output: web, pdf
+        - title: Access Record HTML
+          url: /accessrecord.html
+          output: web, pdf
+        - title: Appointment Management
+          url: /appointments.html
+          output: web, pdf
+        - title: Access Record Structured
+          url: /accessrecord_structured.html
+          output: web, pdf
+        - title: Write Back
+          url: /accessrecord_structured.html
+          output: web, pdf
+        - title: Task Management
+          url: /tasks.html
+          output: web, pdf
+          
     - title: Your development pathway
       url: /overview_pathways.html
-      output: web  
+      output: web, pdf
       
   - title: Get started
     output: web
