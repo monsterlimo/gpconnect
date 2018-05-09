@@ -12,7 +12,15 @@ entries:
       type: homepage      
     - title: Pathways
       url: /overview_pathways.html
-      output: web, pdf    
+      output: web, pdf     
+                
+  - title: Get started
+    output: web
+    folderitems:
+    - title: Getting started
+      url: /overview_engage.html
+      output: web
+      type: homepage  
       
       subfolders:
       - title: GP Connect capabilities
@@ -38,15 +46,7 @@ entries:
           output: web, pdf
         - title: Task Management
           url: /tasks.html
-          output: web, pdf
-                
-  - title: Get started
-    output: web
-    folderitems:
-    - title: Getting started
-      url: /overview_engage.html
-      output: web
-      type: homepage      
+          output: web, pdf      
  
   - title: Explore
     output: web
