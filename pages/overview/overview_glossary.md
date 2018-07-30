@@ -8,7 +8,7 @@ summary: "Glossary of terms used by GP Connect"
 toc: false
 ---
 
-Glossary of common terms and abbreviations used though-out the GP Connect documentation.
+## GP Connect terms
 
 Accreditation
 : {{site.data.glossary.accreditation}}
@@ -55,5 +55,5 @@ SDS
 Spine
 : {{site.data.glossary.spine}}
 
-
+## Technical terms
 
