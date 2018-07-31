@@ -8,55 +8,55 @@ summary: "Glossary of terms used by GP Connect"
 toc: false
 ---
 
-#### Accreditation
+#### Accreditation #### 
 : {{site.data.glossary.accreditation}}
 
-#### API
+#### API #### 
 : {{site.data.glossary.api}}
 
-#### ASID
+#### ASID #### 
 : {{site.data.glossary.asid}}
 
-#### Capability
+#### Capability #### 
 : {{site.data.glossary.capability}}
 -	Appointment Management
 -	Access Record HTML
 -	Access Record Structured
 
-#### CATR
+#### CATR #### 
 : {{site.data.glossary.catr}}
 
-#### Clinical safety
+#### Clinical safety #### 
 : {{site.data.glossary.clinical_safety}}
 
-#### CMA endpoint
+#### CMA endpoint #### 
 : {{site.data.glossary.cma_endpoint}}
 
-#### Connection agreement
+#### Connection agreement #### 
 : {{site.data.glossary.connection_agreement}}
 
-#### Consumer application
+#### Consumer application #### 
 : {{site.data.glossary.consumer_application}}
 
-#### Consumer supplier
+#### Consumer supplier #### 
 : {{site.data.glossary.consumer_supplier}}
 
-#### CORS
+#### CORS #### 
 : {{site.data.glossary.cors}}
 
-#### CRL
+#### CRL #### 
 : {{site.data.glossary.crl}}
 
-#### DBS
+#### DBS #### 
 : {{site.data.glossary.dbs}}
 
-#### DevMAC
+#### DevMAC #### 
 : {{site.data.glossary.devmac}}
 
-#### Direct Patient Care
+#### Direct Patient Care #### 
 : {{site.data.glossary.direct_patient_care}}
 
-#### End User Organisation (EUO)
+#### End User Organisation (EUO) #### 
 : {{site.data.glossary.end_user_organisation}}
 For example:
 -	a GP practice that is part of a federation, club or hub and is sharing data with other practices in the group
@@ -64,96 +64,95 @@ For example:
 -	an acute or mental health trust that is receiving GP data from a group of practices in its area
 -	an A&E or 111 service that is receiving data or booking appointments on behalf of a patient
 
-#### End User Organisation Policy (EUOP)
+#### End User Organisation Policy (EUOP) #### 
 : {{site.data.glossary.end_user_organisation_policy}}
 
-#### ePMA
+#### ePMA #### 
 : {{site.data.glossary.ePMA}}
 
-#### FHIR&reg;
+#### FHIR&reg; #### 
 : {{site.data.glossary.fhir}}
 
-#### First of Type (FoT)
+#### First of Type (FoT) #### 
 : {{site.data.glossary.first_of_type}}
 
-#### FQDN
+#### FQDN #### 
 : {{site.data.glossary.fqdn}}
 
-#### FYFV
+#### FYFV #### 
 : {{site.data.glossary.fyfv}}
 
-#### GP federation
+#### GP federation #### 
 : {{site.data.glossary.federation}}
 
-#### GP principal clinical systems suppliers
+#### GP principal clinical systems suppliers #### 
 : {{site.data.glossary.principal_supplier}}
 -	EMIS Health
 -	Microtest
 -	TPP
 -	Vision
 
-#### GPSoC
+#### GPSoC #### 
 : {{site.data.glossary.gpsoc_contract}}
 
-#### JWT
+#### JWT #### 
 : {{site.data.glossary.jwt}}
 
-#### LDAP
+#### LDAP #### 
 : {{site.data.glossary.ldap}}
 
-#### MHS
+#### MHS #### 
 : {{site.data.glossary.mhs}}
 
-#### MHS endpoint
+#### MHS endpoint #### 
 : {{site.data.glossary.mhs_endpoint}}
 
-#### NTP
+#### NTP #### 
 : {{site.data.glossary.ntp}}
 
-ods: “”
-#### ODS
+#### ODS #### 
 : {{site.data.glossary.ods}}
 
-#### OSI
+#### OSI #### 
 : {{site.data.glossary.osi}}
 
-#### PDS
+#### PDS #### 
 : {{site.data.glossary.pds}}
 
-#### PEM
+#### PEM #### 
 : {{site.data.glossary.pem}}
 
-#### Provider supplier
+#### Provider supplier #### 
 : {{site.data.glossary.provider_supplier}}
 
-#### Provider system
+#### Provider system #### 
 : {{site.data.glossary.provider_system}}
 
-#### Proxy server
+#### Proxy server #### 
 : {{site.data.glossary.proxy server}}
 
-#### RBAC
+#### RBAC #### 
 : {{site.data.glossary.rbac}}
 
-#### Release Candidate (RC)
+#### Release Candidate (RC) #### 
 : {{site.data.glossary.release_candidate}}
 
-#### SDS
+#### SDS #### 
 : {{site.data.glossary.sds}}
 
-#### Spine
+#### Spine #### 
 : {{site.data.glossary.spine}}
 
-#### SSP
+#### SSP #### 
 : {{site.data.glossary.ssp}}
 
-#### TLS
+#### TLS #### 
 : {{site.data.glossary.tls}}
 
-#### TOM
+#### TOM #### 
 : {{site.data.glossary.tom}}
 
-#### TPS
+#### TPS #### 
 : {{site.data.glossary.tps}}
 
 
