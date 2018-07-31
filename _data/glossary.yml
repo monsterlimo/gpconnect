@@ -2,3 +2,19 @@ direct_patient_care: "The Caldicott Review defined it as a clinical, social or p
 accreditation: "The action or process used to ensure that a system supplier meets necessary criteria to use the GP Connect services."
 api: "Application Programming Interface - a set of functions and procedures that allows the creation of applications which access the features or data of an application or other service to deliver specific cross-organisational business capability. The aim of GP Connect FHIR&reg; APIs is to provide access to data and workflow within GP clinical systems."
 asid: "Accredited System Identifier - a unique number allocated to a system on accreditation for connection to Spine."
+capability: "The GP Connect FHIR® APIs are managed within ‘capabilities’ that focus on a particular business area of general practice and wider cross-organisational interoperability. Capabilities are organised within ‘capability packs’, which include -"
+catr: "Clinical Authority To Release - granted by NHS Digital Clinical Safety Group. It confirms that all clinical safety documents have been completed to the required standard."
+clinical_safety: "The process of evaluating clinical safety risk. See [clinical risk management standards](https://digital.nhs.uk/services/solution-assurance/the-clinical-safety-team/clinical-risk-management-standards){:target="_blank"}."
+cma_endpoint: "Combined Message Handling Server and Accredited System endpoint  -  an endpoint registered with Spine for a single system."
+connection_agreement: "A legal and commercial agreement between NHS Digital and a supplier that is using NHS Digital services to provide or consume (GP) data (previously known as Terms of Use)."
+consumer_application: "A technically accredited software application that uses GP Connect FHIR® APIs."
+consumer_supplier: "The developer of an application that uses GP Connect FHIR® API – for example, a system supplier in an acute or mental health care setting."
+cors: "Cross-Origin Resource Sharing  -  a mechanism that allows restricted resources (such as fonts) on a web page to be requested from another domain outside the domain from which the first resource was served."
+CRL: "Certificate Revocation List - a list of digital certificates that have been revoked by the issuing certificate authority before their scheduled expiration date and should no longer be trusted."
+dbs: "Demographics Batch Service - a mechanism that allows NHS and other organisations to submit a file of patient information to the Spine for tracing against the Personal Demographics Service (PDS). This requires a secure network connection. It is an offline service, and provides batch responses to batch trace requests, so smart cards are not required."
+devmac: "Development Milestone Achievement Certificate - awarded to the provider of an API to certify it has met the specification requirements and is ready to deploy as a pilot (applies to GP principal clinical system suppliers)."
+direct_patient_care: "Defined by the Caldicott Review it as a clinical, social or public health activity concerned with the prevention, investigation and treatment of illness and the alleviation of suffering of individuals. It includes supporting individuals' ability to function and improve their participation in life and society. It includes the assurance of safe and high quality care and treatment through local audit, the management of untoward or adverse incidents, person satisfaction including measurement of outcomes undertaken by one or more registered and regulated health or social care professionals and their team with whom the individual has a legitimate relationship for their care."
+
+
+
+
