@@ -4,7 +4,7 @@ keywords: abbreviations, definitions, glossaries, terms
 tags: [getting_started]
 sidebar: overview_sidebar
 permalink: overview_glossary.html
-summary: "Glossary of terms used by GP Connect"
+summary: "Glossary of terms used in the GP Connect specification"
 toc: false
 ---
 
