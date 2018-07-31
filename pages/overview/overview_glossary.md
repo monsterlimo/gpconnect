@@ -8,8 +8,6 @@ summary: "Glossary of terms used by GP Connect"
 toc: false
 ---
 
-Glossary of common terms and abbreviations used though-out the GP Connect documentation.
-
-#### Direct Patient Care ####
+Direct Patient Care
 {{site.data.glossary.direct_patient_care}}
 
