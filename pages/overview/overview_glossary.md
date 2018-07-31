@@ -8,12 +8,23 @@ summary: "Glossary of terms used by GP Connect"
 toc: false
 ---
 
-### Direct Patient Care ###
+Direct Patient Care
+
 {{site.data.glossary.direct_patient_care}}
 
 gratuitous
 
 : {{site.data.glossary.direct_patient_care}}
 
-*gratuitous*
-: {{site.data.glossary.direct_patient_care}}
+Accreditation
+
+: {{site.data.glossary.accreditation}}
+
+API
+
+: {{site.data.glossary.api}}
+
+ASID
+
+: {{site.data.glossary.asid}}
+
