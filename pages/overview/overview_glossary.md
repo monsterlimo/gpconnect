@@ -34,7 +34,8 @@ CATR
 
 Clinical safety
 
-: {{site.data.glossary.clinical_safety}}
+: {{site.data.glossary.clinical_safety}} See [clinical risk management standards](https://digital.nhs.uk/services/solution-assurance/the-clinical-safety-team/clinical-risk-management-standards){:target="_blank"}."
+
 
 CMA endpoint
 
@@ -87,7 +88,7 @@ End User Organisation Policy (EUOP)
 
 ePMA
 
-: {{site.data.glossary.ePMA}}
+: {{site.data.glossary.epma}}
 
 FHIR&reg;
 
@@ -167,7 +168,7 @@ Provider system
 
 Proxy server
 
-: {{site.data.glossary.proxy server}}
+: {{site.data.glossary.proxy_server}}
 
 RBAC
 
