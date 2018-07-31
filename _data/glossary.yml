@@ -29,7 +29,7 @@ mhs: "Message Handling Server: a middleware system that handles messaging to and
 mhs_endpoint: "Message Handling Server endpoint: an endpoint registered with Spine for use with multiple systems via a message handling server. Each system has its own ASID."
 ntp: "Network Time Protocol: a networking protocol for clock synchronisation between computer systems over packet-switched, variable-latency data networks."
 ods: "Organisational Data Service: NHS Digital team responsible for publishing organisation and practitioner codes, along with related national policies and standards. Also responsible for the maintenance of the organisation and person nodes of the Spine Directory Service."
-osi: “Open Systems Interconnection: a conceptual model that characterises and standardises the communication functions of a computing system without regard to its underlying internal structure and technology."
+osi: "Open Systems Interconnection: a conceptual model that characterises and standardises the communication functions of a computing system without regard to its underlying internal structure and technology."
 pds: "Personal Demographics Service: the national electronic database of patient demographic information. Each person’s electronic NHS care record comprises demographic information - address, date of birth and NHS number; and medical information. GP Connect systems use the PDS to obtain a patient’s NHS number, date of birth and current GP organisation."
 pem: "Privacy Enhanced Mail: a file format for storing and sending cryptographic keys, certificates, and other data."
 principal_supplier: "The name given to a group of suppliers that provide GPs with the core system available under the GPSoC contract. The current suppliers are -"
