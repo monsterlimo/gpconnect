@@ -21,3 +21,13 @@ ASID
 
 : {{site.data.glossary.asid}}
 
+Capability
+
+: {{site.data.glossary.capability}}
+-	Appointment Management
+-	Access Record HTML
+-	Access Record Structured
+
+CATR
+
+: {{site.data.glossary.catr}}
