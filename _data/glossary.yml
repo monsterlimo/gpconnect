@@ -4,4 +4,10 @@ api: "Application Programming Interface - a set of functions and procedures that
 asid: "Accredited System Identifier - a unique number allocated to a system on accreditation for connection to Spine."
 capability: "The GP Connect FHIR® APIs are managed within ‘capabilities’ that focus on a particular business area of general practice and wider cross-organisational interoperability. Capabilities are organised within ‘capability packs’, which include -"
 catr: "Clinical Authority To Release - granted by NHS Digital Clinical Safety Group. It confirms that all clinical safety documents have been completed to the required standard."
-
+clinical_safety: "The process of evaluating clinical safety risk."
+cma_endpoint: "Combined Message Handling Server and Accredited System endpoint - an endpoint registered with Spine for a single system."
+connection_agreement: "A legal and commercial agreement between NHS Digital and a supplier that is using NHS Digital services to provide or consume (GP) data (previously known as Terms of Use)."
+consumer_application: "A technically accredited software application that uses GP Connect FHIR® APIs."
+consumer_supplier: "The developer of an application that uses GP Connect FHIR® API – for example, a system supplier in an acute or mental health care setting."
+cors: "Cross-Origin Resource Sharing - a mechanism that allows restricted resources (such as fonts) on a web page to be requested from another domain outside the domain from which the first resource was served."
+CRL: "Certificate Revocation List - a list of digital certificates that have been revoked by the issuing certificate authority before their scheduled expiration date and should no longer be trusted."
