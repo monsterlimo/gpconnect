@@ -8,152 +8,75 @@ summary: "Glossary of terms used by GP Connect"
 toc: false
 ---
 
-#### Accreditation #### 
-: {{site.data.glossary.accreditation}}
+Glossary of common terms and abbreviations used though-out the GP Connect documentation.
 
-#### API #### 
-: {{site.data.glossary.api}}
-
-#### ASID #### 
-: {{site.data.glossary.asid}}
-
-#### Capability #### 
-: {{site.data.glossary.capability}}
--	Appointment Management
--	Access Record HTML
--	Access Record Structured
-
-#### CATR #### 
-: {{site.data.glossary.catr}}
-
-#### Clinical safety #### 
-: {{site.data.glossary.clinical_safety}}
-
-#### CMA endpoint #### 
-: {{site.data.glossary.cma_endpoint}}
-
-#### Connection agreement #### 
-: {{site.data.glossary.connection_agreement}}
-
-#### Consumer application #### 
-: {{site.data.glossary.consumer_application}}
-
-#### Consumer supplier #### 
-: {{site.data.glossary.consumer_supplier}}
-
-#### CORS #### 
-: {{site.data.glossary.cors}}
-
-#### CRL #### 
-: {{site.data.glossary.crl}}
-
-#### DBS #### 
-: {{site.data.glossary.dbs}}
-
-#### DevMAC #### 
-: {{site.data.glossary.devmac}}
-
-#### Direct Patient Care #### 
+#### Direct Patient Care ####
 : {{site.data.glossary.direct_patient_care}}
 
-#### End User Organisation (EUO) #### 
-: {{site.data.glossary.end_user_organisation}}
-For example:
--	a GP practice that is part of a federation, club or hub and is sharing data with other practices in the group
--	a Commissioning Support Unit (CSU)
--	an acute or mental health trust that is receiving GP data from a group of practices in its area
--	an A&E or 111 service that is receiving data or booking appointments on behalf of a patient
-
-#### End User Organisation Policy (EUOP) #### 
-: {{site.data.glossary.end_user_organisation_policy}}
-
-#### ePMA #### 
-: {{site.data.glossary.ePMA}}
-
-#### FHIR&reg; #### 
-: {{site.data.glossary.fhir}}
-
-#### First of Type (FoT) #### 
+#### First of Type ####
 : {{site.data.glossary.first_of_type}}
 
-#### FQDN #### 
-: {{site.data.glossary.fqdn}}
+#### Consumer ####
+: {{site.data.glossary.consumer}}
 
-#### FYFV #### 
-: {{site.data.glossary.fyfv}}
+#### Provider ####
+: {{site.data.glossary.provider}}
 
-#### GP federation #### 
-: {{site.data.glossary.federation}}
-
-#### GP principal clinical systems suppliers #### 
+#### Principal Supplier ####
 : {{site.data.glossary.principal_supplier}}
--	EMIS Health
--	Microtest
--	TPP
--	Vision
 
-#### GPSoC #### 
+#### Accreditation ####
+: {{site.data.glossary.accreditation}}
+
+#### Assurance ####
+: {{site.data.glossary.assurance}}
+
+#### GPSoC Contract ####
 : {{site.data.glossary.gpsoc_contract}}
 
-#### JWT #### 
-: {{site.data.glossary.jwt}}
+#### GP Connect Licence ####
+: {{site.data.glossary.gpconnect_licence}}
 
-#### LDAP #### 
-: {{site.data.glossary.ldap}}
+#### Proxy Server ####
+: {{site.data.glossary.proxy_server}}
 
-#### MHS #### 
-: {{site.data.glossary.mhs}}
-
-#### MHS endpoint #### 
-: {{site.data.glossary.mhs_endpoint}}
-
-#### NTP #### 
-: {{site.data.glossary.ntp}}
-
-#### ODS #### 
-: {{site.data.glossary.ods}}
-
-#### OSI #### 
-: {{site.data.glossary.osi}}
-
-#### PDS #### 
-: {{site.data.glossary.pds}}
-
-#### PEM #### 
-: {{site.data.glossary.pem}}
-
-#### Provider supplier #### 
-: {{site.data.glossary.provider_supplier}}
-
-#### Provider system #### 
-: {{site.data.glossary.provider_system}}
-
-#### Proxy server #### 
-: {{site.data.glossary.proxy server}}
-
-#### RBAC #### 
-: {{site.data.glossary.rbac}}
-
-#### Release Candidate (RC) #### 
-: {{site.data.glossary.release_candidate}}
-
-#### SDS #### 
-: {{site.data.glossary.sds}}
-
-#### Spine #### 
+#### Spine ####
 : {{site.data.glossary.spine}}
 
-#### SSP #### 
-: {{site.data.glossary.ssp}}
+#### PDS ####
+: {{site.data.glossary.pds}}
 
-#### TLS #### 
-: {{site.data.glossary.tls}}
+#### SDS ####
+: {{site.data.glossary.sds}}
 
-#### TOM #### 
-: {{site.data.glossary.tom}}
+#### ODS ####
+: {{site.data.glossary.ods}}
 
-#### TPS #### 
-: {{site.data.glossary.tps}}
+#### Federation ####
+: {{site.data.glossary.federation}}
 
+#### Active Patient ####
 
+An `Active` patient as defined by GP Connect is any patient on a provider's system that has `Not Left` and is `Not Deceased`. The patient SHALL have also been traced and verified using [PDS](integration_personal_demographic_service.html) before their details are shared through the GP Connect API.
+
+The concept of "Active" is related to the patient's registration ***status*** rather than to the patient's registration ***type***. A provider's system may have a number of different statuses which should be considered "Active", many of those statuses may apply to a number of different registration type.
+
+***Example:***
+
+Below is a basic ***example*** of a possible GP practice representation of patient registration type and registration status, to help explain the concept of "Active" patient within GP Connect.
+
+| Patient Registration Status | GP Connect Considered Active |
+| --- | --- |
+| Registration Pending | <span style="color:green">Yes</span> |
+| Fully registered | <span style="color:green">Yes</span> |
+| Deduction Pending | <span style="color:green">Yes</span> |
+| Deceased | <span style="color:red">No (Inactive)</span> |
+| Left/Deducted | <span style="color:red">No (Inactive)</span> |
+
+| Patient Registration Type | Associated Registration Status |
+| --- | --- |
+| Regular / GMS | "Registration Pending", "Fully registered", "Deduction Pending",<br/> "Deceased", "Left/Deducted" |
+| Temporary - Long Stay | "Fully registered", "Deceased", "Left/Deducted" |
+| Temporary - Short Stay | "Fully registered", "Deceased", "Left/Deducted" |
+| Emergency | "Fully registered", "Deceased", "Left/Deducted" |
 
