@@ -21,28 +21,12 @@ toc: false
 
 
 
-{% assign t = site.tags.translations[0] %}
 <div class='basic-container glossary-word page'>
   <!--googleoff: snippet-->
   <h1 class='header2'>{{t.[page.lang].glossary.title}}</h1>
   <div class='row-fluid' role='main'>
     <div class='span12 article'>
       <h2 class='header2'>{{page.title}}</h2>
-      <!--googleon: snippet-->
-      <hr class='dark top'>
-      {% include print.html %}
-      {% include social.html %}
-      <hr class='dark bottom'>
-      {{content}}
-      {% if page.questions %}
-      {% include questions.html %}
-      {% endif %}
-      <!--googleoff: all-->
-      {% if page.lang == 'es' %}
-        <div class='header4'><a href='{{site.baseurl}}/es/glossary'>&laquo; Regresar al glosario</a></div>
-      {% else %}
-        <div class='header4'><a href='{{site.baseurl}}/glossary'>&laquo; Return to glossary</a></div>
-      {% endif %}
     </div>
   </div>
   <div id='search-glossary' role='complementary'>
@@ -52,7 +36,6 @@ toc: false
     <div id='search-results'>
     </div>
   </div>
-  {% include was-this-helpful.html %}
 </div>
 
 <script id='search-result-template' type='text/template'>
