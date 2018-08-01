@@ -8,8 +8,6 @@ summary: "Glossary of terms used in the GP Connect specification"
 toc: false
 ---
 
-Example data like: https://gist.github.com/ThoMo/fb3cb24dc8d14a53af97
-
 <table>
 <thead><tr><th>Term</th><th>Description</th></tr></thead>
 <tbody>
