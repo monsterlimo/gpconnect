@@ -18,81 +18,9 @@ toc: false
 </tbody>
 
 
+{% assign glossaryTerms = site.data.glossary %}
 
-
-
-<div class='basic-container glossary-word page'>
-  <!--googleoff: snippet-->
-  <h1 class='header2'>{{t.[page.lang].glossary.title}}</h1>
-  <div class='row-fluid' role='main'>
-    <div class='span12 article'>
-      <h2 class='header2'>{{page.title}}</h2>
-    </div>
-  </div>
-  <div id='search-glossary' role='complementary'>
-    <hr class='dark-thick pad hidden-phone'>
-    <h2 class='header4'>Also on Healthcare.gov</h2>
-    <!--googleon: all-->
-    <div id='search-results'>
-    </div>
-  </div>
-</div>
-
-<script id='search-result-template' type='text/template'>
-  <div class='row-fluid'>
-    <div class='span12 card <%= content %>'>
-      <% if (content === 'glossary') { %>
-      <h3 class='header4 definition'>Definition</h3>
-      <h4 class='header3'><%= title %></h4>
-      <% } else { %>
-      <h3 class='header3'><a href='<%= url %>'><%= title %></a></h3>
-      <hr class='dark'>
-      <% } %>
-      <p><%= snippet %></p>
-    </div>
-  </div>
-</script>
-
-<script type='text/javascript'>
-var searchCollection = 'healthcare{% if page.lang != "en" %}_{{page.lang}}{% endif %}',
-    searchUrl = '/search-server/search?q={{page.title}}&output=xml_no_dtd&site=' + searchCollection + '&proxystylesheet=json&client=json&lr=lang_{{page.lang}}&ie=UTF-8&oe=UTF-8&access=p&sort=date%3AD%3AL%3Ad1&start=0&num=3&getfields=search-title.content-type&requiredfields=content-type:article|content-type:blog',
-    dataType = 'json';
-/* If dev */
-if (window.location.host.indexOf('-t.healthcare.gov') !== -1) {
-    dataType = 'jsonp';
-    searchUrl = '{{site.searchproxy}}' + searchUrl;
-/* If production */
-} else if (window.location.host.indexOf('healthcare.gov') !== -1 ||
-    window.location.host.indexOf('cuidadodesalud.gov') !== -1) {
-/* Other */
-} else {
-    dataType = 'jsonp';
-    searchUrl = '{{site.searchproxy}}' + searchUrl;
-}
-$.ajax({
-    cache: true,
-    dataType: dataType,
-    url: searchUrl,
-    success: function(d) {
-        if (d.RES) {
-            $('#search-glossary').show();
-            var resultTemplate = _.template($('#search-result-template').html());
-            $('#search-results').empty();
-            
-            $.each(d.RES.R, function(i,r) {
-                var orig_title = r.MT['search-title'] || r.T,
-                    title = boldWord(orig_title, d.Q);
-                    
-                var templateData = {
-                    title: title,
-                    snippet: r.S,
-                    url: r.UE,
-                    content: r.MT['content-type'] || ''
-                };
-                
-                $('#search-results').append(resultTemplate(templateData));
-            });
-        }
-    }
-});
-</script>
+{% for entry in glossaryTerms %}
+{{entry.term}}
+{{entry.def}}
+{% endfor %}
