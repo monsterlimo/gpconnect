@@ -45,25 +45,3 @@ If an element within a fhir profile is marked as must support then all sub eleme
 
 For example, see the [Register a patient request body](foundations_use_case_register_a_patient.html#payload-request-body).
 
-
-## FHIR resource `element type` specific populating requirements
-
-### id
-
-The logical id of all FHIR resources SHALL be populated in accordance with the [FHIR specification requirements](https://www.hl7.org/fhir/STU3/resource.html#id), meaning that population of the element is expected.
-
-
-### Address
-
-The `address` element exists in many of the FHIR resources used in the GP Connect API. Where an address element is present in a FHIR resource the following population guidance SHALL be followed:
-
-* Where the individual address sub elements are available within the suppliers system, the address SHALL be populated using the elements:
-  * line
-  * city
-  * district
-  * postalCode
-  * country
-  
-  The `text` element SHOULD not be populated within the address.
-  
-* Where the address is not store as the individual elements within the suppliers system, the address SHALL be populated using the `text` element. The `line`, `city`, `district`, `postalCode` and `country` SHALL not be populated.

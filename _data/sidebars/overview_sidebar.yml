@@ -101,9 +101,30 @@ entries:
     - title: Operation guidance
       url: /development_fhir_operation_guidance.html
       output: web
-    - title: FHIR Resource guidance
-      url: /development_fhir_resource_guidance.html
-      output: web
+      
+      subfolders:
+      - title: FHIR resource population
+        output: web
+        subfolderitems:
+        - title: Overview
+          url: /development_fhir_resource_guidance.html
+          output: web
+        - title: Element population
+          url: /fhir_resource_guidance_elements.html
+          output: web
+        - title: Location resource
+          url: /fhir_resource_guidance_location.html
+          output: web
+        - title: Organization resource
+          url: /fhir_resource_guidance_organization.html
+          output: web
+        - title: Patient resource
+          url: /fhir_resource_guidance_patient.html
+          output: web
+        - title: Practitioner resource
+          url: /fhir_resource_guidance_practitioner.html
+          output: web
+          
     - title: Security guidance
       url: /development_api_security_guidance.html
       output: web
