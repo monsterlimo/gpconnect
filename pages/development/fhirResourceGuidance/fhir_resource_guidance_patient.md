@@ -18,9 +18,9 @@ Requirements and guidance expressed on this page SHALL take presendence over the
 
 <table class='resource-attributes'>
   <tr>
-    <td><b>Data type:</b><code>Id</code></td>
-    <td><b>Optionality:</b>Must-Support</td>
-    <td><b>Cardinality:</b>0..1</td>
+    <td><b>Data type:</b><code> Id</code></td>
+    <td><b>Optionality:</b> Must-Support</td>
+    <td><b>Cardinality:</b> 0..1</td>
   </tr>
 </table>
 
@@ -30,7 +30,7 @@ The Logical ID of the resource should be populated as per the [FHIR specificatio
 ### meta ###
 <table class='resource-attributes'>
   <tr>
-    <td><b>Data type:</b> <code>Meta</code></td>
+    <td><b>Data type:</b><code> Meta</code></td>
     <td><b>Optionality:</b> Mandatory</td>
     <td><b>Cardinality:</b> 1..1</td>
   </tr>
@@ -42,7 +42,7 @@ Meta data describing the resource structure and content.
 	<h4>meta.profile</h4>
 	<table class='resource-attributes'>
 	  <tr>
-		<td><b>Data type:</b> <code>uri</code></td>
+		<td><b>Data type:</b><code> uri</code></td>
 		<td><b>Optionality:</b> Mandatory</td>
 		<td><b>Cardinality:</b> 1..1</td>
 	  </tr>
@@ -53,9 +53,9 @@ Meta data describing the resource structure and content.
 	<h4>meta.versionId</h4>
 	<table class='resource-attributes'>
 	  <tr>
-		<td><b>Data type:</b> <code>Id</code></td>
-		<td><b>Optionality:</b>Must-Support</td>
-		<td><b>Cardinality:</b>0..1</td>
+		<td><b>Data type:</b><code> Id</code></td>
+		<td><b>Optionality:</b> Must-Support</td>
+		<td><b>Cardinality:</b> 0..1</td>
 	  </tr>
 	</table>
 	<p>The version identifier for the instance of the patient resource.</p>
@@ -69,9 +69,9 @@ Meta data describing the resource structure and content.
 	<h4>meta.lastUpdated</h4>
 	<table class='resource-attributes'>
 	  <tr>
-		<td><b>Data type:</b> <code>instant</code></td>
-		<td><b>Optionality:</b>Must-Support</td>
-		<td><b>Cardinality:</b>0..1</td>
+		<td><b>Data type:</b><code> instant</code></td>
+		<td><b>Optionality:</b> Must-Support</td>
+		<td><b>Cardinality:</b> 0..1</td>
 	  </tr>
 	</table>
 	<p>The date and time the patient resource instance was last updated.</p>
@@ -82,9 +82,9 @@ Meta data describing the resource structure and content.
 
 <table class='resource-attributes'>
   <tr>
-    <td><b>Data type:</b><code>Complex Extension</code></td>
-    <td><b>Optionality:</b>Must-Support</td>
-    <td><b>Cardinality:</b>0..1</td>
+    <td><b>Data type:</b><code> Complex Extension</code></td>
+    <td><b>Optionality:</b> Must-Support</td>
+    <td><b>Cardinality:</b> 0..1</td>
   </tr>
 </table>
 
@@ -94,9 +94,9 @@ Contains details relating to the registration of the patient within fhir server.
 	<h4>extension[registrationDetails].extension[registrationPeriod]</h4>
 	<table class='resource-attributes'>
 	  <tr>
-		<td><b>Data type:</b><code>Extension</code></td>
-		<td><b>Optionality:</b>Must-Support</td>
-		<td><b>Cardinality:</b>0..1</td>
+		<td><b>Data type:</b><code> Extension</code></td>
+		<td><b>Optionality:</b> Must-Support</td>
+		<td><b>Cardinality:</b> 0..1</td>
 	  </tr>
 	</table>
 	<p>
@@ -110,9 +110,9 @@ Contains details relating to the registration of the patient within fhir server.
 	<h4>extension[registrationDetails].extension[registrationType]</h4>
 	<table class='resource-attributes'>
 	  <tr>
-		<td><b>Data type:</b><code>Extension</code></td>
-		<td><b>Optionality:</b>Must-Support</td>
-		<td><b>Cardinality:</b>0..1</td>
+		<td><b>Data type:</b><code> Extension</code></td>
+		<td><b>Optionality:</b> Must-Support</td>
+		<td><b>Cardinality:</b> 0..1</td>
 	  </tr>
 	</table>
 	<p>The “registrationType” SHALL be populated by the provider system using a value from the valueset which matches the registration type used within the provider system. If an appropriate registration type is not available within the valueset then the Other type SHALL be use and more detail around the specific type of registration SHOULD be added using the “text” element of the CodeableConcept.</p>
@@ -120,9 +120,9 @@ Contains details relating to the registration of the patient within fhir server.
 	<h4>extension[registrationDetails].extension[preferredBranchSurgery]</h4>
 	<table class='resource-attributes'>
 	  <tr>
-		<td><b>Data type:</b><code>Extension</code></td>
-		<td><b>Optionality:</b>Must-Support</td>
-		<td><b>Cardinality:</b>0..1</td>
+		<td><b>Data type:</b><code> Extension</code></td>
+		<td><b>Optionality:</b> Must-Support</td>
+		<td><b>Cardinality:</b> 0..1</td>
 	  </tr>
 	</table>
 	<p>Provider SHALL populate the preferred branch surgery extension with a reference to a location resource which represents the patient’s preferred branch surgery OR a reference to a location resource representing the GP Practice where the patient is registered if there is no preferred branch surgery recorded.</p>
@@ -134,13 +134,30 @@ Contains details relating to the registration of the patient within fhir server.
 
 <table class='resource-attributes'>
   <tr>
-    <td><b>Data type:</b> <code>Identifier</code></td>
-    <td><b>Optionality:</b> Mandatroy</td>
+    <td><b>Data type:</b><code> Identifier</code></td>
+    <td><b>Optionality:</b> Mandatory</td>
     <td><b>Cardinality:</b> 1..*</td>
   </tr>
 </table>
 
-Within GP Connect an NHS Number identifier SHALL always be included in the Patient resource.
+Patient business identifier types applicable to GP Connect:
+
+| Identifier system | Optionality | Description |
+| --- | --- | --- |
+| https://fhir.nhs.uk/Id/nhs-number | Mandatory | For all capabilities within GP Connect the patient has to have been traced and verified, therefore the NHS Number identifier SHALL always be included in the Patient resource. |
+
+----
+### name ###
+
+<table class='resource-attributes'>
+  <tr>
+    <td><b>Data type:</b><code> HumanName</code></td>
+    <td><b>Optionality:</b> Mandatory</td>
+    <td><b>Cardinality:</b> 1..*</td>
+  </tr>
+</table>
+
+* The Patient resource SHALL contain one name element with the `use` of `official`, as per the resource profile definition. This `official` name should contain the patient details as they appear within the patient record on the [Spine](integration_personal_demographic_service.html).
 
 
 <h2 class="warningHeading"><i class="fa fa-warning"></i>  Patient resource elements <b>not in use</b></h2>
