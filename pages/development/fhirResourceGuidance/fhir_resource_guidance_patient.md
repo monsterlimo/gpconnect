@@ -7,9 +7,9 @@ permalink: fhir_resource_guidance_patient.html
 summary: "Population requirements for the Patient FHIR Resource"
 ---
 
-The headings below list the elements of the Patient resource which have additional or specific requirements beyond those expressed by the [Patient profile definition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1).
+The headings below list the elements of the Patient resource which have additional or specific requirements beyond those expressed by the [Patient resource profile definition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1).
 
-Requirements and guidance expressed on this page SHALL take presendence over the guidance and requirements expressed by the generic [FHIR Resource element guidance](fhir_resource_guidance_elements.html) page. Requirements from this population guidance page may be overridden by additional guidance and requirements expressed on the spcific capability pages.
+Requirements and guidance expressed on this page SHALL take precedence over the guidance and requirements expressed by the generic [FHIR Resource element guidance](fhir_resource_guidance_elements.html) page. Requirements from this population guidance page may be overridden by additional guidance and requirements expressed on the specific interaction capability pages.
 
 ## Patient resource elements ##
 
@@ -103,7 +103,7 @@ Contains details relating to the registration of the patient within fhir server.
 		The period for which the patient is registered on the provider system:
 		<ul>
 			<li>the `valuePeriod.start` element SHALL contain the date the patient was registered on the system</li>
-			<li>the `valuePeriod.end1 element MAY be included if the registration has an expiry date</li>
+			<li>the `valuePeriod.end` element MAY be included if the registration has an expiry date</li>
 		</ul>
 	</p>
 
