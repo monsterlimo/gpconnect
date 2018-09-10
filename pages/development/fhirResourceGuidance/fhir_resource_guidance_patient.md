@@ -14,7 +14,7 @@ Requirements and guidance expressed on this page SHALL take presendence over the
 ## Patient resource elements ##
 
 ----
-### id ###
+<h3 class="resourceElement">id</h3>
 
 <table class='resource-attributes'>
   <tr>
@@ -27,7 +27,7 @@ Requirements and guidance expressed on this page SHALL take presendence over the
 The Logical ID of the resource should be populated as per the [FHIR specification requirements](https://www.hl7.org/fhir/STU3/resource.html#id).
 
 ----
-### meta ###
+<h3 class="resourceElement">meta</h3>
 <table class='resource-attributes'>
   <tr>
     <td><b>Data type:</b><code> Meta</code></td>
@@ -78,7 +78,7 @@ Meta data describing the resource structure and content.
 </div>
 
 ----
-### extension[registrationDetails] ###
+<h3 class="resourceElement">extension[registrationDetails]</h3>
 
 <table class='resource-attributes'>
   <tr>
@@ -130,7 +130,7 @@ Contains details relating to the registration of the patient within fhir server.
 
 
 ----
-### identifier ###
+<h3 class="resourceElement">identifier</h3>
 
 <table class='resource-attributes'>
   <tr>
@@ -147,7 +147,7 @@ Patient business identifier types applicable to GP Connect:
 | https://fhir.nhs.uk/Id/nhs-number | Mandatory | For all capabilities within GP Connect the patient has to have been traced and verified, therefore the NHS Number identifier SHALL always be included in the Patient resource. |
 
 ----
-### name ###
+<h3 class="resourceElement">name</h3>
 
 <table class='resource-attributes'>
   <tr>

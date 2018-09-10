@@ -78,13 +78,7 @@ Provider systems are not expected to add any specific headers beyond that descri
 Provider systems:
 
 - SHALL return a `200` **OK** HTTP status code on successful execution of the operation.
-- SHALL return `Patient` resources that conform to the [CareConnect-GPC-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1) profile.
-- SHALL include the URI of the `CareConnect-GPC-Patient-1` profile StructureDefinition in the `Patient.meta.profile` element of the returned `Patient` resource.
-- SHALL include the `versionId` of the current version of the `Patient` resource.
-- SHALL include all relevant business `identifier` details (that is, NHS number) for the `Patient` resource.
-- SHALL supply gender, name and birth date where these are available (as indicated by the [Must-Support](https://www.hl7.org/fhir/STU3/conformance-rules.html#mustSupport) FHIR property)
-- SHALL populate the preferred branch surgery within the registration details extension of the patient resource with a reference to a location resource which represents the patient's preferred branch surgery including ODS Site Code where available OR the GP Practice where they are registered if there is no preferred branch surgery including the Organization ODS Code identifier.
-- The patient resource SHALL contain at least a single name element. The patient resource SHALL contain a single instance of the name element with the `use` of `official`. This official name should contain the name registered on the spine which is returned by a PDS lookup for the patient.
+- SHALL return `Patient` resources that conform to the [CareConnect-GPC-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1) profile and additional requirements outlined within the [FHIR resource population](development_fhir_resource_guidance.html) guidance pages.
 
 ```json
 {

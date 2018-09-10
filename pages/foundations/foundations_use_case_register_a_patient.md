@@ -78,10 +78,7 @@ Ssp-InteractionID: urn:nhs:names:services:gpconnect:fhir:operation:gpc.registerp
 #### Payload request body ####
 
 The following data-elements are mandatory (i.e. data SHALL be present):
-- A `registerPatient` parameter containing a patient resource profiled to the [CareConnect-GPC-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1) profile. This is the patient who you want to be registered. Within this resource: 
-	- The NHS Number and Date of Birth as a minimum SHALL be populated to enable a provider to perform a PDS trace.
-	- Where the gender, name or birth date are available these SHALL also be supplied (as indicated by the [Must-Support](https://www.hl7.org/fhir/STU3/conformance-rules.html#mustSupport) FHIR property)
-	- The patient resource SHALL contain at least a single name element. The patient resource SHALL contain a single instance of the name element with the `use` of `official`. This official name should contain the name registered on the spine which is returned by a PDS lookup for the patient.
+- A `registerPatient` parameter containing a patient resource conforming to the [CareConnect-GPC-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1) profile and any additional requirements outlined within the [FHIR resource population](development_fhir_resource_guidance.html) guidance pages. This parameter is the patient that the consumer would like to create a temporary registration on the provider system for.
 
 The following data-elements MAY be populated by the consumer:
 - Within the patient resource of the `registerPatient` parameter:
