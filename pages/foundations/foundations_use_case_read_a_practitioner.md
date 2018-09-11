@@ -68,10 +68,7 @@ Provider systems are not expected to add any specific headers beyond that descri
 Provider systems:
 
 - SHALL return a `200` **OK** HTTP status code on successful execution of the operation.
-- SHALL return `Practitioner` resources that conform to the [CareConnect-GPC-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Practitioner-1) profile.
-- SHALL include the URI of the `CareConnect-GPC-Practitioner-1` profile StructureDefinition in the `Practitioner.meta.profile` element of the returned `Practitioner` resource.
-- SHALL include the `versionId` of the current version of the `Practitioner` resource.
-- SHALL include all relevant business `identifier` details (i.e. SDS User ID) for the `Practitioner` resource.
+- SHALL return a `Practitioner` resource that conform to the [CareConnect-GPC-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Practitioner-1) profile and additional requirements outlined within the [FHIR resource population](development_fhir_resource_guidance.html) guidance pages.
 
 ```json
 {

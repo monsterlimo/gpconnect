@@ -7,6 +7,11 @@ permalink: fhir_resource_guidance_location.html
 summary: "Population requirements for the Location FHIR Resource"
 ---
 
+## Resource Description ##
+
+A location resource represents a physical location such as a GP Surgery building or the location of a branch surgery. Locations could also represent specific rooms or building but for GP Connect our use cases and capabilities currently only use the location of a GP Surgery or the location of a branch surgery, specifically for the use within appointment management capability.
+
+
 The headings below list the elements of the Location resource and describe how to populate and consume them.
 
 {% include tip.html content="You'll find it helpful to read it in conjunction with the underlying [Location profile definition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Location-1)." %} 

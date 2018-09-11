@@ -89,6 +89,7 @@ Meta data describing the resource structure and content.
   </tr>
 </table>
 
+
 Practitioner business identifier types applicable to GP Connect:
 
 | Identifier system | Optionality | Cardinality | Description |

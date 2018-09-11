@@ -7,6 +7,11 @@ permalink: fhir_resource_guidance_organization.html
 summary: "Population requirements for the Organization FHIR Resource"
 ---
 
+## Resource Description ##
+
+An organization resource represents a legally recognized organization, within GP Connect these organizations will have an ODS Code.
+
+
 The headings below list the elements of the Organization resource and describe how to populate and consume them.
 
 {% include tip.html content="You'll find it helpful to read it in conjunction with the underlying [Organization profile definition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Organization-1)." %} 
