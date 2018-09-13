@@ -12,7 +12,7 @@ summary: An introduction to the GP Connect FHIR® APIs
 [![Semver](http://img.shields.io/badge/semver-2.0.0-yellow.svg)](http://semver.org/spec/v2.0.0.html){:target="_blank" class="no_icon"} [![License](http://img.shields.io/:license-apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html){:target="_blank" class="no_icon"} 
 {% endcomment %}
 
-GP Connect is a national interoperabilty programme that's opening up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are. 
+GP Connect is a national interoperability programme that's opening up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are. 
 
 We're developing a set of application programming interfaces (APIs) that will seamlessly connect the four main provider systems (EMIS Web, INPS Vision, Microtest Open Evolution and TPP SystmOne) and allow them to exchange data with ease.
 
@@ -52,7 +52,7 @@ Supporting improved access to general practice by:
 - providing access to the detailed care record to every practice at the point of care
 - allowing appointment management (booking and cancelling) between practices in a federation or hub or other affiliation
 - allowing tasks to be sent between practices in a federation
-- enabling clinicans at other care settings (such as hospitals, 111 and urgent care providers) to access information to suit their local needs
+- enabling clinicians at other care settings (such as hospitals, 111 and urgent care providers) to access information to suit their local needs
 
 ## Strategic drivers ##
 
