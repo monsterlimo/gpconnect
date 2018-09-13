@@ -7,11 +7,11 @@ permalink: fhir_resource_guidance_practitioner.html
 summary: "Population requirements for the Practitioner FHIR Resource"
 ---
 
+## Practitioner resource elements ##
+
 The headings below list the elements of the Practitioner resource which have additional or specific requirements beyond those expressed by the [Practitioner profile definition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Practitioner-1).
 
 Requirements and guidance expressed on this page SHALL take precedence over the guidance and requirements expressed by the generic [FHIR Resource element guidance](fhir_resource_guidance_elements.html) page. Requirements from this population guidance page may be overridden by additional guidance and requirements expressed on the specific interaction capability pages.
-
-## Practitioner resource elements ##
 
 ----
 <h3 class="resourceElement">id</h3>

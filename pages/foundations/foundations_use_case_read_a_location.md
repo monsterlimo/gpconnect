@@ -76,10 +76,8 @@ Provider systems are not expected to add any specific headers beyond that descri
 Provider systems:
 
 - SHALL return a `200` **OK** HTTP status code on successful execution of the operation.
-- SHALL return `Location` resources that conform to the [CareConnect-GPC-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Location-1) profile.
-- SHALL include the URI of the `CareConnect-GPC-Location-1` profile StructureDefinition in the `Location.meta.profile` element of the returned `Location` resource.
-- SHALL include the `versionId` of the current version of the `Location` resource.
-- SHALL include all relevant business `identifier` details (i.e. ODS Site Code) for the `Location` resource.
+- SHALL return a `Location` resource that conform to the [CareConnect-GPC-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Location-1) profile and additional requirements outlined within the [FHIR resource population](development_fhir_resource_guidance.html) guidance pages.
+
 
 ```json
 {

@@ -25,13 +25,21 @@ The profiled FHIR resources required for each of the GP Connect capability packs
 
 ## General FHIR resource populating requirements
 
-### Population of optional elements
-
 The purpose of GP Connect is to make the patient data stored within the GP systems available externally so that it can be used to help improve the quality of patient care across the NHS. To give patients the best care possible the data made available through the GP Connect API should be as complete as possible. Therefore, it is expected that both provider and consumers:
 
 * ***SHALL*** populate all the elements within FHIR resources subject to any Capability-specific variance, where data is available within their system irrespective of the cardinality of the elements within the FHIR resource profiles.
 
-As GP Connect has made the FHIR resources open to aid in interoperability this means that there are some elements included in FHIR profiles which are not applicable to our deployment settings, for example 'specialism' in the appointment resource. For these elements if the provider or consumer does not have data stored within their system the element will not be populated.
+As GP Connect has made the FHIR resources open to aid in interoperability this means that there are some elements included in FHIR profiles which are not applicable to our deployment settings, for example 'specialism' in the appointment resource. These elements which should not be populated are specified within the specification.
+
+Requirements and guidance for population of resources is divided across the specification to reduce duplication within the specification:
+- generic requirements around the populations of element types  within the profile, such as how to populate an address element, is specified on the [FHIR Resource element guidance](fhir_resource_guidance_elements.html)
+- generic requirements and guidance for specific resources which is not specific to a single interaction can be found on the resource population guidance pages, these requirements take precidence over the FHIR profile and element population requirements and guidance.
+  - [Location FHIR Resource guidance](fhir_resource_guidance_location.html)
+  - [Organization FHIR Resource guidance](fhir_resource_guidance_organization.html)
+  - [Patient FHIR Resource guidance](fhir_resource_guidance_patient.html)
+  - [Practitioner FHIR Resource guidance](fhir_resource_guidance_practitioner.html)
+- interaction specific requirements around population of elements is outlined within the API use case pages within the capability pages. Interaction specific requirements take precidence over the generic resource and element population guidance and requirements.
+
 
 ### Use of Must-Support flag
 
