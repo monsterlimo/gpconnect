@@ -14,7 +14,7 @@ summary: An introduction to the GP Connect FHIR® APIs
 
 GP Connect is a national interoperability programme that's opening up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are. 
 
-We're developing a set of application programming interfaces (APIs) that will seamlessly connect the four main provider systems (EMIS Web, INPS Vision, Microtest Open Evolution and TPP SystmOne) and allow them to exchange data with ease.
+We're developing a set of application programming interfaces (APIs) that will seamlessly connect the four main provider systems (EMIS Web, Vision, Microtest Open Evolution and TPP SystmOne) and allow them to exchange data with ease.
 
 The development of applications that consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations, which means they choose the system that best meets their needs and those of their patients (while, of course, ensuring that appropriate safety and governance measures are in place).
 
@@ -42,8 +42,6 @@ The GP Connect APIs are managed within 'capabilities' that focus on a particular
  -   **Appointment Management:** enables end users to book and manage GP practice appointments held in any of the four GP principal practice systems
  -   **Access Record HTML:** provides health professionals with access to a patient’s primary care record by requesting sections or headings
  -   **Access Record Structured:** enables a system to consume a patient’s GP record in a machine-readable format, removing the need to transcribe information from one system to another
- -   **Task Management:** allows care professionals to send task requests to other teams  
- -   **Unstructured Writeback:** 
 
 ## Business drivers ##
 
@@ -59,7 +57,7 @@ Supporting improved access to general practice by:
 - [Government Paperless 2020 (Personalised Health and Care Framework)](https://www.gov.uk/government/publications/personalised-health-and-care-2020)
   - ‘all patient and care records will be digital, interoperable and real-time by 2020’
 
-- [NHS England General Practice Five Year Forward View](https://www.england.nhs.uk/gp/gpfv/)
+- [NHS England General Practice Forward View](https://www.england.nhs.uk/gp/gpfv/)
   - Greater collaboration and sharing of information through IT system interoperability across the health and care system
 
 ## Development pathways ##
