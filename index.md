@@ -18,7 +18,7 @@ We're developing a set of application programming interfaces (APIs) that will se
 
 The development of applications that consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations, which means they choose the system that best meets their needs and those of their patients (while, of course, ensuring that appropriate safety and governance measures are in place).
 
-## GP Connect data model ##
+## GP Connect overview ##
 
 ![Img](images/overview/GP Connect Model.png)
 
