@@ -12,11 +12,26 @@ summary: An introduction to the GP Connect FHIR® APIs
 [![Semver](http://img.shields.io/badge/semver-2.0.0-yellow.svg)](http://semver.org/spec/v2.0.0.html){:target="_blank" class="no_icon"} [![License](http://img.shields.io/:license-apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html){:target="_blank" class="no_icon"} 
 {% endcomment %}
 
-GP Connect is a national interoperability programme that's opening up information and data held within the different GP clinical systems for use across the whole of health and social care - ensuring patient medical information is available to the right clinician, at the right time, wherever they are. 
+GP Connect is a service that will allow GP practice and clinical staff to share GP practice clinical information and data between IT systems, quickly and efficiently. This will make sure patient medical information is available to clinicians when and where they need it, improving patient care.
 
-We're developing a set of application programming interfaces (APIs) that will seamlessly connect the four main provider systems (EMIS Web, Vision, Microtest Open Evolution and TPP SystmOne) and allow them to exchange data with ease.
+The GP Connect programme is working to develop products which will enable different systems to communicate so that clinicians in different care settings can:
 
-The development of applications that consume the data (allowing people to use or view information) will be the responsibility of local NHS organisations, which means they choose the system that best meets their needs and those of their patients (while, of course, ensuring that appropriate safety and governance measures are in place).
+* view a patient’s GP practice record
+*	manage GP appointments
+*	import or download data on a patient’s medicines and allergies
+
+This will save time for clinicians, and provide better, more convenient care for patients. It will also help meet targets under NHS England’s improving access to general practice programme.
+
+## GP Connect APIs ##
+GP Connect has worked with GP clinical system suppliers to develop Application Programming Interfaces (APIs). These APIs make data from clinical systems available in a standard form that can be used across different systems and be made available to clinicians who need access to the data for direct patient care. 
+
+## Pilot using the GP Connect APIs ##
+The GP Connect programme is now supporting the development of products that connect with the APIs to use data from patient records and appointment schedulers for patient care by integrating it or importing it into local clinical systems.
+
+We’re working with selected partnerships of health and care organisations and software suppliers. Partnerships will use the APIs to develop technical solutions to local issues with sharing patient records and appointment booking across system boundaries.
+We’ve developed a process called ‘First of Type’ to support this development and provide assurance for these early products.
+
+Find out more about getting involved with GP Connect
 
 ## GP Connect overview ##
 
