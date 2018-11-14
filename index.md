@@ -22,6 +22,10 @@ The GP Connect programme is working to develop products which will enable differ
 
 This will save time for clinicians, and provide better, more convenient care for patients. It will also help meet targets under NHS England’s improving access to general practice programme.
 
+## GP Connect overview ##
+
+![Img](images/overview/GP Connect Model.png)
+
 ## GP Connect APIs ##
 GP Connect has worked with GP clinical system suppliers to develop Application Programming Interfaces (APIs). These APIs make data from clinical systems available in a standard form that can be used across different systems and be made available to clinicians who need access to the data for direct patient care. 
 
@@ -32,10 +36,6 @@ We’re working with selected partnerships of health and care organisations and 
 We’ve developed a process called ‘First of Type’ to support this development and provide assurance for these early products.
 
 Find out more about getting involved with GP Connect
-
-## GP Connect overview ##
-
-![Img](images/overview/GP Connect Model.png)
 
 ## Development pathways ##
 <p align="left">This GitHub repository contains all the technical resources you need to connect between clinical systems and GP data using our FHIR&reg; APIs.
